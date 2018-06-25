@@ -1,5 +1,8 @@
 # Welcome!
 
+
+![programa](/markdowns/ifsimplesverdadeiro.gif)
+
 This C template lets you get started quickly with a simple one-page playground.
 
 ```C runnable
