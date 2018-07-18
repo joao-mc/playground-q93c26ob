@@ -1,4 +1,4 @@
-Aninhamento de IFs
+Aninhamento de IF's
 ----
 A estrutura de decisão (condicional) ```IF``` permite, no máximo, duas possibilidades de execução dos comandos: uma possibilidade é a execução de comandos associadas a condição <b>Verdadeira</b> e a outra possibilidade está associada a condição <b>Falsa</b>, como mostra o exemplo a seguir:
 ``` C
