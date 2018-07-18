@@ -42,7 +42,7 @@ No exemplo abaixo modifique o valor da variável compra para avaliar as outras s
 ``` C runnable
 #include<stdio.h>
 int main() {
- float compra, desconto, taxa, totpagar;
+ float compras, desconto, taxa, totpagar;
 
  compras = 3000;
  
@@ -62,7 +62,7 @@ else {
     }
   }     
 } 
-desconto = compra * taxa;
-totpagar = compra - desconto;
-pritnf("O seu desconto foi de %f e você ira pagar %f reais.", desconto, totpagar);
+desconto = compras * taxa;
+totpagar = compras - desconto;
+printf("O seu desconto foi de %f e você ira pagar %f reais.", desconto, totpagar);
 ```
