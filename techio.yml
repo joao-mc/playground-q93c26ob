@@ -3,10 +3,11 @@ cover: /cover.png
 plan:
 - title: Programação C - Prof. MARCO VAZ
 plan:
-- title: Apresenta
+- title: Conceitos Básicos
+  description: Esta é a descrição do primeiro capítulo.
   plan: 
   - title: Apresentação
-     statement: /markdowns/apresenta.md
+    statement: /markdowns/apresenta.md
 plan:  
 - title: Ainda na Introdução
   statement: /markdowns/lesson21.md
