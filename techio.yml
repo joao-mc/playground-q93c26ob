@@ -1,4 +1,7 @@
-title: Simple C Template
+title: Programação C
 plan:
-- title: C Snippet
+- title: Apresentação
+  statement: Apresenta.md
+plan:  
+- title: Ainda na Introdução
   statement: statement.md
