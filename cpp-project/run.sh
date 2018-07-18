@@ -1,3 +1,3 @@
 #!/bin/sh
 
-make && ./inicio
+make && ./teste
