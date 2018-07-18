@@ -8,7 +8,6 @@ plan:
   plan: 
   - title: Apresentação
     statement: /markdowns/apresenta.md
-  plan:  
   - title: Ainda na Introdução
     statement: /markdowns/lesson21.md
 projects:
