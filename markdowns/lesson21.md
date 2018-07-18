@@ -28,7 +28,7 @@ else {
   }      <-------- Fechamento do Segundo else   
 } <-------- Fechamento do Terceiro else  
 ```
-Podemos ter quantos if´s forem necessários a solução do problema (no exemplo acima apresentamos apenas 3).
++ Podemos ter quantos if´s forem necessários para a solução do problema (no exemplo acima apresentamos apenas 3).
 ----
 Exemplo
 ----
@@ -37,25 +37,32 @@ Faça um programa que calcule o desconto de uma compra efetuada obedecendo os se
 + 5% de desconto se a compra for maior que R$ 2.000,00 e menor ou igual a R$ 3.000,00;
 + 3% de desconto se for maior que R$ 3.000,00 e menor ou igual a R$ 5.000,00;
 + 2% de desconto para compras acima de R$ 5.000,00.
-no exemplo abaixo modifique o valor da variável compr para avaliar as outras situações.
+O programa deverá exibir o desconto e o total a pagar.
+No exemplo abaixo modifique o valor da variável compra para avaliar as outras situações.
 ``` C runnable
 #include<stdio.h>
 int main() {
-if(condição) {
-  comandosA;       <----- Esses comandos só serão executados, se a condição for avaliada Verdadeira.
+ float compra, desconto, taxa, totpagar;
+
+ compras = 3000;
+ 
+if(compras <= 2000) {
+  taxa=0.1;       
 } 
 else {
-  if (condição) { 
-    comandosB;     <----- Esses comandos só serão executados, se a condição for avaliada Verdadeira.
+  if (compras <= 3000) {  /* Nessa condição não é necessário por a condição de maior que 2000, pois nesse if já é maior que 2000*/
+    taxa = 0.05;     
   }
   else {
-    if (condição) {
-      comandosC;    <----- Esses comandos só serão executados, se a condição for avaliada Verdadeira. 
+    if (compras <= 5000) { /* Nessa condição não é necessário por a condição de maior que 3000, pois nesse if já é maior que 3000*/
+      taxa = 0.03;    
     }  
     else{
-      comandosD;    <----- Esses comandos só serão executados, se a condição do último if for avaliada Falsa.               
+      taxa=0.02;         /* Nessa condição não é necessário por a condição de maior que 2000, pois nesse if já é maior que 2000*/        
     }
-  }      <-------- Fechamento do Segundo else   
+  }     
 } 
-pritnf("O seu desconto foi de %f e você ira pagar %f reais.", perc, desconto);
+desconto = compra * taxa;
+totpagar = compra - desconto;
+pritnf("O seu desconto foi de %f e você ira pagar %f reais.", desconto, totpagar);
 ```
