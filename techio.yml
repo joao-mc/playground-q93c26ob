@@ -1,4 +1,7 @@
 title: Programação C
+cover: /cover.png
+plan:
+- title: Programação C - Prof. MARCO VAZ
 plan:
 - title: Apresentação
   statement: /markdowns/apresenta.md
