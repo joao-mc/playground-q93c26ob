@@ -44,7 +44,7 @@ No exemplo abaixo modifique o valor da variável compra para avaliar as outras s
 int main() {
  float compras, desconto, taxa, totpagar;
 
- compras = 3000;
+ compras = 3000; /* Modifique o valor da variavel compras e teste outras condições*/
  
 if(compras <= 2000) {
   taxa=0.1;       
