@@ -65,4 +65,5 @@ else {
 desconto = compras * taxa;
 totpagar = compras - desconto;
 printf("O seu desconto foi de %f e você ira pagar %f reais.", desconto, totpagar);
+}
 ```
