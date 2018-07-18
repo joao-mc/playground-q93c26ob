@@ -4,7 +4,7 @@ plan:
   statement: /markdowns/apresenta.md
 plan:  
 - title: Ainda na Introdução
-  statement: lesson21.md
+  statement: /markdowns/lesson21.md
 projects:
   cpp:
     root: /cpp-project
