@@ -3,8 +3,10 @@ cover: /cover.png
 plan:
 - title: Programação C - Prof. MARCO VAZ
 plan:
-- title: Apresentação
-  statement: /markdowns/apresenta.md
+- title: Apresenta
+  plan: 
+  - title: Apresentação
+     statement: /markdowns/apresenta.md
 plan:  
 - title: Ainda na Introdução
   statement: /markdowns/lesson21.md
