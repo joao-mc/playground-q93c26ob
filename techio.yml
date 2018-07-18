@@ -3,14 +3,14 @@ cover: /cover.png
 plan:
 - title: Programação C - Prof. MARCO VAZ
 plan:
-- title: Conceitos Básicos
+- title: Introdução
   description: Esta é a descrição do primeiro capítulo.
   plan: 
   - title: Apresentação
     statement: /markdowns/apresenta.md
-plan:  
-- title: Ainda na Introdução
-  statement: /markdowns/lesson21.md
+  plan:  
+  - title: Ainda na Introdução
+    statement: /markdowns/lesson21.md
 projects:
   cpp:
     root: /cpp-project
