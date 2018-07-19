@@ -18,4 +18,4 @@ switch (variável)
      comandosC;
 }
 ```
-Obs: Cada estrutura case deve finalizar com o comando <b>break;</b>, pois é a forma de sair da estrutura <b>switch</b>, caso a condição seja Verdadeira.  
+Obs: Cada estrutura case deve finalizar com o comando <b>break</b>, pois é a forma de sair da estrutura <b>switch</b>, caso a condição seja Verdadeira.  
