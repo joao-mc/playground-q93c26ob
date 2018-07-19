@@ -19,6 +19,7 @@ switch (variável)
 }
 ```
 Obs: Cada estrutura case deve finalizar com o comando <b>break</b>, pois é a forma de sair da estrutura <b>switch</b>, caso a condição seja Verdadeira.  
+
 Exemplo
 ----
 Faça um programa que exiba o número contido na variável associada ao comando switch: 
