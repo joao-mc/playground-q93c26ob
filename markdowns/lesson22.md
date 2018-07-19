@@ -19,3 +19,32 @@ switch (variável)
 }
 ```
 Obs: Cada estrutura case deve finalizar com o comando <b>break</b>, pois é a forma de sair da estrutura <b>switch</b>, caso a condição seja Verdadeira.  
+Exemplo
+----
+Faça um programa que exiba o número contido na variável associada ao comando switch: 
+No exemplo abaixo modifique o valor da variável <b>resp</b> para avaliar as outras situações.
+``` C runnable
+#include<stdio.h>
+int main() {
+ int resp;
+
+ resp = 3; /* Modifique o valor da variavel resp e teste outras condições*/
+ switch (resp)
+{
+   case 1:
+     printf("Voce selecionou a opcao %d", resp);
+   break;
+
+   case 2:
+     printf("Voce selecionou a opcao %d", resp);
+   break;
+   case 3:
+     printf("Voce selecionou a opcao %d", resp);
+   break;
+   
+   default:
+      printf("Voce selecionou uma opcao deiferent de 1, 2 ou 3 --> %d", resp);
+}
+
+}
+```
