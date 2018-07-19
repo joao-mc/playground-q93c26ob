@@ -14,7 +14,7 @@ switch (variável)
      comandosB;
    break;
 
-   default
+   default:
      comandosC;
 }
 ```
