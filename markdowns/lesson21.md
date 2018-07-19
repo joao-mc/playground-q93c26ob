@@ -1,4 +1,4 @@
-Aninhamento de IF's
+Encadeamento de IF's
 ----
 A estrutura de decisão (condicional) ```IF``` permite, no máximo, duas possibilidades de execução dos comandos: uma possibilidade é a execução de comandos associadas a condição <b>Verdadeira</b> e a outra possibilidade está associada a condição <b>Falsa</b>, como mostra o exemplo a seguir:
 ``` C
@@ -9,7 +9,7 @@ else {
   comandosB;     <----- Esses comandos só serão executados, se a condição for avaliada Falsa.
 }
 ```
-Mas, existem situação em que temos mais de duas possibilidades na condição associada ao <b>IF</b> (p.ex. menus com várias opções de escolha). Nesses casos nos vemos obrigados a arruma a estrutura para possibilitar a representação desses <b>"Caminhos"</b>. Estamos falando do "Aninhamento de if´s".
+Mas, existem situação em que temos mais de duas possibilidades além do Falso e Verdadeiro (p.ex. menus com várias opções de escolha). Nesses casos nos vemos obrigados a arrumar a estrutura condicional para possibilitar a representação desses <b>"Caminhos"</b>. Estamos falando do "Encadeamento de if´s".
 ``` C
 if(condição) {
   comandosA;       <----- Esses comandos só serão executados, se a condição for avaliada Verdadeira.
@@ -28,7 +28,7 @@ else {
   }      <-------- Fechamento do Segundo else   
 } <-------- Fechamento do Terceiro else  
 ```
-+ Podemos ter quantos if´s forem necessários para a solução do problema (no exemplo acima apresentamos apenas 3).
++ Podemos encadear quantos if´s forem necessários (no exemplo acima apresentamos apenas 3).
 ----
 Exemplo
 ----
