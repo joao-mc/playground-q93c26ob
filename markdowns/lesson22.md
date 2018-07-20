@@ -53,11 +53,11 @@ int main() {
 ###### Exercício  
 ----
 Faça um programa em c que solicite dois operandos e o tipo de operação aritmética que desejar, conforme opções abaixo:<br />
-1 - Soma
-2 - Subtração
-3 - Multiplicação
-4 - Divisão
-5 - Exponenciação
+1 - Soma<br /> 
+2 - Subtração<br />
+3 - Multiplicação<br />
+4 - Divisão<br />
+5 - Exponenciação<br />
 
 Caso o usuário selecione a opção 4 (divisão), verificar se o denominador é diferente de zero. Caso o usuário digitar uma opção inválida emitir mensagem.
  
