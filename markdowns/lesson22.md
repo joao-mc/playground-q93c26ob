@@ -61,7 +61,7 @@ Faça um programa em c que solicite dois operandos e o tipo de operação aritm�
 
 Caso o usuário selecione a opção 4 (divisão), verificar se o denominador é diferente de zero. Caso o usuário digitar uma opção inválida emitir mensagem.
  
-@[IDE]({"stubs": ["./www/condicional"],"command": "sh /project/target/www/condicional1.sh"
+@[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
 })
 ::: Solução
 
