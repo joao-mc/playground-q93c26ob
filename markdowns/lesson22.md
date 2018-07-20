@@ -72,7 +72,7 @@ Caso o usuário selecione a opção 4 (divisão), verificar se o denominador é 
  
 int main()
 {
-    int x, y, resultado, 
+    int x, y, resultado; 
     int op;
     x=0;
     y=0;
@@ -127,6 +127,11 @@ int main()
         }
  
         break;
+    case 5:
+        printf(" \n Opção selecionada: 5. Exponenciação ");
+        resultado = pow(x, y);
+        printf(" \n A exponenciação dos dois números é: %d", resultado);
+        break;    
     default:
         printf(" \n Você digitou uma opção inválida!");
     }
