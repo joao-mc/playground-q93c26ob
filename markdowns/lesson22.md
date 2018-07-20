@@ -52,7 +52,7 @@ int main() {
 ---
 ###### Exercício  
 ----
-Faça um programa em c que solicite dois operandos e o tipo de operação aritmética que desejar, conforme opções abaixo:
+Faça um programa em c que solicite dois operandos e o tipo de operação aritmética que desejar, conforme opções abaixo:<br />
 1 - Soma
 2 - Subtração
 3 - Multiplicação
