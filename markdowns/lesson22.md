@@ -49,3 +49,92 @@ int main() {
 
 }
 ```
+---
+###### Exercício  
+----
+Faça um programa em c que solicite dois operandos e o tipo de operação aritmética que desejar, conforme opções abaixo:
+1 - Soma
+2 - Subtração
+3 - Multiplicação
+4 - Divisão
+5 - Exponenciação
+
+Caso o usuário selecione a opção 4 (divisão), verificar se o denominador é diferente de zero. Caso o usuário digitar uma opção inválida emitir mensagem.
+ 
+@[IDE]({"stubs": ["./www/condicional"],"command": "sh /project/target/www/condicional1.sh"
+})
+::: Solução
+
+``` C
+#include <stdio.h>
+#include <stdlib.h>
+#include<math.h>
+ 
+int main()
+{
+    int x, y, resultado, 
+    int op;
+    x=0;
+    y=0;
+    resultado=0;
+    op=0;
+ 
+    printf(" \n Digite o valor do primeiro operando: ");
+    scanf("%d", &x);
+    printf(" \n Digite o valor do segundo operando: ");
+    scanf("%d", &y);
+ 
+    printf(" \n Escolha uma das opções abaixo: ");
+    printf(" \n 1. Soma ");
+    printf(" \n 2. Subtração ");
+    printf(" \n 3. Multiplicação ");
+    printf(" \n 4. Divisão ");
+    printf(" \n 5. Exponenciação ");
+    
+    printf(" \n Digite o número da opção desejada: ");
+    scanf("%d", &op);
+ 
+    switch (op)
+    {
+    case 1:
+        printf(" \n Opção selecionada: 1. Soma ");
+        resultado = x + y;
+        printf(" \n A soma dos dois números é: %d ", resultado);
+        break;
+ 
+    case 2:
+        printf(" \n Opção selecionada: 2. Subtração ");
+        resultado = x - y;
+        printf(" \n A subtração dos dois números é: %d", resultado);
+        break;
+ 
+    case 3:
+        printf(" \n Opção selecionada: 3. Multiplicação ");
+        resultado = x * y;
+        printf(" \n A multiplicação dos dois números é: %d", resultado);
+        break;
+ 
+    case 4:
+        printf(" \n Opção selecionada: 4. Divisão ");
+        if(y=0)
+        {
+            printf(" \n Não existe divisão por zero ");
+        }
+        else
+        {
+            resultado = x / y;
+            printf(" \n A divisão dos dois números é: %d", resultado);
+        }
+ 
+        break;
+    default:
+        printf(" \n Você digitou uma opção inválida!");
+    }
+ 
+    return 0;
+}
+
+
+```
+:::
+----
