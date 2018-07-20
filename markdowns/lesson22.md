@@ -59,7 +59,7 @@ Faça um programa em c que solicite dois operandos e o tipo de operação aritm�
 4 - Divisão<br />
 5 - Exponenciação<br />
 
-Caso o usuário selecione a opção 4 (divisão), verificar se o denominador é diferente de zero. Na exponenciação, utlizar a função <b>pow(base, expoente)</b> Caso o usuário digitar uma opção inválida emitir mensagem.
+Caso o usuário selecione a opção 4 (divisão), verificar se o denominador é diferente de zero. Na exponenciação, utlizar a função <b>pow(base, expoente)</b> em <b>#include<math.h></b>. Caso o usuário digitar uma opção inválida emitir mensagem.
  
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
 })
