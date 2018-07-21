@@ -18,7 +18,7 @@ void main()
    float f;
 
     f = 20.7;
-    Zera(f);
+    Cem(f);
     printf("%d", f); // o valor impresso será 20.7 pois o parâmetro da função foi passado por valor.
 } 
 ```
