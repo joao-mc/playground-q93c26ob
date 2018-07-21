@@ -79,7 +79,7 @@ int main() {
   float nota1, nota2, med;
   char conce;
 
-  for (i=0; i < 3; i++) {
+  for (i=0; i < 10; i++) {
     printf("\n\nDigite a nota 1:");
     scanf("%f", &nota1);
     printf("\nDigite a nota 2:");
