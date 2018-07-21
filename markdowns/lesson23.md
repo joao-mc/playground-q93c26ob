@@ -28,6 +28,7 @@ Parâmetros
 + Os parâmetros de uma função são definidos como se estivesse declarando uma variável, entre os parênteses do cabeçalho da função. Caso precise declarar mais de um parâmetro, basta separá-los por vírgulas. 
 + No exemplo a seguir temos a função SOMA que possui dois parâmetros, sendo o primeiro um float (a) e o segundo um int (b).
 
+```
 void SOMA(float a, int b)  // basta separar por vírgulas
 {
    float result;     // a declaração de variáveis é igual ao que 
@@ -35,10 +36,11 @@ void SOMA(float a, int b)  // basta separar por vírgulas
    result = a+b;
    printf("A soma de %f com %d é %f\n, a,b,Result); 
 }
-
+```
 Os parâmetros são passados para uma função de acordo com a sua posição. Ou seja, o primeiro parâmetro da chamada (programa) define o valor o primeiro parâmetro na definição da função, o segundo parâmetro do programa define o valor do segundo parâmetro da função e assim por diante. Os nomes dos parâmetros na chamada não tem relação com os nomes dos parâmetros na definição da função.
 No código a seguir, por exemplo, a função SOMA é chamada recebe como parâmetros as variáveis "a" e "b", nesta ordem.
 
+``` C runnable
 #include <stdio.h>
 
 void SOMA(float a, int b)  // basta separar os parâmetros por vírgulas
@@ -60,4 +62,4 @@ int main()
 
     return 0;
 }
-
+```
