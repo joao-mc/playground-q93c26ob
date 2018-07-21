@@ -19,7 +19,7 @@ void main()
 
     f = 20.7;
     Cem(f);
-    printf("%d", f); // o valor impresso será 20.7 pois o parâmetro da função foi passado por valor.
+    printf("%f", f); // o valor impresso será 20.7 pois o parâmetro da função foi passado por valor.
 } 
 ```
 
