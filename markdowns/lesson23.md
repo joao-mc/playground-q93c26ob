@@ -14,9 +14,10 @@
 Esqueleto de uma função
 ----
 ```
-tipo_de_retorno nome_da_função (listagem de parâmetros)
+tipo_de_retorno nome_da_função (lista de parâmetros)
 {
    instruções;
    retorno_da_função;
 }
+A Lista de Parametros, também é chamada de Lista de Argumentos, é opcional. Funcionam como a interface de comunicação (passagem de valores/dados) entre o programa e a função.  
 ```
