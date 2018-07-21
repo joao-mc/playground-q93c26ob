@@ -28,7 +28,7 @@ Obs: <b>void</b> significa que a função não retorna valor para o programa que
 ----
 Exercício
 ----
-Faça um programa que leia duas notas de um aluno numa turma de 10 alunos. Para cada aluno, calcular a média ponderadas das notas, sabendo que a nota1 tem peso 4 e a nota2 tem peso 6. Imprimir a média do aluno e o conceito final, conforme tabela abaixo:
+Faça um programa que leia duas notas de um aluno numa turma de 10 alunos. Para cada aluno, calcular a média ponderadas das notas, sabendo que a <b>nota1</b> tem <b>peso = 4</b> e a <b>nota2</b> tem <b>peso = 6</b>. Imprimir a média do aluno e o conceito final, conforme tabela abaixo:
 
 | Intervalo | Conceito |
 | --------- | -------- |
@@ -38,83 +38,56 @@ Faça um programa que leia duas notas de um aluno numa turma de 10 alunos. Para 
 | 9.0 a 10.0|    A     |
 
 Fazer 2 funções:
-A primeira função denominada <b>mediapond</b> irá receber as duas notas, calcular e retornar a média ponderada. A segunda função denominada <b>conceito</b> irá receber a média das notas e retornar o conceito conforme a tabela acima.
+A primeira função denominada <b>float mediapond</b> irá receber as duas notas, calcular e retornar a média ponderada. A segunda função denominada <b>char conceito</b> irá receber a média das notas e retornar o conceito conforme a tabela acima.
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
 })
 ::: Solução
 
 ``` C
-#include <stdio.h>
-#include <stdlib.h>
-#include<math.h>
- 
-int main()
+#include<stdio.h>
+float mediapond(float nota1, float nota2)
 {
-    int x, y, resultado; 
-    int op;
-    x=0;
-    y=0;
-    resultado=0;
-    op=0;
- 
-    printf(" \n Digite o valor do primeiro operando: ");
-    scanf("%d", &x);
-    printf(" \n Digite o valor do segundo operando: ");
-    scanf("%d", &y);
- 
-    printf(" \n Escolha uma das opções abaixo: ");
-    printf(" \n 1. Soma ");
-    printf(" \n 2. Subtração ");
-    printf(" \n 3. Multiplicação ");
-    printf(" \n 4. Divisão ");
-    printf(" \n 5. Exponenciação ");
-    
-    printf(" \n Digite o número da opção desejada: ");
-    scanf("%d", &op);
- 
-    switch (op)
-    {
-    case 1:
-        printf(" \n Opção selecionada: 1. Soma ");
-        resultado = x + y;
-        printf(" \n A soma dos dois números é: %d ", resultado);
-        break;
- 
-    case 2:
-        printf(" \n Opção selecionada: 2. Subtração ");
-        resultado = x - y;
-        printf(" \n A subtração dos dois números é: %d", resultado);
-        break;
- 
-    case 3:
-        printf(" \n Opção selecionada: 3. Multiplicação ");
-        resultado = x * y;
-        printf(" \n A multiplicação dos dois números é: %d", resultado);
-        break;
- 
-    case 4:
-        printf(" \n Opção selecionada: 4. Divisão ");
-        if(y=0)
-        {
-            printf(" \n Não existe divisão por zero ");
-        }
-        else
-        {
-            resultado = x / y;
-            printf(" \n A divisão dos dois números é: %d", resultado);
-        }
- 
-        break;
-    case 5:
-        printf(" \n Opção selecionada: 5. Exponenciação ");
-        resultado = pow(x, y);
-        printf(" \n A exponenciação dos dois números é: %d", resultado);
-        break;    
-    default:
-        printf(" \n Você digitou uma opção inválida!");
+    float media;
+    media = nota1 * 0.4 + nota2 * 0.6; // 0.4 e 0.6 corresponde aos pesos das notas dividido pela soma dos pesos.
+    return media;
+}
+
+char conceito(float media)
+{
+    char conc;
+    if (media <= 4.9){
+      conc = 'D';
     }
- 
-    return 0;
+    else {
+      if (media <= 6.9) {
+        conc = 'C';
+      }
+      else {
+        if (media <= 8.9 ){
+            conc ='B';
+        }
+        else {
+            conc = 'A';
+        }
+      }
+    }
+  return conc;
+}
+
+int main() {
+  int i;
+  float nota1, nota2, med;
+  char conce;
+
+  for (i=0; i < 3; i++) {
+    printf("\n\nDigite a nota 1:");
+    scanf("%f", &nota1);
+    printf("\nDigite a nota 2:");
+    scanf("%f", &nota2);
+    med = mediapond(nota1,nota2);
+    conce = conceito(med);
+    printf("\n\nmédia = %f \nConceito final = %c", med, conce);
+  }
 }
 
 
