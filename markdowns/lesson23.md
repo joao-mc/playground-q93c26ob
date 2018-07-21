@@ -33,32 +33,32 @@ void SOMA(float a, int b)  // basta separar por vírgulas
 {
    float result;     // a declaração de variáveis é igual ao que 
                      // se faz na função main 
-   result = a+b;
-   printf("A soma de %f com %d é %f\n", a,b,Result); 
+   result = a + b;
+   return result     // retorna para o programa o resultado da soma de a + b  
 }
 ```
 Os parâmetros são passados para uma função de acordo com a sua posição. Ou seja, o primeiro parâmetro da chamada (programa) define o valor o primeiro parâmetro na definição da função, o segundo parâmetro do programa define o valor do segundo parâmetro da função e assim por diante. Os nomes dos parâmetros na chamada não tem relação com os nomes dos parâmetros na definição da função.
-No código a seguir, por exemplo, a função SOMA é chamada recebe como parâmetros as variáveis "a" e "b", nesta ordem.
+No código a seguir, por exemplo, a função SOMA é chamada recebendo como parâmetros as variáveis "a" e "b", nesta ordem.
 
 ``` C runnable
 #include <stdio.h>
 
-void SOMA(float a, int b)  
+float SOMA(float a, int b)  
 {
    float result;     
-   result = a+b;
-   printf("A soma de %f com %d é %f\n", a,b,result); 
+   result = a + b;
+   return result
 }
 
 int main()
 {
-    int a;
-    float b;
-
+    float a;
+    int b;
+    float s;
     a = 10;
     b = 12.3;
-    SOMA(b,a);  // Chamada da função SOMA(12.3,10);
-
+    s = SOMA(a,b);  // Chamada da função SOMA(12.3,10);
+    printf("A soma de %f com %d é %f\n", a,b,s); 
     return 0;
 }
 ```
