@@ -12,6 +12,8 @@ plan:
     statement: /markdowns/lesson21.md
   - title: Ainda na Introdução (Switch)
     statement: /markdowns/lesson22.md  
+  - title: Funções em C
+    statement: /markdowns/lesson23.md    
 projects:
   cpp:
     root: /cpp-project
