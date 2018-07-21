@@ -43,10 +43,9 @@ No código a seguir, por exemplo, a função SOMA é chamada recebe como parâme
 ``` C runnable
 #include <stdio.h>
 
-void SOMA(float a, int b)  // basta separar os parâmetros por vírgulas
+void SOMA(float a, int b)  
 {
-   float result;     // a declaração de variáveis é igual ao que 
-                     // se faz na função main 
+   float result;     
    result = a+b;
    printf("A soma de %f com %d é %f\n, a,b,result); 
 }
