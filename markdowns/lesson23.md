@@ -48,7 +48,7 @@ void SOMA(float a, int b)  // basta separar os parâmetros por vírgulas
    float result;     // a declaração de variáveis é igual ao que 
                      // se faz na função main 
    result = a+b;
-   printf("A soma de %f com %d é %f\n, a,b,Result); 
+   printf("A soma de %f com %d é %f\n, a,b,result); 
 }
 
 int main()
@@ -58,7 +58,7 @@ int main()
 
     a = 10;
     b = 12.3;
-    SOMA(b,a);  // <b>Chamada da função SOMA(12.3,10);</b> 
+    SOMA(b,a);  // Chamada da função SOMA(12.3,10);
 
     return 0;
 }
