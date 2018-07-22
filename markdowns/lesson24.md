@@ -108,10 +108,11 @@ Faça um programa para calcular o valor das parcelas de um financiamento no regi
 |  36   |    18%    |
 Fazer uma função denominada <b>float financiamento</b> que deverá receber o valor do financiamento e o número de parcelas, calcular e retornar o valor da prestação. Utilizar a estrutura </>switch ... case</b> apar selecionar a taxa de juros representada em valor decimal. Como a capitalização é mensal, dividir a taxa por 12. 
 A fórmula de cálcula da prestação é: 
+```math
 
-
-$`prestacao=valor financiamento × \frac{(1+taxa)^(parcelas) x taxa}{(1+taxa)^(parcelas)  - 1}`$
-
+$`prestacao=valor financiamento × \frac{(1+taxa)^p × taxa}{(1+taxa)^p  - 1}`$
+```
+*obs: p = número de parcelas
 
 
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
