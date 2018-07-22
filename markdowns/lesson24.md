@@ -110,7 +110,7 @@ Fazer uma função denominada <b>float financiamento</b> que deverá receber o v
 A fórmula de cálcula da prestação é: 
 ```math
 
- \frac{(1+taxa)^parcelas x taxa}}{(1+taxa)^parcelas  - 1}
+ inline formula: $`prestacao=valor financiamento × \frac{(1+taxa)^parcelas x taxa}}{(1+taxa)^parcelas  - 1}`$
 
 ```
 
