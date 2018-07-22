@@ -93,4 +93,82 @@ int main() {
 
 ```
 :::
+
+----
+Exercício 2
+----
+Faça um programa para calcular o valor das parcelas de um financiamento no regime de juros compostos com capitalização mensal. O programa deverá ler o valor do financiamento e o número de parcelas, calcular e exibir o valor da parcela. O programa termina quando o valor do financiamento for igual a zero. Abaixo apresentamos a tabela contendo os prazos de financiamentos e a taxa de juros anual:
+
+| Prazo | taxa a.a. |
+| ----- | --------- |
+|   6   |     7%    |
+|  12   |    10%    |
+|  18   |    12%    |
+|  24   |    15%    |
+|  36   |    18%    |
+Fazer uma função denominada <b>float financiamento</b> que deverá receber o valor do financiamento e o número de parcelas, calcular e retornar o valor da prestação. Utilizar a estrutura </>switch ... case</b> apar selecionar a taxa de juros representada em valor decimal. Como a capitalização é mensal, dividir a taxa por 12. 
+A fórmula de cálcula da prestação é: 
+```math
+
+ prestação=valor financiamento ×  ((1+taxa)^parcelas  × taxa)/((1+taxa)^parcelas  - 1)
+
+```
+
+@[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
+})
+::: Solução
+
+``` C
+#include<stdio.h>
+#include<math.h>
+float financiamento(float valor, int parcelas)
+{
+   float tx, prestacao;
+
+   switch(parcelas)
+   {
+   case 6:
+    tx = 0.07/12;
+    break;
+   case 12:
+    tx = 0.1/12;
+    break;
+   case 18:
+    tx = 0.12/12;
+    break;
+   case 24:
+    tx = 0.15/12;
+    break;
+   case 36:
+    tx = 0.18/12;
+    break;
+   default:
+    tx = 0.0;
+    break;
+   }
+
+ prestacao = valor * (pow((1+tx), parcelas)*tx)/(pow((1+tx),parcelas)-1);
+ return prestacao;
+}
+
+int main(){
+  int parc;
+  float financia, presta;
+
+  printf("\n\nDigite o valor a ser financiado:");
+  scanf("%f",&financia);
+  while(financia != 0){
+    printf("\n\nDigite o numero de parcelas:");
+    scanf("%d",&parc);
+    presta = financiamento(financia, parc);
+    printf("O valor da sua prestação e: %f", presta);
+    printf("\n\nDigite o valor a ser financiado:");
+    scanf("%f",&financia);
+
+  }
+}
+
+
+```
+:::
 ----
