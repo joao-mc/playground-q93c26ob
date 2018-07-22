@@ -29,7 +29,7 @@
                Vetor[4] = 8; /*  Move o valor 8 a quinta posição do "Vetor" (Não se esqueçam que a primeira é zero). */
                Matriz[0][1] = 15; /*  coloca 15 na célula que está na primeira linha e na segunda coluna da matriz */
 ```
-+ Para mover valores para todos os elementos de um vetor precisamos de uma estrutura de repetição. A estrutura do <b>FOR</b> se adequa perfeitamente às Magrizes(vetores) porque a variável de controle da repetição pode ser usada para marcar as posições do vetor.
++ Para inicializar um vetor, isto é, mover valores para todos os elementos de um vetor precisamos de uma estrutura de repetição. A estrutura do <b>FOR</b> se adequa perfeitamente às Magrizes(vetores) porque a variável de controle da repetição pode ser usada para marcar as posições do vetor.
 + Por exemplo, mover o valor 100 para todas as posições de um vetor do tipo int de tamanho 5.
 ```
    for(i = 0; i < 5; i++)
