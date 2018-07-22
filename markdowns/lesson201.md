@@ -5,4 +5,10 @@ Mover valores para um vetor
 ```
 int vet[5] = {100,100,100,100,100};
 ```
-
++ Uma outra forma de mover valores é utilizar o comando de leitura(scanf) para mover valores digitado pelos usuários. Utilizando os exempos anteriores:
+```
+for(i = 0; i < 5; i++)
+{
+   scanf("%d", &vet[i]);
+}
+```
