@@ -22,7 +22,7 @@
 ---
 # Mover valores para os elementos do vetor
 ---
-+ Em todos os vetores tem o primeiro elemento na posição 0(zero). Assim, se tomarmos "K" como sendo o tamanho do vetor a última posição é a de índice "K-1"
++ Na linguagem C, os vetores tem o primeiro elemento na posição 0(zero). Assim, se tomarmos "K" como sendo o tamanho do vetor a última posição é a de índice "K-1". Por exemplo, um vetor de tamanho 10 (k=10) tem o seu último elemento na posição 9.
 + Exemplos de mover valor para uma matriz/vetor 
 ```
                Vetor[0] = 4; /*  Move o valor 4 para a primeira posição do "Vetor" */
