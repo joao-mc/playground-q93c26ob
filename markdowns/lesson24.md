@@ -111,6 +111,8 @@ A fórmula de cálcula da prestação é:
 ```math
 
  prestação=valor financiamento ×  ((1+taxa)^parcelas  × taxa)/((1+taxa)^parcelas  - 1)
+ 
+ prestação = valor financiamento x \frac{(1+taxa)^parcelas x taxa}}{(1+taxa)^parcelas  - 1}
 
 ```
 
