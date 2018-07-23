@@ -11,7 +11,17 @@ Como no exemplo acima, para  declarar a matriz 2x5, fazemos:
 
 + Note que temos duas linhas:<b> Mat[0][]</b> e <b>Mat[1][]</b>, e em cada linha dessa temos 5 elementos.
 Ou seja, é uma matriz de duas linhas e cinco colunas. Sempre o primeiro número é a linha e o segundo é a coluna.
-
+---
+# Inicializar uma Matriz
+---
++ Para inicializar uma Matriz, isto é, mover valores para todos os elementos precisamos de duas estrutura de repetição encadeadas. Uma estrutura de repetição <b>FOR</b> para percorrer as linhas da Matriz e outra para percorrer as colunas.
++ Por exemplo, mover o valor 100 para todas as posições de uma matriz do tipo int com 2 linhas e 5 colunas.
+```
+   for(i = 0; i < 5; i++)
+   {
+      vet[i] = 100;
+    }
+```
 Para declarar matrizes e inicializar, devemos colocar cada linha entre chaves {}, e separar elas por vírgulas, veja:
 float notas[2][5] = { {8.0, 7.5, 8.5, 9.0, 8.0 }, {8.9, 9.0, 8.6, 8.4, 8.0 } };
 
