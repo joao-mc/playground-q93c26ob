@@ -95,21 +95,34 @@ Faça programa que leia uma matriz 4 x 4 com valores reais.
 
 ``` C
 #include<stdio.h>
-#include<math.h>
 int main(){
-  int A[5], B[5], i;
+  int A[4][4];
+  int  i, j, somapar, somaimpar, cont;
+  float media;
+  somaimpar = 0;
+  somapar = 0;
+  cont = 0;
+  for(i = 0; i < 4; i++){      /* percorre as linhas da Matriz */
+    for(j = 0; j < 4; j++){
+      printf("\nDigite um numero inteiro: ");
+      scanf("%d", &A[i][j]);
+    }
+  }
+  for(i = 0; i < 4; i++){      /* percorre as linhas da Matriz */
+    for(j = 0; j < 4; j++){      /* percorre as colunas da Matriz */
+      if (j % 2 == 0) {     /* colunas pares */
+         somapar= somapar + A[i][j];
+         cont = cont + 1;   /* conta o número de elementos */
+      }
+      else {
+        somaimpar = somaimpar + A[i][j];
+      }
+    }
+   }
+   media = somaimpar/cont;
 
-  for(i= 0; i < 5; i++){      /* inicialização do vetor */
-    printf("\n\nDigite um numero qualquer:");
-    scanf("%d",&A[i]);
-  }
-
-  for(i= 0; i < 5; i++){      /* percorrendo do vetor */
-      B[i] = pow(A[i],2);
-  }
-  for(i= 0; i < 5; i++){      /* percorrendo do vetor */
-     printf("\n A[%d] = %d  B[%d] = %d", i,A[i],i,B[i]);
-  }
+   printf("\nA soma dos valores das colunas impares e %d", somaimpar);
+   printf("\nA media dos valores das colunas pares e %d", media);
 
 }
 
