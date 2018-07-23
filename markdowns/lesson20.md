@@ -11,11 +11,11 @@
 ![programa](/markdowns/vetor.gif)
 
 ---
-Declaração de Matrizes
+Declaração de Vetores
 ---
         int Vetor[6];   /* declara um vetor do tipo int (números inteiros) de 6 posições */
 
-        float Matriz[5][3]; /*declara uma matriz do tipo float(números com casas decimais) de 5 linhas e 3 colunas(15 elementos) */
+        float Vetor[3]; /*declara um vetor do tipo float(números com casas decimais) com 3 posições */
         
         char Vetor[10] /* declara um vetor do tipo char com 10 posições  */
 
