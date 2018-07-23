@@ -12,7 +12,7 @@ Percorrer a matriz Mat (3 x 3) contendo números inteiros e transformar, caso ex
 #include<stdio.h>
 int main() {
   int i, j;
-  int mat[3][3] = {{2, -4, 5},{-8, -1, 7},{-3, -6, 9]};
+  int mat[3][3] = {{2, -4, 5},{-8, -1, 7},{-3, -6, 9}};
   for(i=0; i < 3; i++)
    {    
     for(j=0; j < 3; j++)
