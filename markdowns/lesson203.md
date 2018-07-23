@@ -1,6 +1,5 @@
-+ Para declarar matrizes e inicializar, devemos colocar cada linha entre chaves {}, e separar elas por vírgulas, veja:
-float notas[2][5] = { {8.0, 7.5, 8.5, 9.0, 8.0 }, {8.9, 9.0, 8.6, 8.4, 8.0 } };
+# Inicializar uma Matriz
+---
++ Semelhantemente aos vetores podemos inicializar as matrizes no momento da declaração, para isso devemos colocar cada linha entre chaves {}, e separar elas por vírgulas, veja:
+<b> int Mat[2][5] = { {100, 90, 80, 70, 60 }, {200, 190, 180, 170, 160 } };</b>
 
-Uma maneira mais simples de ver essas linhas e colunas, como tabela, é da seguinte maneira:
-float notas[2][5] = { {8.0, 7.5, 8.5, 9.0, 8.0 },
-                              {8.9, 9.0, 8.6, 8.4, 8.0 } };
