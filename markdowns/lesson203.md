@@ -8,7 +8,7 @@ Inicializar uma Matriz
 Exemplo
 ---
 Percorrer a matriz Mat (3 x 3) contendo números inteiros e transformar, caso existam, os números negativos em positivos.
-``` C running 
+``` C runnable
 #include<stdio.h>
 int main() {
   int i, j;
