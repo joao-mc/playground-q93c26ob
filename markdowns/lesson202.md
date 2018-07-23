@@ -21,7 +21,7 @@ Declaração de Matrizes
         
         char Matriz[2][10] /* declara uma matriz do tipo char com 2 linhas e 10 colunas  */
 ---
-# Inicializar uma Matriz
+Inicializar uma Matriz
 ---
 + Para inicializar uma Matriz, isto é, mover valores para todos os elementos precisamos de duas estrutura de repetição encadeadas. Uma estrutura de repetição <b>FOR</b> para percorrer as linhas da Matriz e outra para percorrer as colunas.
 + Por exemplo, mover o valor 100 para todas as posições de uma matriz do tipo int com 2 linhas e 5 colunas.
