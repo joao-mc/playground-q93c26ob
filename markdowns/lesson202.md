@@ -7,7 +7,7 @@
 ![programa](/markdowns/matriz.gif)
 
 Como no exemplo acima, para  declarar a matriz 2x5, fazemos:
-<b>intt Mat[2][5];</b>
+<b>int Mat[2][5];</b>
 
 + Note que temos duas linhas:<b> Mat[0][]</b> e <b>Mat[1][]</b>, e em cada linha dessa temos 5 elementos.
 Ou seja, é uma matriz de duas linhas e cinco colunas. Sempre o primeiro número é a linha e o segundo é a coluna.
