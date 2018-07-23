@@ -15,7 +15,7 @@ for(i = 0; i < 5; i++)
 ---
 Exercicio 1
 ---
-Faça um programa que leia 5 números inteiros e armazene-os em um vetor. A seguir, percorra o vetor e conte quantos números são maiores que 100. Ao final exiba essa quantiddade.
+Faça um programa que leia 5 números inteiros e armazene-os em um vetor. A seguir, percorra o vetor e conte quantos números são maiores que 100. Ao final, exiba essa quantidade.
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
 })
 ::: Solução
