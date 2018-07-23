@@ -41,3 +41,34 @@ int main(){
 
 ```
 :::
+---
+Exercicio 2
+---
+Faça um programa que leia 6 números inteiros e armazene-os no vetor A. A seguir, percorra o vetor A e crie o vetor B, onde cada elemento de B é formado pelo quadrado do elemento de A correspondente. Ao final, exiba os dois vetores. Utilize a função pow(base, expoente). <b>#include<math.h></b>.
+@[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
+})
+::: Solução
+
+``` C
+#include<stdio.h>
+#include<math.h>
+int main(){
+  int A[5], B[5], i;
+
+  for(i= 0; i < 5; i++){      /* inicialização do vetor */
+    printf("\n\nDigite um numero qualquer:");
+    scanf("%d",&A[i]);
+  }
+
+  for(i= 0; i < 5; i++){      /* percorrendo do vetor */
+      B[i] = pow(A[i],2);
+  }
+  for(i= 0; i < 5; i++){      /* percorrendo do vetor */
+     printf("\n A[%d] = %d  B[%d] = %d", i,A[i],i,B[i]);
+  }
+
+}
+
+
+```
+:::
