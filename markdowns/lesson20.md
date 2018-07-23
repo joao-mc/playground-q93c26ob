@@ -11,7 +11,7 @@
 ![programa](/markdowns/vetor.gif)
 
 ---
-# Declaração de Matrizes
+Declaração de Matrizes
 ---
         int Vetor[6];   /* declara um vetor do tipo int (números inteiros) de 6 posições */
 
@@ -20,7 +20,7 @@
         char Vetor[10] /* declara um vetor do tipo char com 10 posições  */
 
 ---
-# Mover valor para um vetor
+Mover valor para um vetor
 ---
 + Na linguagem C, os vetores tem o primeiro elemento na posição 0(zero). Assim, se tomarmos "K" como sendo o tamanho do vetor a última posição é a de índice "K-1". Por exemplo, um vetor de tamanho 10 (k=10) tem o seu último elemento na posição 9.
 + Exemplos de mover valor para uma matriz/vetor 
