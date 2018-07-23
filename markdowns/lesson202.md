@@ -11,6 +11,15 @@ Como no exemplo acima, para  declarar a matriz 2x5, fazemos:
 
 + Note que temos duas linhas:<b> Mat[0][]</b> e <b>Mat[1][]</b>, e em cada linha dessa temos 5 elementos.
 Ou seja, é uma matriz de duas linhas e cinco colunas. Sempre o primeiro número é a linha e o segundo é a coluna.
+
+---
+Declaração de Matrizes
+---
+        int Matriz[6][2];   /* declara uma matriz do tipo int (números inteiros) com 6 linhas e 2 colunas */
+
+        float Matriz[5][3]; /*declara uma matriz do tipo float(números com casas decimais) de 5 linhas e 3 colunas(15 elementos) */
+        
+        char Matriz[2][10] /* declara uma matriz do tipo char com 2 linhas e 10 colunas  */
 ---
 # Inicializar uma Matriz
 ---
