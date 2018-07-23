@@ -34,6 +34,17 @@ int main() {
        
 }
 ```
+
++ Semelhantemente aos vetores, podemos também mover valores para as matrizes através do comando de leitura(scanf).
+```
+ for(i = 0; i < 2; i++)
+   {
+     for(j = 0; j < 5; j++)
+     {
+       scanf("%d", &vet[i][j]);
+     }
+    }
+```    
 ---
 Exercicio 1
 ---
