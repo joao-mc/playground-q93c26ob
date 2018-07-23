@@ -43,7 +43,7 @@ int main() {
      {
        scanf("%d", &vet[i][j]);
      }
-    }
+   }
 ```    
 ---
 Exercicio 1
@@ -84,7 +84,11 @@ int main(){
 ---
 Exercicio 2
 ---
-Faça um programa que leia 6 números inteiros e armazene-os no vetor A. A seguir, percorra o vetor A e crie o vetor B, onde cada elemento de B é formado pelo quadrado do elemento de A correspondente. Ao final, exiba os dois vetores. Utilize a função pow(base, expoente). <b>#include<math.h></b>.
+Faça programa que leia uma matriz 4 x 4 com valores reais.
+(a) Imprima a soma de todos os elementos das colunas ímpares.
+(b) Imprima a media aritmética dos elementos das colunas ímpares.
+(d) Imprima os resultados.
+
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
 })
 ::: Solução
