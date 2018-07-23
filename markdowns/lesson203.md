@@ -37,28 +37,35 @@ int main() {
 ---
 Exercicio 1
 ---
-Faça um programa que leia 5 números inteiros e armazene-os em um vetor. A seguir, percorra o vetor e conte quantos números são maiores que 100. Ao final, exiba essa quantidade.
+Dada a Matriz A = {{10, 30, 50}, {5, 15, 25}, {2, 5, 9}} e a Matriz B= {{5, 35, 70}, {1, 25, 30}, {1, 4, 7}}, faça um programa que gere a Matriz C contendo os maiores valores de cada posição. Mostre a Matriz C.
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
 })
 ::: Solução
 
 ``` C
 #include<stdio.h>
-
 int main(){
-  int vet[5], cont, i;
+  int A[3][3] = {{10, 30, 50}, {5, 15, 25}, {2, 5, 9}};
+  int B[3][3] ={{5, 35, 70}, {1, 25, 30}, {1, 4, 7}};
+  int C[3][3], i, j;
 
-  for(i= 0; i < 5; i++){      /* inicialização do vetor */
-    printf("\n\nDigite um numero qualquer:");
-    scanf("%d",&vet[i]);
+  for(i = 0; i < 3; i++){      /* percorre as linhas da Matriz */
+    for(j = 0; j < 3; j++){      /* percorre as colunas da Matriz */
+      if (A[i][j] > B[i][j]) {
+         C[i][j] = A[i][j];
+      }
+      else {
+        C[i][j] = B[i][j];
+      }
+    }
+   }
+  printf("\n");   /* Pula Linha*/
+  for(i = 0; i < 3; i++){      /* percorre as linhas da Matriz */
+    for(j = 0; j < 3; j++){      /* percorre as colunas da Matriz */
+      printf("%d ",C[i][j]);
+    }
+   printf("\n"); /* Pula Linha*/
   }
-  cont = 0;
-  for(i= 0; i < 5; i++){      /* percorrendo do vetor */
-     if (vet[i] > 100)
-         cont = cont + 1;
-  }
-
-  printf("\n\nExistem %d valores acima de 100", cont);
 }
 
 ```
