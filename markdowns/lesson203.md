@@ -85,9 +85,9 @@ int main(){
 Exercicio 2
 ---
 Faça programa que leia uma matriz 4 x 4 com valores reais.
-(a) Imprima a soma de todos os elementos das colunas ímpares.
-(b) Imprima a media aritmética dos elementos das colunas ímpares.
-(d) Imprima os resultados.
+<p>(a) Imprima a soma de todos os elementos das colunas ímpares.</p>
+<p>(b) Imprima a media aritmética dos elementos das colunas pares.</p>
+<p>(d) Imprima os resultados.</p>
 
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
 })
