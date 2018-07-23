@@ -96,8 +96,9 @@ Faça programa que leia uma matriz 4 x 4 com valores reais.
 ``` C
 #include<stdio.h>
 int main(){
-  int A[4][4];
-  int  i, j, somapar, somaimpar, cont;
+  float A[4][4];
+  int  i, j, cont;
+  float somapar, somaimpar;
   float media;
   somaimpar = 0;
   somapar = 0;
@@ -105,7 +106,7 @@ int main(){
   for(i = 0; i < 4; i++){      /* percorre as linhas da Matriz */
     for(j = 0; j < 4; j++){
       printf("\nDigite um numero inteiro: ");
-      scanf("%d", &A[i][j]);
+      scanf("%f", &A[i][j]);
     }
   }
   for(i = 0; i < 4; i++){      /* percorre as linhas da Matriz */
@@ -121,8 +122,8 @@ int main(){
    }
    media = somaimpar/cont;
 
-   printf("\nA soma dos valores das colunas impares e %d", somaimpar);
-   printf("\nA media dos valores das colunas pares e %d", media);
+   printf("\nA soma dos valores das colunas impares e %f", somaimpar);
+   printf("\nA media dos valores das colunas pares e %f", media);
 
 }
 
