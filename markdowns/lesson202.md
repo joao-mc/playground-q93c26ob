@@ -17,9 +17,12 @@ Ou seja, é uma matriz de duas linhas e cinco colunas. Sempre o primeiro número
 + Para inicializar uma Matriz, isto é, mover valores para todos os elementos precisamos de duas estrutura de repetição encadeadas. Uma estrutura de repetição <b>FOR</b> para percorrer as linhas da Matriz e outra para percorrer as colunas.
 + Por exemplo, mover o valor 100 para todas as posições de uma matriz do tipo int com 2 linhas e 5 colunas.
 ```
-   for(i = 0; i < 5; i++)
+   for(i = 0; i < 2; i++)
    {
-      vet[i] = 100;
+     for(j = 0; j < 5; j++)
+     {
+       vet[i][j] = 100;
+     }
     }
 ```
 Para declarar matrizes e inicializar, devemos colocar cada linha entre chaves {}, e separar elas por vírgulas, veja:
