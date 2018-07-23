@@ -15,7 +15,7 @@ plan:
   - title: Estrutura de Dados Homogêneas 
     statement: /markdowns/lesson20.md  
   - title: Estrutura de Dados Homogêneas (Vetores)
-    statement: /markdowns/lesson20.md  
+    statement: /markdowns/lesson201.md  
   - title: Funções em C
     statement: /markdowns/lesson23.md   
   - title: Funções em C
