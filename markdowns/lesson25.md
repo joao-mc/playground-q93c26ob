@@ -43,7 +43,7 @@ int main(){
  Cadeia[10]= 'C';
  Cadeia[11]= '\0'; 
  
- printf("%s", cadeia);
+ printf("%s",Cadeia);
  }
 ```
 
