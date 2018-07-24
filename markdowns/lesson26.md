@@ -37,30 +37,54 @@ int main() {
 
 <p><b>int strcmp(const char *string1,const char *string2)</b> - Compara duas strings e determina a ordem (alfabetica) das duas.</p>
 
-– Usamos os códigos dos caracteres para determinar precedência
-– Retorno:
-• Se s1 preceder s2 -> -1
-• Se s2 preceder s1 -> 1
-
+```
+  Usamos os códigos dos caracteres para determinar precedência
+  Retorno:
+  Se s1 preceder s2 -> -1
+  Se s2 preceder s1 ->  1
+  Se s1 igual a s2  ->  0
+```
 <p>Exemplo de comparação manual e através da função strcmp.</p>
 
 
 ``` C runnable
 #include<string.h>
 #include<stdio.h>
-int main() {
-  char origem[16] = {'T', 'E', 'S','T','E',' ', 'D','E', ' ', 'S','T','R','I','N','G','\0'};
-  char destino[16];
-  int i;
-  /* Movimentação Manual */
-  for (i= 0; i < 16; i++) {
-     destino[i] = origem[i];
-  }
-  printf("\nManual\nOrigem = %s\n\nDestino = %s", origem, destino);
+int compara(char s1[],char s2[]) {
+    int i;
+ for (i=0; s1[i] != '\0' && s2[i] != '\0'; i++) {
+     if (s1[i] < s2[i])
+        return -1;
+     else
+       if (s1[i] > s2[i])
+          return 1;
+   }
+ //strings iguais
+return 0;
 
-  /*Movimentação com Strcpy*/
-  strcpy(destino, origem);
-   printf("\n\nCom Funcao\nOrigem = %s\n\nDestino = %s", origem, destino);
+}
+int main() {
+  char str1[16] = {'T', 'E', 'S','T','E',' ', 'D','E', ' ', 'S','T','R','I','N','G','\0'};
+  char str2[16] = {'S', 'T', 'R','I','N',' G', ' ', 'D','E', ' ', 'T','E','S','T','E','\0'};
+  char str3[16] = {'T', 'E', 'S','T','E',' ', 'D','E', ' ', 'S','T','R','I','N','G','\0'};
+  int retorno;
+  int i;
+  /* Comparação Manual */
+  retorno = compara(str1,str2);
+  printf("\n\nretorno= %d", retorno);
+  if (retorno == 1)
+     printf("\nstr1 > str2");
+  else
+     if (retorno == -1)
+       printf("\nstr1 < str2");
+      else
+        printf("\nstr1 = str2");
+
+  /*Comparação com Strcmp*/
+   retorno=strcmp(str1, str3);
+   printf("\n\nretorno= %d", retorno);
+
+
 }
 
 ```
