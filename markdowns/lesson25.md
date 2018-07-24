@@ -45,7 +45,7 @@ int main(){
  
  printf("%s"; cadeia);
  }
-
+```
 
 Veja outra maneira (mais simples) de inicializar uma cadeia de caracteres: 
 
