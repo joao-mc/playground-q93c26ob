@@ -17,4 +17,37 @@ A declaração de uma string em C é semelhante a declaração de um  vetor do t
 ```
 char Nome_da_tabela[Número_de_elementos]
 ```
+---
+Inicialização de cadeia de caracteres
+---
++ A inicialização de uma string, ou seja, mover caracteres, pode ser feita de duas maneiras:
 
+  + Mover manualmente os dados, célula por célula; ou
+  + Utilizar funções de manipulação de cadeias de fornecidas nas bibliotecas padrão
+
+Exemplo de inicialização manual de cadeia de caracteres : 
+``` C runnable
+#include <stdio.h> 
+int main(){ 
+ char Cadeia[7]; 
+ Cadeia[0]= 'L'; 
+ Cadeia[1]= 'i'; 
+ Cadeia[2]= 'n'; 
+ Cadeia[3]= 'g'; 
+ Cadeia[4]= 'u'; 
+ Cadeia[5]= 'a'; 
+ Cadeia[6]= 'g'; 
+ Cadeia[7]= 'e';
+ Cadeia[7]= 'm';
+ Cadeia[7]= ' ';
+ Cadeia[7]= 'C';
+ Cadeia[7]= '\0'; 
+ 
+ printf("%s"; cadeia);
+ }
+
+
+Veja outra maneira (mais simples) de inicializar uma cadeia de caracteres: 
+
+
+#include <stdio.h> void main(){ char Cadeia[20+1]={ 'B', 'o', 'n', 'j', 'o', 'u', 'r', '\0' }; }
