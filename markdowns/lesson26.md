@@ -7,6 +7,7 @@ A movimentação de valores de/para as cadeias de caracteres não pode ser efetu
 Nesse momento, apresentaremos apenas as funções mais importantes de manipulação de Strings.
 
 1. mover caracteres para uma variável string. 
+ pode ter algo entre os dois
 2.  Comparação de Strings.
 <p>A movimentação pode ser efetuada caracter a caracter (como em um vetor) ou através da função strcpy (string copy).</p>
 <p><b>char *stpcpy (const char *dest,const char *src)</b> - Copia uma string de <b>src</b> para outra string <b>dest</b>.</p>
