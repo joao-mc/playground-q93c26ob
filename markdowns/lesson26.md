@@ -6,9 +6,8 @@ A movimentação de valores de/para as cadeias de caracteres não pode ser efetu
 
 Nesse momento, apresentaremos apenas as funções mais importantes de manipulação de Strings.
 
-1. mover caracteres para uma variável string. 
- pode ter algo entre os dois
-2.  Comparação de Strings.
++ mover caracteres para uma variável string. 
+
 <p>A movimentação pode ser efetuada caracter a caracter (como em um vetor) ou através da função strcpy (string copy).</p>
 <p><b>char *stpcpy (const char *dest,const char *src)</b> - Copia uma string de <b>src</b> para outra string <b>dest</b>.</p>
 <p>Exemplo de movimentação manual e através da função strcpy.</p>
@@ -33,10 +32,34 @@ int main() {
 }
 
 ```
-2. Comparação de Strings.
++ Comparação de Strings.
 <p>A comparação pode ser efetuada caracter a caracter (como em um vetor) ou através da função strcmp (string compare).</p>
 
 <p><b>int strcmp(const char *string1,const char *string2)</b> - Compara duas strings e determina a ordem (alfabetica) das duas.</p>
+
+<p>Exemplo de comparação manual e através da função strcmp.</p>
+
+
+``` C runnable
+#include<string.h>
+#include<stdio.h>
+int main() {
+  char origem[16] = {'T', 'E', 'S','T','E',' ', 'D','E', ' ', 'S','T','R','I','N','G','\0'};
+  char destino[16];
+  int i;
+  /* Movimentação Manual */
+  for (i= 0; i < 16; i++) {
+     destino[i] = origem[i];
+  }
+  printf("\nManual\nOrigem = %s\n\nDestino = %s", origem, destino);
+
+  /*Movimentação com Strcpy*/
+  strcpy(destino, origem);
+   printf("\n\nCom Funcao\nOrigem = %s\n\nDestino = %s", origem, destino);
+}
+
+```
+
 
 int strlen(const char *string) Retorna o tamanho de uma
 string.
