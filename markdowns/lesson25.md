@@ -8,3 +8,13 @@
 
 + Podemos, por exemplo, representar a string "Ola Mundo!" da seguinte maneira: 
 ![programa](/markdowns/olamundo.gif)
+
+---
+Declaração de Cadeias de caracteres
+---
+A declaração de uma string em C é semelhante a declaração de um  vetor do tipo char. O número máximo de caracteres que comportará a cadeia será igual ao número de elementos do vetor menos um (reservado para o caractere do final da cadeia), por exemplo, se definirmos uma cadeia de caracteres de tamanho 30, ela conterá 20 caracteres + '\0'. 
+
+```
+char Nome_da_tabela[Número_de_elementos]
+```
+
