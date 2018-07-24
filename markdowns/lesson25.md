@@ -48,7 +48,7 @@ int main(){
 ```
 
 Outra maneira (mais simples) de inicializarmos uma cadeia de caracteres é na sua declaração, como no exmplo abaixo: 
-``` C  runnable
+``` C runnable
 #include <stdio.h> 
 int main(){ 
  char Cadeia[12] = {'L', 'i', 'n', 'g', 'u', 'a', 'g', 'e', 'm', ' ', 'C', '\0'}; 
