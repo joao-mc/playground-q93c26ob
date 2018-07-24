@@ -57,4 +57,4 @@ int main(){
  }
 ```
 
-#include <stdio.h> void main(){ char Cadeia[20+1]={ 'B', 'o', 'n', 'j', 'o', 'u', 'r', '\0' }; }
+#include <stdio.h> void main(){ char Cadeia[20+1]={ 'B', 'o', 'n', 'j', 'o', 'u', 'r', '\0' }; 
