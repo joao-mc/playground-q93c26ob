@@ -1,4 +1,4 @@
-A utilização de funções da biblioteca padrão para manipulação de cadeia de caracteres.
+Utilizar funções de manipulação de cadeias fornecidas na biblioteca padrão (String.h)
 ---
 A movimentação de valores de/para as cadeias de caracteres não pode ser efetuadas diretamente, mas apenas através de funções de manipulação de cadeias de caracteres. Estas funções estão no cabeçalho do arquivo <b><string.h></b>: 
 
@@ -6,8 +6,14 @@ A movimentação de valores de/para as cadeias de caracteres não pode ser efetu
 
 Nesse momento, apresentaremos apenas as funções mais importantes de manipulação de Strings.
 
-1) mover caracteres para uma varriável string. A movimentação pode ser efetuada caracter a caracter (com vetor) ou através da função strcpy (string copy).
-char *stpcpy (const char *dest,const char *src) Copia uma string em outra.
+1) mover caracteres para uma variável string. A movimentação pode ser efetuada caracter a caracter (com vetor) ou através da função strcpy (string copy).
+<b>char *stpcpy (const char *dest,const char *src)</b> - Copia uma string em outra.
+Exemplo de movimentação manual e através da função strcpy.
+---
+``` C runnable
+
+```
+
 
 int strcmp(const char *string1,const char *string2) Compara duas strings e
 determina a ordem
