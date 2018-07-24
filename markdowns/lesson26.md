@@ -37,6 +37,11 @@ int main() {
 
 <p><b>int strcmp(const char *string1,const char *string2)</b> - Compara duas strings e determina a ordem (alfabetica) das duas.</p>
 
+– Usamos os códigos dos caracteres para determinar precedência
+– Retorno:
+• Se s1 preceder s2 -> -1
+• Se s2 preceder s1 -> 1
+
 <p>Exemplo de comparação manual e através da função strcmp.</p>
 
 
