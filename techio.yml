@@ -26,7 +26,7 @@ plan:
     statement: /markdowns/lesson24.md      
   - title: Cadeia de Caracteres
     statement: /markdowns/lesson25.md  
-   - title: Cadeia de Caracteres
+  - title: Cadeia de Caracteres
     statement: /markdowns/lesson26.md     
 projects:
   cpp:
