@@ -10,7 +10,8 @@ Nesse momento, apresentaremos apenas as funções mais importantes de manipulaç
 <p>A movimentação pode ser efetuada caracter a caracter (como em um vetor) ou através da função strcpy (string copy).</p>
 <p><b>char *stpcpy (const char *dest,const char *src)</b> - Copia uma string de <b>src</b> para outra string <b>dest</b>.</p>
 <p>Exemplo de movimentação manual e através da função strcpy.</p>
----
+
+
 ``` C runnable
 #include<string.h>
 #include<stdio.h>
