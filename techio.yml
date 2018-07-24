@@ -25,7 +25,9 @@ plan:
   - title: Funções em C
     statement: /markdowns/lesson24.md      
   - title: Cadeia de Caracteres
-    statement: /markdowns/lesson25.md       
+    statement: /markdowns/lesson25.md  
+   - title: Cadeia de Caracteres
+    statement: /markdowns/lesson26.md     
 projects:
   cpp:
     root: /cpp-project
