@@ -1,4 +1,5 @@
-Movimentação de valores 
+A utilização de funções da biblioteca padrão para manipulação de cadeia de caracteres.
+---
 A movimentação de valores de/para as cadeias de caracteres não pode ser efetuadas diretamente, mas apenas através de funções de manipulação de cadeias de caracteres. Estas funções estão no cabeçalho do arquivo <b><string.h></b>: 
 
 <b>#include <string.h></b>
