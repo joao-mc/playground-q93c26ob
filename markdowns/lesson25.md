@@ -29,7 +29,7 @@ Exemplo de inicialização manual de cadeia de caracteres (para impressão de ca
 ``` C runnable
 #include <stdio.h> 
 int main(){ 
- char Cadeia[11]; 
+ char Cadeia[12]; 
  Cadeia[0]= 'L'; 
  Cadeia[1]= 'i'; 
  Cadeia[2]= 'n'; 
@@ -51,7 +51,7 @@ Outra maneira (mais simples) de inicializarmos uma cadeia de caracteres é na su
 ``` C 
 #include <stdio.h> 
 int main(){ 
- char Cadeia[11] = {'L', 'i', 'n', 'g', 'u', 'a', 'g', 'e', 'm', ' ', 'C',  '\0'}; 
+ char Cadeia[12] = {'L', 'i', 'n', 'g', 'u', 'a', 'g', 'e', 'm', ' ', 'C', '\0'}; 
  
  printf("%s",Cadeia);
  }
