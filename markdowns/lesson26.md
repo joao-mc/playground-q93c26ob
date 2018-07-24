@@ -12,13 +12,29 @@ Nesse momento, apresentaremos apenas as funções mais importantes de manipulaç
 Exemplo de movimentação manual e através da função strcpy.
 ---
 ``` C runnable
+#include<string.h>
+#include<stdio.h>
+int main() {
+  char origem[16] = {'T', 'E', 'S','T','E',' ', 'D','E', ' ', 'S','T','R','I','N','G','\0'};
+  char destino[16];
+  int i;
+  /* Movimentação Manual */
+  for (i= 0; i < 16; i++) {
+     destino[i] = origem[i];
+  }
+  printf("\nManual\nOrigem = %s\n\nDestino = %s", origem, destino);
+
+  /*Movimentação com Strcpy*/
+  strcpy(destino, origem);
+   printf("\n\nCom Funcao\nOrigem = %s\n\nDestino = %s", origem, destino);
+}
 
 ```
+2) Comparação de Strings.
+<p>A comparação pode ser efetuada caracter a caracter (como em um vetor) ou através da função strcmp (string compare).</p>
 
+<p><b>int strcmp(const char *string1,const char *string2)</b> - Compara duas strings e determina a ordem (alfabetica) das duas.</p>
 
-int strcmp(const char *string1,const char *string2) Compara duas strings e
-determina a ordem
-(alfabetica) das duas
 int strlen(const char *string) Retorna o tamanho de uma
 string.
 char *strncat(const char *string1, char *string2,
