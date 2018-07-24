@@ -7,4 +7,5 @@
 + Este caractere é um caractere de controle (ou seja, não exibível) que indica o fim de uma cadeia de caracteres. Assim, uma cadeia composta de n elementos será, na realidade, um vetor de n +1 elementos do tipo char. 
 
 + Podemos, por exemplo, representar a string "Ola Mundo!" da seguinte maneira: 
+
                               ![programa](/markdowns/olamundo.gif)
