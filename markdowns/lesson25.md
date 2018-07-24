@@ -25,7 +25,7 @@ Inicialização de cadeia de caracteres
   + Mover manualmente os dados, célula por célula; ou
   + Utilizar funções de manipulação de cadeias de fornecidas nas bibliotecas padrão
 
-Exemplo de inicialização manual de cadeia de caracteres (para impressão de cadeia de caracteres com o comando <b>printf</b> devemos utilizar o caracter formatção <b>"%s"</b> : 
+Exemplo de inicialização manual de cadeia de caracteres (para impressão de cadeia de caracteres com o comando <b>printf</b> devemos utilizar o caracter formatação <b>"%s"</b> : 
 ``` C runnable
 #include <stdio.h> 
 int main(){ 
@@ -48,7 +48,7 @@ int main(){
 ```
 
 Outra maneira (mais simples) de inicializarmos uma cadeia de caracteres é na sua declaração, como no exmplo abaixo: 
-``` C 
+``` C  runnable
 #include <stdio.h> 
 int main(){ 
  char Cadeia[12] = {'L', 'i', 'n', 'g', 'u', 'a', 'g', 'e', 'm', ' ', 'C', '\0'}; 
