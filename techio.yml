@@ -27,7 +27,9 @@ plan:
   - title: Cadeia de Caracteres
     statement: /markdowns/lesson25.md  
   - title: Cadeia de Caracteres
-    statement: /markdowns/lesson26.md     
+    statement: /markdowns/lesson26.md  
+  - title: Estrutura de Dados Heterogênea (Struct)
+    statement: /markdowns/lesson27.md       
 projects:
   cpp:
     root: /cpp-project
