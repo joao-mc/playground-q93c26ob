@@ -8,19 +8,19 @@
 + A linguagem C possui uma estrutura denominada <b>struct</b> que permite agrupar um conjunto de informações de tipos diferentes cob um mesmo nome.
  ```
  Declaração:
-     struct <nome da Estrutura> {
+     struct {
        tipo_de_dado1 <Nome das Varáveis1>;
        tipo_de_dado2 <Nome das Variáveis2>;
        ....
        tipo_de_dadoN <Nome das VariáveisN>;
-     };
+     } nome_Variavel_struct;
      
      Exemplo:
-      struct Funcionario {
+      struct{
        int    matricula;
-       string nome;
-       string dataNasc;
-       string cargo;
+       string nome[30];
+       string dataNasc[9];
+       string cargo[20];
        float  salario
-     };
+     }func;
      ```
