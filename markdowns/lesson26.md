@@ -6,7 +6,7 @@ A movimentação de valores de/para as cadeias de caracteres não pode ser efetu
 
 Nesse momento, apresentaremos apenas as funções mais importantes de manipulação de Strings.
 
-+ mover caracteres para uma variável string. 
++ Mover caracteres para uma variável string. 
 
 <p>A movimentação pode ser efetuada caracter a caracter (como em um vetor) ou através da função strcpy (string copy).</p>
 <p><b>char *stpcpy (const char *dest,const char *src)</b> - Copia uma string de <b>src</b> para outra string <b>dest</b>.</p>
@@ -92,6 +92,7 @@ int main() {
 + Tamanho da cadeia de caracteres
 <p>Informa a quantidade de caracteres (tamanho) em uma cadeia de caracteres, excetuando o caracter de fim da string('\0').</p>
    <p><b>int strlen(const char *string)</b> - Retorna o tamanho de uma string.</p>
+<p>Exemplo de Tamanho de String.</p>
 
 ``` C runnable
 #include<string.h>
@@ -112,17 +113,23 @@ int main() {
 }
 
 ```
++ União (Concatenção) da cadeia de caracteres
+<p>Concatena caracteres de duas cadeias de caracteres em uma string.</p>
+   <p><b>char *strcat(const char *string1, char *string2)</b> - Concatena n caracteres da string2 na string1.</p>
+<p>Exemplo de Concatenação de Strings.</p>
 
-char *strncat(const char *string1, char *string2,size_t n)
-Concatena n caracteres da
-string2 na string1.
-int strncmp(const char *string1, char *string2, size_t
-n)
-Compara os n primeiros
-caracteres de duas strings.
-char *strncpy(const char *string1,const char *string2,
-size_t n)
-Copia os n primeiros caracteres
-da string1 na string2
-int strcasecmp(const char *s1, const char *s2) Versão case insensitive de
-strcmp(). 
+``` C runnable
+#include<string.h>
+#include<stdio.h>
+int main() {
+  char str1[] = {'Q', 'U', 'A','L',' ','E',' ','\0'};
+  char str2[] = {'A',' ', 'M','I','N','H','A', ' ','S', 'T', 'R','I','N','G','\0'};
+
+  printf("\n\nString 1= %s\n\nString2 =%s", str1,str2);
+  strcat(str1,str2);
+  printf("\n\nNova String 1= %s", str1);
+
+}
+
+```
+
