@@ -17,7 +17,7 @@
      
      Exemplo:
       struct Funcionario {
-       <b>int</b>    matricula;
+       int    matricula;
        string nome;
        string dataNasc;
        string cargo;
