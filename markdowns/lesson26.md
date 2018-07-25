@@ -52,7 +52,7 @@ int main() {
 #include<stdio.h>
 int compara(char s1[],char s2[]) {
     int i;
- for (i=0; s1[i] != '\0' && s2[i] != '\0'; i++) {
+ for (i=0; s1[i] != '\0' && s2[i] != '\0'; i++) { // teste do for fica falso quando uma das strings chegar ao fim, ou pelo return
      if (s1[i] < s2[i])
         return -1;
      else
