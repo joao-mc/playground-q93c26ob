@@ -115,15 +115,15 @@ int main() {
 ```
 + União (Concatenção) da cadeia de caracteres
 <p>Concatena caracteres de duas cadeias de caracteres em uma string.</p>
-   <p><b>char *strcat(const char *string1, char *string2)</b> - Concatena n caracteres da string2 na string1.</p>
+   <p><b>char *strcat(const char *string1, char *string2)</b> - Concatena os caracteres da string2 na string1.</p>
 <p>Exemplo de Concatenação de Strings.</p>
 
 ``` C runnable
 #include<string.h>
 #include<stdio.h>
 int main() {
-  char str1[] = {'Q', 'U', 'A','L',' ','E',' ','\0'};
-  char str2[] = {'A',' ', 'M','I','N','H','A', ' ','S', 'T', 'R','I','N','G','\0'};
+  char str1[22] = {'Q', 'U', 'A', 'L',' ','E',' ','\0'};
+  char str2[15] = {'A',' ', 'M','I','N','H','A', ' ','S', 'T', 'R','I','N','G','\0'};
 
   printf("\n\nString 1= %s\n\nString2 =%s", str1,str2);
   strcat(str1,str2);
