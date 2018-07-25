@@ -89,11 +89,30 @@ int main() {
 
 ```
 
++ Tamanho da cadeia de caracteres
+<p>Informa a quantidade de caracteres (tamanho) em uma cadeia de caracteres, excetuando o caracter de fim da string('\0').</p>
+   <p><b>int strlen(const char *string)</b> - Retorna o tamanho de uma string.</p>
+``` C runnable
+#include<string.h>
+#include<stdio.h>
+int main() {
+  char str1[] = {'Q', 'U', 'A','L',' ','E', 'O', ' ','M','E','U',' ','T','A','M','A','N','H','O','\0'};
+  char str2[] = {'E',' ','A',' ', 'M','I','N','H','A', ' ','S', 'T', 'R','I','N','G','\0'};
+  char str3[] = {'T', 'E', 'S','T','E',' ', 'D','E', ' ', 'S','T','R','I','N','G','\0'};
+  int tam1, tam2, tam3;
 
-int strlen(const char *string) Retorna o tamanho de uma
-string.
-char *strncat(const char *string1, char *string2,
-size_t n)
+  tam1 = strlen(str1);
+  printf("\n\nTamanho da String 1= %d", tam1);
+  tam2 = strlen(str2);
+  printf("\n\nTamanho da String 2= %d", tam2);
+  tam3 = strlen(str3);
+  printf("\n\nTamanho da String 3= %d", tam3);
+
+}
+
+```
+
+char *strncat(const char *string1, char *string2,size_t n)
 Concatena n caracteres da
 string2 na string1.
 int strncmp(const char *string1, char *string2, size_t
