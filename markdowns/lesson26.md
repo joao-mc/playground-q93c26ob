@@ -92,6 +92,7 @@ int main() {
 + Tamanho da cadeia de caracteres
 <p>Informa a quantidade de caracteres (tamanho) em uma cadeia de caracteres, excetuando o caracter de fim da string('\0').</p>
    <p><b>int strlen(const char *string)</b> - Retorna o tamanho de uma string.</p>
+
 ``` C runnable
 #include<string.h>
 #include<stdio.h>
