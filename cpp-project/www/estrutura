@@ -1,5 +1,5 @@
 Para exibição do IDE, selecione a tecla <RUN> abaixo.
-Após ativado, o IDE exibe um programa com o exemplo de funcionamento d Estrutura de Dados Heterogêneas (Struct) <scanf>. 
+Após ativado, o IDE exibe um programa com o exemplo de funcionamento da Estrutura de Dados Heterogêneas (Struct). 
 A execução do programa acontece da seguinte forma:
     - Ao executar a função scanf, o processamento para aguardando você digitar os valores dos campos da Struct.
     - O comando <printf> exibe o conteúdo dos campos da struct contendo os valores digitados por você.
