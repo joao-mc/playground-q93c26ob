@@ -27,5 +27,6 @@
  + A variável <b>func</b> é do tipo registro (struct) e, para individualizar cada dado (nesse caso é denominado de campo), basta colocar o nome da variável seguido de um ponto seguido com o nome do campo.
     ex: <b>func.matricula</b>
 + O exemplo a seguir cria a estrutura funcionário, lê as informações de cada um dos campos e exibe o que foi lido.
+
 @[IDE]({"stubs": ["./www/estrutura"],"command": "sh /project/target/www/estrutura.sh" })
 
