@@ -1,5 +1,7 @@
 # Estruturas de dados Heterogêneas(Union e Enum)
-
+---
+Union
+---
 + As estruturas de dados do tipo <b>Union</b> permite armazenar diferentes tipos de dados no mesmo local de memória. 
 + A grande vantagem dessa estrutura esta na organização da memória, e no seu reaproveitamento, isto é, as unions fornecem uma maneira eficiente de usar o mesmo local de memória para vários propósitos.
 ---
@@ -39,3 +41,7 @@ int main( ) {
    return 0;
 }
 ```
+---
+Enum
+---
+
