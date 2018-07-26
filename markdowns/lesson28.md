@@ -44,4 +44,4 @@ int main( ) {
 ---
 Enum
 ---
-
++ As Enumerações, são um tipo definido pelo usuario, utilizando se de uma lista de identificadores. Os indentificadores desta lista, se assemelham a constantes.
