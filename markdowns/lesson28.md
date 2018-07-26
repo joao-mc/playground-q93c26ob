@@ -1,5 +1,5 @@
 # Estruturas de dados Heterogêneas(Union e Enum)
----
+
 Union
 ---
 + As estruturas de dados do tipo <b>Union</b> permite armazenar diferentes tipos de dados no mesmo local de memória. 
