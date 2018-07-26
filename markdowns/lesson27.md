@@ -23,4 +23,33 @@
        string cargo[20];
        float  salario
      }func;
-     ```
+ ```
+ + A variável <b>func</b> é do tipo registro (struct) e, para individualizar cada dado (nesse caso é denominado de campo), basta colocar o nome da variável seguido de um ponto seguido com o nome do campo.
+    ex: <b>func.matricula</b>
++ O exemplo a seguir cria a estrutura funcionário, lê as informações de cada um dos campos e exibe o que foi lido.
+``` C runnable
+#include<stdio.h>
+
+int main() {
+ struct {
+       int    matricula;
+       char nome[30];
+       char dataNasc[9];
+       char cargo[20];
+       float  salario;
+     }func;
+  printf("\n\nDigite a matricula: ");
+  scanf("%d", &func.matricula);
+  printf("\n\nDigite o nome: ");
+  scanf("%s", &func.nome);
+  printf("\n\nDigite a Data Nascimento: ");
+  scanf("%s", &func.dataNasc);
+  printf("\n\nDigite o cargo: ");
+  scanf("%s", &func.cargo);
+  printf("\n\nDigite o salario: ");
+  scanf("%f", &func.salario);
+
+  printf("\n\nFuncionario: %s \n\nMatricula:%d\n\nNascimento:%s\n\ncargo:%s\n\nSalario:%f",&func.nome ,func.matricula,&func.dataNasc,func.cargo,func.salario );
+}
+
+```
