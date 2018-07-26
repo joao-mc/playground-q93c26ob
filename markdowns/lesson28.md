@@ -47,7 +47,7 @@ Enum
 + As Enumerações, são um tipo definido pelo usuario, utilizando se de uma lista de identificadores. Os indentificadores desta lista, se assemelham a constantes.
 + As enumerations definem um novo tipo de variável e limita desde logo os valores.
 
- <b> enum colors {black, blue, green, cyan, red, purple, yellow, white};</b>
+ <b> enum cores {black, blue, green, cyan, red, purple, yellow, white};</b>
 + A maneira mais simples de interpretar uma enumeration é imagina-la como uma matriz de apenas uma linha. Temos o nome da linha de temos as várias células na linha. Cada constante enumerada (muitas vezes chamado de enumerator) tem um valor inteiro (caso não seja especificado ele começa em zero)
 
 Exemplo:
