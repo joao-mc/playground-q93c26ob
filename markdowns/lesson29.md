@@ -18,20 +18,13 @@ Faça um programa C para calular o número de lâmpadas 60 watts necessárias pa
 
 Exercício 3
 ---
-Faça um programa que receba uma frase (máximo 100 caracteres) e uma letra qualquer, calcule e mostre a quantidade que essa letra aparece na frase digitada. 
-<p>Dica: Utilizar a função <b>strlen</b> descobrir o tamanho do texto digitado</p> 
+Faça um programa que receba uma frase (máximo 100 caracteres) e uma letra qualquer, calcule e mostre a quantidade que essa letra aparece na frase digitada. Para descobrir o tamanho da frase digitada utilize a função <b>strlen</b>.
 
 
+Exercício 4
+---
+Faça um programa que controle os estoque de 4 produtos e 4 armazéns de um supermercado, conforme figura abaixo: 
 
-que usa, para guardar informações, um vetor e uma matriz:
-a) uma matriz bidimensional ESTOQUE na qual a primeira dimensão (linhas) corresponde aos 50 produtos vendidos na empresa e a segunda dimensão (colunas), às 4 lojas da
-empresa;
-b) um vetor ESTOQUE_TOTAL onde são armazenados os totais em estoque de cada produto no conjunto das 4 lojas (soma do produto em todas as lojas).
-Faça:
-a) um procedimento que preencha a matriz ESTOQUE;
-b) um procedimento que atualize o vetor ESTOQUE_TOTAL a partir dos dados da
-matriz;
-c) um procedimento que emita um relatório com os códigos (iguais aos índices) dos
-produtos que apresentam estoque inferior a 10 unidades em qualquer uma das lojas,
-indicando também em qual a loja;
-d) um programa que use os procedimentos anteriores.
+![programa](/markdowns/estoque.png)
+
+
