@@ -9,7 +9,7 @@ Definindo uma Union
 ---
 + Para definir uma union, você deve usar a instrução union da mesma forma que definiu uma estrutura. 
 + A instrução union define um novo tipo de dados com mais de um membro para o seu programa. 
-+ O formato da declaração da união é o seguinte -
++ O formato da declaração da <b>union</b> é o seguinte -
 ``` 
 union [Nome_do_Tipo_Union] {
    Tipo_de_dado1 variavel1;
@@ -46,10 +46,58 @@ Enum
 ---
 + As Enumerações, são um tipo definido pelo usuario, utilizando se de uma lista de identificadores. Os indentificadores desta lista, se assemelham a constantes.
 + As enumerations definem um novo tipo de variável e limita desde logo os valores.
-
- <b> enum cores {black, blue, green, cyan, red, purple, yellow, white};</b>
++ O formato da declaração da <b>enum</b>  é o seguinte -
+```
+enum [Nome_do_Tipo_enum] {
+   identificador1,
+   identificador2;
+   ...
+   identificadorN;
+} [uma ou mais variaveis enum];  
+```
++ Exemplo:
+ <b> enum {black, blue, green, cyan, red, purple, yellow, white} cores;</b>
 + A maneira mais simples de interpretar uma enumeration é imagina-la como uma matriz de apenas uma linha. Temos o nome da linha de temos as várias células na linha. Cada constante enumerada (muitas vezes chamado de enumerator) tem um valor inteiro (caso não seja especificado ele começa em zero)
 
 Exemplo:
 
 ![programa](/markdowns/enum.png)
+``` C runnable
+#include <stdio.h>
+ int main(void)
+ {
+    enum { black, blue, green, cyan, red, purple, yellow, white} cores;
+
+    cores = green;
+
+     switch(cores) {
+         case 0:
+           printf("Cor preto \n");
+           break;
+         case 1:
+           printf("Cor azul \n");
+           break;
+         case 2:
+           printf("Cor verde \n");
+           break;
+         case 3:
+           printf("Cor ciano \n");
+           break;
+         case 4:
+           printf("Cor vermelho \n");
+           break;
+         case 5:
+           printf("Cor roxo \n");
+           break;
+         case 6:
+           printf("Cor amarelo \n");
+           break;
+         default:
+           printf("Cor branco \n");
+     }
+  return  0 ;
+
+ }
+
+```
+
