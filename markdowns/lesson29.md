@@ -18,7 +18,7 @@ Faça um programa C para calular o número de lâmpadas 60 watts necessárias pa
 
 Exercício 3
 ---
-Faça um programa que receba uma frase (máximo 100 caracteres) e uma letra qualquer, calcule e mostre a quantidade que a letra aparece na frase digitada. 
+Faça um programa que receba uma frase (máximo 100 caracteres) e uma letra qualquer, calcule e mostre a quantidade que essa letra aparece na frase digitada. 
 <p>Dica: Utilizar a função <b>strlen</b> descobrir o tamanho do texto digitado</p> 
 
 
