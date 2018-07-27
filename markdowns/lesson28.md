@@ -100,4 +100,11 @@ Exemplo:
  }
 
 ```
++ Enum permite que o usuário possa definir o valor tipo
+
+ <b>enum  {quadrado=5, rectangulo,triangulo=27, circulo, elipse} forma;</b>
+ 
++ Os valores dos identificadores serão:
+
+![programa](/markdowns/enum1.png)
 
