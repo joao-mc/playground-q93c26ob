@@ -16,6 +16,12 @@ Faça um programa C para calular o número de lâmpadas 60 watts necessárias pa
 
 ![programa](/markdowns/potencia.png)
 
+Exercício 3
+---
+Faça um programa que receba uma frase (máximo 100 caracteres) e uma letra qualquer, calcule e mostre a quantidade que a letra aparece na frase digitada. 
+<p>Dica: Utilizar a função <b>strlen</b> descobrir o tamanho do texto digitado</p> 
+
+
 
 que usa, para guardar informações, um vetor e uma matriz:
 a) uma matriz bidimensional ESTOQUE na qual a primeira dimensão (linhas) corresponde aos 50 produtos vendidos na empresa e a segunda dimensão (colunas), às 4 lojas da
