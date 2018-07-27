@@ -12,7 +12,7 @@ Exercício 2
 ---
 Faça um programa C para calular o número de lâmpadas 60 watts necessárias para um determinado cômodo. O programa deverá ler um conjunto de informações, tais como: tipo de cômodo, largura e comprimento do cômodo. O programa termina quando o tipo de cômodo for igual -1. A tabela abaixo mostra, para cada tipo de cômodo, a quantidade de watts por metro quadrado.
 <p>Dica: Usar uma função (CalulaArea) para calcular a área do cômodo. Os atributos de entrada serão a largura e comprimento do cômodo. Usar uma função (Lampada) para calcular a quantidade de lâmpadas necesárias para o cômodo. O atributo de entrada será o tipo de cômodo</p>
-![programa](/markdowns/projetos.png)
+![programa](/markdowns/potencia.png)
 
 
 que usa, para guardar informações, um vetor e uma matriz:
