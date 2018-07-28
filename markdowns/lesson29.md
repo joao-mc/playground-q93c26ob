@@ -32,7 +32,7 @@ int main(){
    printf("\n\nDigite o Valor : ");
    scanf("%f", &boleto.valor);
    printf("\n\nDigite o tipo de transação (R ou D): ");
-   fflush(stdin);//limpar o teclado do Enter anterior
+   getchar();//limpar o teclado do Enter anterior
    scanf("%c", &boleto.tipo);
 
    if (boleto.tipo == 'R' || boleto.tipo == 'r') {
