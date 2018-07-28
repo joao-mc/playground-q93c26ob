@@ -23,8 +23,11 @@ Faça um programa que receba uma frase (máximo 100 caracteres) e uma letra qual
 
 Exercício 4
 ---
-Faça um programa que controle os estoque de 4 produtos e 4 armazéns de um supermercado, conforme figura abaixo: 
+Faça um programa que controle os estoque de 5 produtos em 5 armazéns de um supermercado, conforme figura abaixo: 
 
 ![programa](/markdowns/estoque.png)
 
+O programa deverá ler o número da linha e da coluna, correspondete ao produto no armazem, e a quantidade a ser retirada do estoque. Caso a quantidade solicitada for menor ou igual a quantidade em estoque, o programa deverá emitir uma mensagem de atendiemtneo e dar baixa no estoque. Do contrário, emitir mensagem, "Estoque com quantidade insuficiente para atender ao pedido. O programa termina quando o numero da linha for igual a -1.
+Utilize a declaração anbaixo para resolver o exercício:
+int estoque[5][5]= {{150,0,100,150,200}, {200,300,230,100,90}, {250,300,0,200,150}, {300,100,90,450,0},{350,300,400,250,200}}
 
