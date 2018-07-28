@@ -9,6 +9,56 @@ Sabe-se que Receita deve ser somada ao saldo do projeto e despesa subtraída do 
 
 ![programa](/markdowns/projetos.png)
 
+@[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
+})
+::: Solução
+
+``` C
+#include<stdio.h>
+int main(){
+ float projetos[10];
+ int i;
+ struct {
+  int numero;
+  float valor;
+  char tipo;
+  } boleto;
+  /* Inicializar o vetor*/
+  for (i=0; i < 10; i++){
+    projetos[i] = 0.0;
+  }
+
+  printf("\n\nDigite o código do projeto: ");
+  scanf("%d", &boleto.numero);
+  while (boleto.numero != -1) {
+   printf("\n\nDigite o Valor : ");
+   scanf("%f", &boleto.valor);
+   printf("\n\nDigite o tipo de transação (R ou D): ");
+   fflush(stdin);//limpar o teclado do Enter anterior
+   scanf("%c", &boleto.tipo);
+
+   if (boleto.tipo == 'R' || boleto.tipo == 'r') {
+      projetos[boleto.numero] = projetos[boleto.numero] + boleto.valor;
+   }
+   else {
+    if (boleto.tipo == 'D' || boleto.tipo == 'd') {
+      projetos[boleto.numero] = projetos[boleto.numero] - boleto.valor;
+    }
+    else {
+      printf("Tipo Inválido !!");
+    }
+   }
+   printf("\n\nDigite o código do projeto: ");
+   scanf("%d", &boleto.numero);
+  }
+  for (i=0; i < 10; i++){
+    printf("\nSaldo do projeto %d = %f",i, projetos[i]);
+  }
+}
+```
+:::
+----
+
 Exercício 2
 ---
 Faça um programa C para calular o número de lâmpadas 60 watts necessárias para um determinado cômodo. O programa deverá ler um conjunto de informações, tais como: tipo de cômodo, largura e comprimento do cômodo. O programa termina quando o tipo de cômodo for igual -1. A tabela abaixo mostra, para cada tipo de cômodo, a quantidade de watts por metro quadrado.
