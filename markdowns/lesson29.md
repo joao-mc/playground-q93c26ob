@@ -131,7 +131,7 @@ int main(){
 Exercício 3
 ---
 Faça um programa que receba uma frase (máximo 100 caracteres) e uma letra qualquer, calcule e mostre a quantidade que essa letra aparece na frase digitada. Para descobrir o tamanho da frase digitada utilize a função <b>strlen(cadeia de caracteres)</b>.
-
+<p>Dica: Usar <b>%s</b> na função <b>scanf</b> para realizar a leitura da frase.</p>
 
 Exercício 4
 ---
