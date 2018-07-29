@@ -7,9 +7,9 @@
 
 -[ ] int matriz[5].
 
--[x] int matriz[4][4].
+-[ ] 30.
 
--[ ] int matriz[5][5].
+-[x] 0.
 
 -[ ] int matriz[4].
 
