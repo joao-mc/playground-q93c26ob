@@ -17,6 +17,8 @@
 
 + Agora podemos começar a definir <b>Ponteiros</b>.
 + Ponteiros são variáveis que armazenam endereços (de outras variáveis) ao invés de amazenar valor. O conteúdo de uma variável ponteiro é o endereço de outra variável. 
-+ Suponha que você defina a variável <b>Ptr</b> como sendo ponteiro e armazene o endereço 3001. Essa variável estará armazenando o endereço da variável "Total", conforme figura abaixo:
++ Suponha que você defina a variável <b>Ptr</b> como sendo ponteiro e armazene o endereço 3001. Essa variável estará armazenando o endereço da variável <b>Total</b>, conforme figura abaixo:
 
 ![figura3](/markdowns/memoria3.png) 
+
+Assim dizemos que a variável <b>Ptr</b> está "apontando" para variável <b>Total<b>, isto é, qualquer alteração em <b>Ptr</b> irá alterar o conteúdo de <b>Total</b>.
