@@ -6,5 +6,11 @@ Aqui você encontra a descrição dos conceitos, testes e exercícios como forma
 Aproveitem,
 
 Marco Vaz
+---
+PS -> Atenção estamos tendo problemas no carregamento dos IDE's externos (Repl.it e Paiza.io). Caso tenha problemas tente resetar o código
+do IDE. Uma mensagem de confirmação será exibida selecione "YES". Por fim selecione o botão success novamente até carregar. Veja as figuras abaixo.
+![figura](/markdowns/ide.png)      ![figura1](/markdowns/confirma.png)
 
-PS -> Atenção estamos tendo problemas no carregamento dos IDE's externos (Repl.it e Paiza.io). Tente resetar o código do IDE e tente novamente até carregar.
+---
+
+
