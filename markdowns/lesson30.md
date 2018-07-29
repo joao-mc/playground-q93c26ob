@@ -12,4 +12,5 @@
 
 + Agora você move o valor 100 para a variável Total (total = 100;), o programa procura o endereço da vairável e move o valor.
 
+![figura2](/markdowns/memoria2.png)  
 
