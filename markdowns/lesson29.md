@@ -132,7 +132,39 @@ Exercício 3
 ---
 Faça um programa que receba uma frase (máximo 100 caracteres) e uma letra qualquer, calcule e mostre a quantidade que essa letra aparece na frase digitada. Para descobrir o tamanho da frase digitada utilize a função <b>strlen(cadeia de caracteres)</b>.
 <p>Dica: Usar a função <b>gets(cadeia de caracteres)</b> - biblioteca <b>sring.h</b> para realizar a leitura da frase. A função <b>scanf</b> só realiza leitura até o primeiro espaço em branco. </p>
+@[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
+})
+::: Solução
 
+``` C
+#include<stdio.h>
+#include<string.h>
+int main(){
+ char frase[101];
+ char letra;
+ int i, cont, tam ;
+
+ printf("\n\nDigite uma frase (Max. 100 caracteres): ");
+ gets(frase);
+ tam = strlen(frase);
+ printf("\n\nDigite a letra que você deseja procurar: ");
+ scanf("%c",&letra);
+
+ cont =0;
+ i=0;
+ while (i <= tam) {
+
+   if (frase[i] == letra) {
+     cont = cont + 1;
+   }
+   i++;
+ }
+ printf("\n\nA letra \'%c\' apareceu %d vezes", letra, cont);
+
+}
+```
+:::
+----
 Exercício 4
 ---
 Faça um programa que controle os estoque de 5 produtos em 5 armazéns de um supermercado, conforme figura abaixo: 
