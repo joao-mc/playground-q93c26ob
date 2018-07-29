@@ -19,7 +19,9 @@ plan:
   - title: Estrutura de Dados Homogênea (Matriz)
     statement: /markdowns/lesson202.md  
   - title: Estrutura de Dados Homogênea (Matriz)
-    statement: /markdowns/lesson203.md     
+    statement: /markdowns/lesson203.md   
+  - title: Vamos Praticar?
+    statement: /markdowns/lesson204.md       
   - title: Funções em C
     statement: /markdowns/lesson23.md   
   - title: Funções em C
