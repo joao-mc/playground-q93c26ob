@@ -20,7 +20,7 @@ plan:
     statement: /markdowns/lesson202.md  
   - title: Estrutura de Dados Homogênea (Matriz)
     statement: /markdowns/lesson203.md   
-  - title: Vamos Praticar?
+  - title: Vamos Praticar(Vetor/Matriz)?
     statement: /markdowns/lesson204.md       
   - title: Funções em C
     statement: /markdowns/lesson23.md   
