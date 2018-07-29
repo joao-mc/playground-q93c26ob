@@ -7,6 +7,8 @@ Exercício 1
 
 ![programa](/markdowns/projetos.png)
 
+@[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
+})
 
 ::: Solução
 
@@ -63,6 +65,9 @@ Faça um programa C para calular o número de lâmpadas 60 watts necessárias pa
 <p>Obs: Utilize a função <b>ceil(numero)</b> em <b>#include math.h </b> para realizar o arrendondamento para cima.</p>
 
 ![programa](/markdowns/potencia.png)
+
+@[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
+})
 
 ::: Solução
 
