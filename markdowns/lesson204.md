@@ -1,7 +1,8 @@
-Dada a seguinte Matriz:
+<p>Dada a seguinte Matriz:</p>
+
 ![while](/markdowns/matrix.png)
 
-Responda as perguntas abaixo:
+<p>Responda as perguntas abaixo:</p>
 ?[Assinale a alternativa correta com relação a declaração da matriz acima :]
 
 -[ ] int matriz[5].
