@@ -1,4 +1,4 @@
-<p>Dada a seguinte Matriz:</p>
+<p>Dada a seguinte Matriz - matriz:</p>
 
 ![while](/markdowns/matrix.png)
 
@@ -23,3 +23,17 @@
 -[x] 0.
 
 -[ ] 24.
+
+Dado o vetor - vet abaixo:
+
+![figura](/markdowns/vet.png)
+
+?[Qual é o valor da expressão vet[vet[0]]  :]
+
+-[ ] 4.
+
+-[ ] 7.
+
+-[ ] 2.
+
+-[x] 5.
