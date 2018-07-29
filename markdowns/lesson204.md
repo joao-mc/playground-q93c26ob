@@ -5,13 +5,13 @@
 <p>Responda as perguntas abaixo:</p>
 ?[Assinale a alternativa correta com relação a declaração da matriz acima :]
 
--[ ] int matriz[5].
+-[ ] 270.
 
 -[ ] 30.
 
 -[x] 0.
 
--[ ] int matriz[4].
+-[ ] 300.
 
 ?[Qual é o valor da expressão matriz[2][2] * matriz[1][1] :]
 
