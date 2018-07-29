@@ -56,3 +56,28 @@ int main(){
  printf("%s",Cadeia);
  }
 ```
+
+---
+ATENÇÃO
+---
+O comando <b>scanf</b> não elimina o caracter <b>Enter('\0')</b>, portanto em variáveis do tipo char esse carcater é lido (no próximo comando). Logo, em comandos de leitura de variáveis do tipo char coloque a função <b>getchar()</b> para solucionar o problema. Veja o exemplo abaixo:
+```C
+#include<stdio.h>
+int main(){
+char vet[10];
+int i;
+
+for (i=0; i<10;i++){
+    printf("\nentra:");
+    scanf("%c",&vet[i]);
+    getchar();   // <----- Comente esse comando e veja o que acontece
+
+}
+for (i=0; i<10;i++){
+    printf("\nvet=:%c", vet[i]);
+
+}
+
+}
+
+```
