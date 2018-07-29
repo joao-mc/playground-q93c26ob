@@ -11,19 +11,19 @@ else {
 ```
 Mas, existem situação em que temos mais de duas possibilidades além do Falso e Verdadeiro (p.ex. menus com várias opções de escolha). Nesses casos nos vemos obrigados a arrumar a estrutura condicional para possibilitar a representação desses <b>"Caminhos"</b>. Estamos falando do "Encadeamento de if´s".
 ``` C
-if(condição) {
-  comandosA;       <----- Esses comandos só serão executados, se a condição for avaliada Verdadeira.
+if(condição1) {
+  comandosA;       <----- Esses comandos só serão executados, se a condição1 for avaliada Verdadeira.
 } 
 else {
-  if (condição) { 
-    comandosB;     <----- Esses comandos só serão executados, se a condição for avaliada Verdadeira.
+  if (condição2) { 
+    comandosB;     <----- Esses comandos só serão executados, se a condição2 for avaliada Verdadeira.
   }
   else {
-    if (condição) {
-      comandosC;    <----- Esses comandos só serão executados, se a condição for avaliada Verdadeira. 
+    if (condição3) {
+      comandosC;    <----- Esses comandos só serão executados, se a condição3 for avaliada Verdadeira. 
     }  
     else{
-      comandosD;    <----- Esses comandos só serão executados, se a condição do último if for avaliada Falsa.               
+      comandosD;    <----- Esses comandos só serão executados, se a todas as condições acima forem avaliadas Falsa.               
     }
   }      <-------- Fechamento do Segundo else   
 } <-------- Fechamento do Terceiro else  
