@@ -60,7 +60,7 @@ int main(){
 ---
 ATENÇÃO
 ---
-O comando <b>scanf</b> não elimina o caracter <b>Enter('\0')</b>, portanto em variáveis do tipo char esse carcater é lido (no próximo comando). Logo, em comandos de leitura de variáveis do tipo char coloque a função <b>getchar()</b> para solucionar o problema. Veja o exemplo abaixo:
+O comando <b>scanf</b> não elimina o caracter <b>Enter('\0')</b>, portanto em variáveis do tipo char esse caracter é lido comando seguinte. Logo, em comandos de leitura de variáveis do tipo char, coloque a função <b>getchar()</b> antes do commando para solucionar o problema. Veja o exemplo abaixo:
 ```C
 #include<stdio.h>
 int main(){
