@@ -24,7 +24,7 @@ tipo_de_retorno nome_da_função (lista de parâmetros)
 }
  
 ```
-Obs: Tipo de retorno é o tipo de valor que a função retornará. Pex:
+Obs: Tipo de retorno é o tipo de valor que a função retornará, por exemplo:
 ``` C
 int nomefuncao(lista de parâmetros) // a função retornará para o programa um valor do tipo int.
 ```
