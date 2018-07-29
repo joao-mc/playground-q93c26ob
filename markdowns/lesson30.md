@@ -15,4 +15,5 @@
 
 ![figura2](/markdowns/memoria2.png)  
 
-+ Agora podemos definir <b>Ponteiros</b> como variáveis que armazenam endereços (de outras variáveis) em vez de valor. 
++ Agora podemos começar a definir <b>Ponteiros</b>.
++ Ponteiros são variáveis que armazenam endereços (de outras variáveis) ao invés de amazenar valor. O conteúdo de uma variável ponteiro é o endereço de outra variável. 
