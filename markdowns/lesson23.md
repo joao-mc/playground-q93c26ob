@@ -1,7 +1,5 @@
 # Funções em C
 
-![programa](/markdowns/funcao.png)
-
 + Uma função pode ser vista como um conjunto de comandos que realiza uma tarefa específica. Em outras palavras, pode-se dizer que é um pequeno "programa" utilizado por outros programas.
 
 + A função é referenciada (chamada) pelo programa principal através de um nome atribuído a ela.
@@ -12,6 +10,9 @@
    + Evita que um mesmo trecho de código seja repetido várias vezes dentro de um mesmo programa e, com isso, qualquer alteração é feita apenas nesse trecho e de forma simples.
    + Para que os blocos do programa não fiquem grandes demais e, por conseqüência, mais difíceis de entender;
    + Facilita a leitura do programa de maneira que os blocos de código possam ser logicamente compreendidos de forma isolada.
+
+![programa](/markdowns/funcao.png)
+
 ----
 Esqueleto de uma função
 ----
