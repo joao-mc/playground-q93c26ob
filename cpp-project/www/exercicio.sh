@@ -1,1 +1,1 @@
-echo "TECHIO> open -p 80 -s /project/target/www exercicio.html"
+echo "TECHIO> open --static-dir /project/target/www exercicio.html"
