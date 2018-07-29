@@ -209,6 +209,12 @@ int quant;
   scanf("%d", &lin);
 
  }
+ for (lin=0; lin < 5; lin++){
+  printf("\n");
+  for (col=0; col < 5; col++){
+     printf("%d ", estoque[lin][col]);
+  }
+ }
 }
 
 ```
