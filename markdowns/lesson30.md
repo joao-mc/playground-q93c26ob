@@ -4,6 +4,6 @@
 + Esses "espaços" são identificados por nomes (interno) e por números (externo), utilizados pelos programas para acessar os dados. 
 + A figura abaixo exibe um trecho da memória:
 
-![figura](/markdowns/memoria.png)  
+
 
 
