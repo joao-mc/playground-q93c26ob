@@ -69,6 +69,9 @@ Faça um programa C para calular o número de lâmpadas 60 watts necessárias pa
 ::: Solução
 
 ``` C
+#include<stdio.h>
+#include<math.h>
+
 float CalculaArea(float largura, float comprimento){
   return largura * comprimento;
 }
