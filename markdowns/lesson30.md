@@ -6,6 +6,10 @@
 
 ![figura](/markdowns/memoria.png)  
 
-+ Suponha que você declare uma variável denominada "Total" em seu programa. Essa veriável será associada a um (ou mais) endereço(s) na memória (no exemplo endereço 3000), conforme a figura abaixo:
++ Suponha que você declare uma variável denominada "Total" em seu programa. Essa variável será associada a um (ou mais) endereço(s) na memória (endereço 3001), conforme a figura abaixo:
 
 ![figura1](/markdowns/memoria1.png)  
+
++ Agora você move o valor 100 para a variável Total (total = 100;), o programa procura o endereço da vairável e move o valor.
+
+
