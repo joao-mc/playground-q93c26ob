@@ -1,1 +1,1 @@
-echo "TECHIO> open -s /project/target/www exercicio.html"
+echo "TECHIO> open -a /project/target/www exercicio.html"
