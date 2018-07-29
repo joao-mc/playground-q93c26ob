@@ -173,6 +173,6 @@ Faça um programa que controle os estoque de 5 produtos em 5 armazéns de um sup
 ![programa](/markdowns/estoque.png)
 
 O programa deverá ler o número da linha e da coluna, correspondete ao produto no armazem, e a quantidade a ser retirada do estoque. Caso a quantidade solicitada for menor ou igual a quantidade em estoque, o programa deverá emitir uma mensagem de atendiemtneo e dar baixa no estoque. Do contrário, emitir mensagem, "Estoque com quantidade insuficiente para atender ao pedido. O programa termina quando o numero da linha for igual a -1.
-Utilize a declaração anbaixo para resolver o exercício:
+Utilize a declaração abaixo para resolver o exercício:
 <p>int estoque[5][5]= {{150,0,100,150,200}, {200,300,230,100,90}, {250,300,0,200,150}, {300,100,90,450,0},{350,300,400,250,200}}</p>
 
