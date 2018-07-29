@@ -13,3 +13,12 @@
 
 -[ ] int matriz[4].
 
+?[Qual é o valor da expressão matriz[2][2] * matriz[1][1] :]
+
+-[ ] int matriz[5].
+
+-[x] int matriz[4][4].
+
+-[ ] int matriz[5][5].
+
+-[ ] int matriz[4].
