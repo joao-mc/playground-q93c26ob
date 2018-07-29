@@ -21,4 +21,4 @@
 
 ![figura3](/markdowns/memoria3.png) 
 
-Assim dizemos que a variável <b>Ptr</b> está "apontando" para variável <b>Total<b>, isto é, qualquer alteração em <b>Ptr</b> irá alterar o conteúdo de <b>Total</b>.
+Assim dizemos que a variável <b>Ptr</b> está "apontando" para variável <b>Total</b>, isto é, qualquer alteração em <b>Ptr</b> irá alterar o conteúdo de <b>Total</b>.
