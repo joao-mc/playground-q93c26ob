@@ -133,7 +133,7 @@ int main(){
 
 Exercício 3
 ---
-Faça um programa que receba uma frase (máximo 100 caracteres) e uma letra qualquer, calcule e mostre a quantidade que essa letra aparece na frase digitada. Para descobrir o tamanho da frase digitada utilize a função <b>strlen(cadeia de caracteres)</b>.
+Faça um programa que receba uma frase (máximo 100 caracteres) e uma letra qualquer, calcule e mostre a quantidade que essa letra aparece na frase digitada. Para descobrir o tamanho da frase digitada utilize a função <b>strlen(cadeia de caracteres)</b>.Ao final, exibir o estoque (matriz).
 <p>Dica: Usar a função <b>gets(cadeia de caracteres)</b> - biblioteca <b>sring.h</b> para realizar a leitura da frase. A função <b>scanf</b> só realiza leitura até o primeiro espaço em branco. </p>
 
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
