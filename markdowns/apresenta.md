@@ -6,3 +6,5 @@ Aqui você encontra a descrição dos conceitos, testes e exercícios como forma
 Aproveitem,
 
 Marco Vaz
+
+PS -> Atenção estamos tendo problemas no carregamento dos IDE's externos (Repl.it e Paiza.io). Tente resetar o código do IDE e tente novamente até carregar.
