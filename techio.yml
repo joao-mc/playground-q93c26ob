@@ -35,7 +35,9 @@ plan:
   - title: Estrutura de Dados Heterogênea (Union e Enum)
     statement: /markdowns/lesson28.md  
   - title: Exercícios
-    statement: /markdowns/lesson29.md         
+    statement: /markdowns/lesson29.md  
+  - title: Ponteiros
+    statement: /markdowns/lesson30.md   
 projects:
   cpp:
     root: /cpp-project
