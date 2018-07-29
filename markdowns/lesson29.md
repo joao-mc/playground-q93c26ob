@@ -60,7 +60,7 @@ int main(){
 Exercício 2
 ---
 Faça um programa C para calular o número de lâmpadas 60 watts necessárias para um determinado cômodo. O programa deverá ler um conjunto de informações, tais como: tipo, largura e comprimento do cômodo. O programa termina quando o tipo de cômodo for igual -1. A tabela abaixo mostra, para cada tipo de cômodo, a quantidade de watts por metro quadrado.
-<p>Dica: Use uma estrutura <b>struct</b> para agrupar logicamente as informações de um comodo (int tipo de comodo, float largura e float altura). Usar uma função (float CalulaArea) para calcular a área do cômodo. Os atributos de entrada serão a largura e comprimento do cômodo. Usar uma função (float Lampada) para calcular a quantidade de lâmpadas necesárias para o cômodo. Os atributos de entrada serão o tipo de cômodo e a metragem (em m<sub>2</sub>) do cômodo.</p>
+<p>Dica: Use uma estrutura <b>struct</b> para agrupar logicamente as informações de um comodo (int tipo de comodo, float largura e float altura). Usar uma função (float CalulaArea) para calcular a área do cômodo. Os atributos de entrada serão a largura e comprimento do cômodo. Usar uma função (float Lampada) para calcular a quantidade de lâmpadas necesárias para o cômodo. Os atributos de entrada serão o tipo de cômodo e a metragem (em m<sup>2</sup>) do cômodo.</p>
 
 ![programa](/markdowns/potencia.png)
 
