@@ -39,7 +39,9 @@ plan:
   - title: Ponteiros
     statement: /markdowns/lesson30.md 
   - title: Ponteiros (cont.)
-    statement: /markdowns/lesson31.md     
+    statement: /markdowns/lesson31.md  
+  - title: Operações com Ponteiros
+    statement: /markdowns/lesson32.md     
 projects:
   cpp:
     root: /cpp-project
