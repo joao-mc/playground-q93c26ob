@@ -22,6 +22,8 @@ printf("\nptr1 = %d",*ptr1);
 ```
 + a variável apontada por <b>ptr1</b> recebe o mesmo conteúdo da variável apontada por <b>ptr</b>;
 ```C runnable
+#include <stdio.h>
+int main(){
 int *ptr, *ptr1;
 int numero, total;
 numero = 20;
@@ -31,5 +33,6 @@ ptr1 = &total;
 *ptr1 = *ptr; // as variáveis numero e total contém o mesmo valor de número.
 printf("\nNumero = %d",numero);
 printf("\nTotal = %d",total);
+}
 ```
 
