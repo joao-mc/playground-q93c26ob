@@ -37,5 +37,5 @@ printf("\nTotal = %d",total);
 ```
 
 
-@[IDE]({"stubs": ["./www/teste.cpp"],"command": "sh ./www/run1.sh"})
+@[IDE]({"stubs": ["./www/teste.cpp"],"command": "sh ./run1.sh"})
 
