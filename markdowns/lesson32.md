@@ -35,7 +35,16 @@ printf("\nNumero = %d",numero);
 printf("\nTotal = %d",total);
 }
 ```
++ Apenas duas operações aritméticas podem ser utilizadas com ponteiros: adição e subtração. Muito util para trabalhar com vetores
+``` 
+p++; 
+soma +1 no endereço armazenado no ponteiro. 
+p--; 
+subtrai 1 no endereço armazenado no ponteiro. 
 
+(*p)++; 
+incrementa o conteúdo da variável apontada.  
+```
 @[IDE]({"stubs": ["./teste.cpp"],"command": "sh ./run1.sh"
 })
 
