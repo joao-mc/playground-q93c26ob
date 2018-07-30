@@ -43,8 +43,13 @@ p--;
 subtrai 1 no endereço armazenado no ponteiro. 
 
 (*p)++; 
-incrementa o conteúdo da variável apontada.  
+incrementa o conteúdo da variável apontada. 
 ```
+
+@[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio1.sh"
+})
+
+
 @[IDE]({"stubs": ["./teste.cpp"],"command": "sh ./run1.sh"
 })
 
