@@ -1,1 +1,1 @@
-echo "TECHIO>  open --static-dir ./ exercicio1.html"
+echo "TECHIO>  open -s ./ exercicio1.html"
