@@ -1,1 +1,1 @@
-echo "TECHIO> Terminal"
+echo "TECHIO> Terminal -s /bin/bash"
