@@ -10,7 +10,9 @@
 
 ![figura](/markdowns/declaracao.png) 
 
-+ Para serem usados, os ponteiros precisam ser inicializados. Para inicializarmos uma variável ponteiro com o endereço de outra variável, usamos o operador &. 
++ Para serem usados, os ponteiros precisam ser inicializados. Para inicializarmos uma variável ponteiro com o endereço de outra variável, usamos o operador &. No exemplo abaixo temos:
+       <p><b> *p     :conteúdo da posição de memória apontado por p;
+        &numero: o endereço na memória onde está armazenada a variável numero.</p></b>
 
 ![figura1](/markdowns/ponteiro.png) 
 
