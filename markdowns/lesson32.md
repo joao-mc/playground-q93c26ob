@@ -50,7 +50,4 @@ incrementa o conteúdo da variável apontada.
 })
 
 
-@[IDE]({"stubs": ["./teste.cpp"],"command": "sh ./run1.sh"
-})
-
 
