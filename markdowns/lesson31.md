@@ -9,3 +9,7 @@
 </p>
 
 ![figura](/markdowns/declaracao.png) 
+
++ Para serem usados, os ponteiros precisam ser inicializados. Para inicializarmos uma variável ponteiro com o endereço de outra variável, usamos o operador &. 
+
+![figura1](/markdowns/ponteiro.png) 
