@@ -10,9 +10,7 @@
 
 ![figura](/markdowns/declaracao.png) 
 
-+ Para serem usados, os ponteiros precisam ser inicializados. Para inicializarmos uma variável ponteiro com o endereço de outra variável, usamos o operador &. No exemplo abaixo temos:
-       <p><b> *p     :conteúdo da posição de memória apontado por p;
-        &numero: o endereço na memória onde está armazenada a variável numero.</p></b>
++ Para serem usados, os ponteiros precisam ser inicializados. Para inicializarmos uma variável ponteiro com o endereço de outra variável, usamos o operador &. 
 
 ![figura1](/markdowns/ponteiro.png) 
 
@@ -39,3 +37,8 @@ int main(){
    printf("\nConteúdo de numero = %d", numero);
 }
 ```
+---
+Em resumo:
+       <p><b>  p     : conteúdo é o endereço de memoria apontada por p (número);<b></p>
+       <p><b> *p     : é o conteúdo da variável apontada por p (número);<b></p>
+       <p><b> &numero: é o endereço na memória da variável numero.</b></p>
