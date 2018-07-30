@@ -13,3 +13,5 @@
 + Para serem usados, os ponteiros precisam ser inicializados. Para inicializarmos uma variável ponteiro com o endereço de outra variável, usamos o operador &. 
 
 ![figura1](/markdowns/ponteiro.png) 
+
++ Para imprimir o conteúdo da variável <b>numero</b> a partir do ponteiro <b>p</b> basta colocar o asterisco na frente da variável:
