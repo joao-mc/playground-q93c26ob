@@ -37,7 +37,9 @@ plan:
   - title: Exercícios
     statement: /markdowns/lesson29.md  
   - title: Ponteiros
-    statement: /markdowns/lesson30.md   
+    statement: /markdowns/lesson30.md 
+  - title: Ponteiros (cont.)
+    statement: /markdowns/lesson31.md     
 projects:
   cpp:
     root: /cpp-project
