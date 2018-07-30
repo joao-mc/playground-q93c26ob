@@ -37,5 +37,4 @@ printf("\nTotal = %d",total);
 ```
 
 
-
-@[IDE]({"stubs": [""], "command": "sh /project/target/www/exercicio1.sh"})
+@[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio1.sh"})
