@@ -8,4 +8,4 @@
 <p>É o asterisco (*) que informa ao compilador que aquela variável não vai guardar um valor mas sim um endereço para o tipo especificado.
 </p>
 
-
+![figura](/markdowns/declaracao.png) 
