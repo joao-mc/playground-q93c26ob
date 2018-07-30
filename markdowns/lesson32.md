@@ -9,6 +9,7 @@ Atribuição
 ---
 + O ponteiro <b>ptr1</b> aponta para a mesma variável (endereço) que o ponteiro <b>ptr</b>.
 ```C runnable
+#include <stdio.h>
 int main(){
 int *ptr, *ptr1;
 int numero;
