@@ -37,5 +37,5 @@ printf("\nTotal = %d",total);
 ```
 
 
-@[IDE]({"stubs": ["./www/teste.cpp"],"command": "bash -c "gcc main.c -o exe && ./exe"})
+@[IDE]({"stubs": ["./www/teste.cpp"],"command": "bash -c "gcc teste.cpp -o exe && ./exe"})
 
