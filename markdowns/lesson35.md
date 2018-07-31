@@ -2,8 +2,9 @@
 
 
 
-@[IDE]({"stubs": ["./exercicio1"],"command": "sh ./exercicio1.sh"
+@[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio1.sh"
 })
+
 
 ::: Solução
 
