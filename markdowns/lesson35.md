@@ -29,6 +29,12 @@ printf("x=%d  y=%d *p=%d", x, y, *p);
 -[ ] x = -1 y = 0 *p = 0
 -[x] x = 3  y = 4 *p = 4
 
+---
+Exercício 1
+---
+Faça um programa que modifique as vogais de uma frase. O programa deve ler uma frase (max. 100 caracteres) e armazeá-la num vetor. Imprimir a frase lida trocando as vogais, isto é, trocar 'a' pelo 'u' e o  'e' pelo 'o'. Usar uma função void (procedimento) para realizar a troca e impressão. A função deve ter como parâmetro um ponteiro char referente ao vetor. Dica: Use a função <b>gets()</b> da biblioteca string.h para realizar a leitura da frase.
+
+
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio1.sh"
 })
 
