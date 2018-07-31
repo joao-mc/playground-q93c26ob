@@ -32,7 +32,7 @@ printf("x=%d  y=%d *p=%d", x, y, *p);
 ---
 Exercício 1
 ---
-Faça um programa que modifique as vogais de uma frase. O programa deve ler uma frase (max. 100 caracteres) e armazeá-la num vetor. Imprimir a frase lida trocando as vogais, isto é, trocar 'a' pelo 'u',  'e' pelo 'o', 'i' pelo 'u', 'o' pelo 'a' e o 'u' pelo 'e'. Usar uma função void (procedimento) para realizar a troca e uma função para realizar a impressão da frase trocada. A função deve ter como parâmetro um ponteiro char referente ao vetor. Dica: Use a função <b>gets()</b> da biblioteca string.h para realizar a leitura da frase. use o switch para realizar as trocas.
+Faça um programa que modifique as vogais de uma frase. O programa deve ler uma frase (max. 100 caracteres) e armazeá-la num vetor. Imprimir a frase lida trocando as vogais, isto é, trocar 'a' pelo 'u',  'e' pelo 'o', 'i' pelo 'u', 'o' pelo 'a' e o 'u' pelo 'e'. Usar uma função void (procedimento) para realizar a troca e uma função para realizar a impressão da frase trocada. A função deve ter como parâmetro um ponteiro char referente ao vetor. Dica: Use a função <b>gets()</b> da biblioteca string.h para realizar a leitura da frase. use o switch para realizar as trocas. Só considere as letras minúsculas.
 
 
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio1.sh"
@@ -43,35 +43,51 @@ Faça um programa que modifique as vogais de uma frase. O programa deve ler uma 
 
 ``` C
 #include<stdio.h>
+#include<string.h>
+void troca(char *vet) {
+int i, tam;
+printf("%d", strlen(vet));
+tam = strlen(vet);
+for (i=0; i < tam; i++) {
+     printf("\n%c", *vet);
+ switch(*vet) {
+    case 'a':
+    *vet = 'u';
+     break;
+    case 'e':
+     *vet='o';
+      break;
+    case 'i':
+      *vet='u';
+      break;
+    case 'o':
+      *vet='a';
+      break;
+    case 'u':
+      *vet='e';
+      break;
+ }
+vet++;
+}
+
+}
+void imprime(char *vet) {
+int i;
+char *ptr;
+ptr = vet;
+printf("\n\n");
+for (i=0; i < strlen(vet); i++) {
+ printf("%c", *ptr);
+ ptr++;
+}
+}
 int main(){
-int estoque[5][5]= {{150,0,100,150,200}, {200,300,230,100,90}, {250,300,0,200,150}, {300,100,90,450,0},{350,300,400,250,200}};
-int lin, col;
-int quant;
+char vet[100];
 
- printf("\n\nDigite lin correspondente ao armazem:");
- scanf("%d", &lin);
- while(lin != -1) {
-  printf("\n\nDigite col correspondente ao produto:");
-  scanf("%d", &col);
-  printf("\n\nDigite a quantidade pedida:");
-  scanf("%d", &quant);
-  if (quant <= estoque[lin][col]){
-    estoque[lin][col] = estoque[lin][col] - quant;
-  }
-  else {
-    printf("\n\nEstoque com quantidade insuficiente para atender ao pedido");
-  }
-
-  printf("\n\nDigite lin correspondente ao armazem:");
-  scanf("%d", &lin);
-
- }
- for (lin=0; lin < 5; lin++){
-  printf("\n");
-  for (col=0; col < 5; col++){
-     printf("%d ", estoque[lin][col]);
-  }
- }
+printf("\n\nDigite uma frase: ");
+gets(vet);
+troca(vet);
+imprime(vet);
 }
 
 ```
