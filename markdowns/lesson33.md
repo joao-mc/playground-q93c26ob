@@ -7,7 +7,7 @@
 ![figura](/markdowns/vetpoint.png) 
 
 ``` C runnable
-#includde<stdio.h>
+#include<stdio.h>
 int main() {
  int *ptr;
  int i;
@@ -16,7 +16,14 @@ int main() {
  ptr = vet  // A variavel ponteiro ptr aponta para o primeiro elemento do vetor
  for (i=0; i < 5; i++){
   printf("\nVet[%d} = %c    ptr = %c", i, vet[i], *ptr); // o conteudo do vetor acessado pela variavel e pelo ponteiro
-  ptr++;
+  ptr + i; // ou ptr++
  } 
 }
 ````
++ Em Resumo:
+ 
+*p é equivalente a vet[0];
+vet[índice] é equivalente a *(p+índice);
+vet é equivalente a &vet[0];
+&vet[índice] é equivalente a (vet + índice);
+
