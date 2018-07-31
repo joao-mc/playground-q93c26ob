@@ -21,9 +21,13 @@ x = 4;
 (*p)++;
 --x;
 (*p) += x;
+printf("x=%d  y=%d *p=%d", x, y, *p);
 ```
-?[Seja o trecho de código acima, quais serão os valores de x, y e p ao final da execução?]
-
+?[Seja o trecho de código acima, quais serão os valores de x, y e *p no comando printf?]
+-[ ] x = 4  y = 0 *p = 4
+-[ ] x = 3  y = 3 *p = 3
+-[ ] x = -1 y = 0 *p = 0
+-[x] x = 3  y = 4 *p = 4
 
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio1.sh"
 })
