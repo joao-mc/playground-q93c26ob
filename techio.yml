@@ -46,7 +46,9 @@ plan:
   - title: Operações com Ponteiros
     statement: /markdowns/lesson32.md     
   - title: Ponteiros e Vetores
-    statement: /markdowns/lesson33.md  
+    statement: /markdowns/lesson33.md 
+  - title: Passagem de parâmetro por referência
+    statement: /markdowns/lesson34.md   
 projects:
   cpp:
     root: /cpp-project
