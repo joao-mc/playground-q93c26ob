@@ -27,5 +27,7 @@ int main() {
   <p><b>&vet[índice]</b> é equivalente a <b>(vet + índice);</b></p>
 
 + As matrizes, apesar de terem mais de uma dimensão, são dispostas linearmente na memória e, por isso, podem ser manipuladas com ponteiros semelhante aos vetores. 
-Ex.: 
-int mat[5][5];
+<p>Ex.: 
+int mat[5][5];</p>
+
+![figura1](/markdowns/mat.png) 
