@@ -1,5 +1,6 @@
 # Praticando Ponteiros e Funções
 ---
+
 ?[Assinale a alternativa correta com relação ao estudo de Ponteiros?] 
 -[ ] Ponteiro é o valor de uma variável. 
 -[x] Ponteiro é uma variável que armazena endereço. 
@@ -7,10 +8,10 @@
 -[ ] Ponteiro é o endereço que aponta para uma variável.
 
 ?[Assinale a alternativa correta com relação ao estudo de Ponteiros?]
--[ ] There is no answer to that!
--[ ] Sleep and eat
--[x] Easy, this is 42
--[ ] Peace & Love
+-[ ] Ponteiro é o valor de uma variável. 
+-[ ] Ponteiro é o indicador da próxima variável a ser passada.
+-[x] Ponteiro é uma variável que armazena endereço.
+-[ ] Ponteiro é o endereço que aponta para uma variável.
 
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio1.sh"
 })
