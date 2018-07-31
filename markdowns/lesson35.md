@@ -6,6 +6,12 @@
 -[ ] Ponteiro é o indicador da próxima variável a ser passada. 
 -[ ] Ponteiro é o endereço que aponta para uma variável.
 
+?[What is the answer to Life, the Universe and Everything?]
+-[ ] There is no answer to that!
+-[ ] Sleep and eat
+-[x] Easy, this is 42
+-[ ] Peace & Love
+
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio1.sh"
 })
 
