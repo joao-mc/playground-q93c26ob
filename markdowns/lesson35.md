@@ -1,6 +1,6 @@
 # Praticando Ponteiros e Funções
 
-?[Assinale a alternativa correta com relação ao estudo de Ponteiros? :] 
+?[Assinale a alternativa correta com relação ao estudo de Ponteiros?] 
 -[ ] Ponteiro é o valor de uma variável. 
 -[x] Ponteiro é uma variável que armazena endereço. 
 -[ ] Ponteiro é o indicador da próxima variável a ser passada. 
