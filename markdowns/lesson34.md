@@ -1,7 +1,7 @@
 # Funções com passagem de parâmetros por referência
 + Outra maneira de realizar a passagem de parâmetros para um função qualquer é denominada de <b>passagem por referência</b>. Nesse tipo, utiliza-se o endereço da variável para passá-lo a função. 
 + As manipulações/alterações efetuadas nos parâmetros dentro das funções afetam diretamente as variáveis usadas nas chamadas.
-+ Uma função que não retorna valor colocar <b>void</b> para indicar isso.
++ Relembrando: Uma função que não retorna valor colocar <b>void</b> como tipo da função para indicar isso. A função não pode conter o comando <b> return</b>.
 
  ![programa](/markdowns/referencia.png)
 
