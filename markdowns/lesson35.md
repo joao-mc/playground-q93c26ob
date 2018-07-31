@@ -1,10 +1,10 @@
 # Praticando Ponteiros e Funções
 ---
 ?[Assinale a alternativa correta com relação ao estudo de Ponteiros?]
--[ ] Ponteiro é o valor de uma variável. 
--[ ] Ponteiro é o indicador da próxima variável a ser passada.
--[x] Ponteiro é uma variável que armazena endereço.
--[ ] Ponteiro é o endereço que aponta para uma variável.
+-[ ] Ponteiro é o valor de uma variável 
+-[ ] Ponteiro é o indicador da próxima variável a ser passada
+-[x] Ponteiro é uma variável que armazena endereço
+-[ ] Ponteiro é o endereço que aponta para uma variável
 
 ?[Quais das seguintes instruções declaram um ponteiro para uma variável float?]
 -[x] float *p; 
