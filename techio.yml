@@ -42,6 +42,8 @@ plan:
     statement: /markdowns/lesson31.md  
   - title: Operações com Ponteiros
     statement: /markdowns/lesson32.md     
+  - title: Ponteiros e Vetorres
+    statement: /markdowns/lesson33.md  
 projects:
   cpp:
     root: /cpp-project
