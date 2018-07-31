@@ -9,7 +9,7 @@
 ``` C runnable
 #include<stdio.h>
 int main() {
- int *ptr;
+ char *ptr;
  int i;
  char vet[5] = {'a', 'b', 'c', 'd', 'e'};
  
