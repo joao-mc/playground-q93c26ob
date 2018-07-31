@@ -7,6 +7,13 @@
 -[x] Ponteiro é uma variável que armazena endereço.
 -[ ] Ponteiro é o endereço que aponta para uma variável.
 
+?[Quais das seguintes instruções declaram um ponteiro para uma variável float?]
+-[x] float *p; 
+-[ ] float p;
+-[ ] *float p;
+-[ ] float p*;
+
+
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio1.sh"
 })
 
