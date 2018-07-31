@@ -4,7 +4,7 @@
 ``` C runnable
 #include<stdio.h>
 void loop_count( int *i ) { // void não retorna valor
- printf( "Em loop_count, i = " );
+ printf( "Na função loop_count, i = " );
  while( *i < 10 )
  printf ( "%d ", (*i)++); //==> i = 2 3 4 5 6 7 8 9
 }
