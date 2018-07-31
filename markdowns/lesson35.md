@@ -46,10 +46,9 @@ Faça um programa que modifique as vogais de uma frase. O programa deve ler uma 
 #include<string.h>
 void troca(char *vet) {
 int i, tam;
-printf("%d", strlen(vet));
+ 
 tam = strlen(vet);
 for (i=0; i < tam; i++) {
-     printf("\n%c", *vet);
  switch(*vet) {
     case 'a':
     *vet = 'u';
