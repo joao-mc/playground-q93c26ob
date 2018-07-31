@@ -21,9 +21,8 @@ int main() {
 }
 ````
 + Em Resumo:
- 
-*p é equivalente a vet[0];
-vet[índice] é equivalente a *(p+índice);
-vet é equivalente a &vet[0];
-&vet[índice] é equivalente a (vet + índice);
+  <p>*p é equivalente a vet[0];</p>
+  <p>vet[índice] é equivalente a *(p+índice);</p>
+  <p>vet é equivalente a &vet[0];</p>
+  <p>&vet[índice] é equivalente a (vet + índice);</p>
 
