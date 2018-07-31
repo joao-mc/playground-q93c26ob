@@ -49,6 +49,8 @@ plan:
     statement: /markdowns/lesson33.md 
   - title: Passagem de parâmetro por referência
     statement: /markdowns/lesson34.md   
+  - title: Praticando Ponteiros e Funções
+    statement: /markdowns/lesson35.md     
 projects:
   cpp:
     root: /cpp-project
