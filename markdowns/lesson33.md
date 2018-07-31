@@ -4,6 +4,7 @@
 + No momento da declaração de um vetor, informamos ao computador para reservar uma certa quantidade de memória a fim de armazenar os elementos do array de forma sequencial. 
 + A variavel vetor é um ponteiro que aponta para o começo da sequência elementos do vetor na memória. Portanto, podemos inicializar uma variável ponteiro com o endereço de início do vetor.
 
+![figura](/markdowns/vetpoint.png) 
 
 ``` C runnable
 #includde<stdio.h>
