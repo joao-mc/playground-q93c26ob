@@ -29,6 +29,21 @@ printf("x=%d  y=%d *p=%d", x, y, *p);
 -[ ] x = -1 y = 0 *p = 0
 -[x] x = 3  y = 4 *p = 4
 
+```C
+int a=5, b=12, c;
+int *p;
+int *q;
+p = &a;
+q = &b;
+c = *p + *q;
+printf("c = %d", *c);
+```
+?[Seja o trecho de código acima, que valor de c será impresso no comando printf?]
+-[ ] c = 5  
+-[x] c = 17  
+-[ ] c = 12 
+-[ ] c = 7
+
 ---
 Exercício 1
 ---
