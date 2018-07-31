@@ -15,7 +15,7 @@ int main() {
  
  ptr = vet;  // A variavel ponteiro ptr aponta para o primeiro elemento do vetor
  for (i=0; i < 5; i++){
-  printf("\nVet[%d} = %c    ptr = %c", i, vet[i], *ptr); // o conteudo do vetor acessado pela variavel e pelo ponteiro
+  printf("\nVet[%d] = %c    ptr = %c", i, vet[i], *ptr); // o conteudo do vetor acessado pela variavel e pelo ponteiro
   ptr++; 
  } 
 }
