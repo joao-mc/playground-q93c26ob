@@ -13,7 +13,7 @@ void loop_count( int *i ) { // void não retorna valor
 }
 int main( ) {
  int i = 2;
- printf( "\nEm main antes da chamda da função loop_count, i = %d.\n", i );
+ printf( "\nEm main antes da chamda da função loop_count, i = %d.\n", i ); 
  loop_count( &i );
  printf( "\nEm main depois da chamda da função loop_count, i = %d.\n", i ); //==> a variável i foi modificada na funç~so i = 10.
 }
