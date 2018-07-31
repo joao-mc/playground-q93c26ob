@@ -3,7 +3,7 @@ Passagem de Parâmetros por valor
 ----
 + A passagem de parâmetros que será apresentada aqui é chamada de passagem por valor. 
 + Os valores contidos nas variáveis do programa, no momento da chamada da função, são <b>copiados</B> para as variáveis parâmetros da função.  
-+ As alterações dos valores dos parâmetros dentro da função não afetarão os valores das variáveis do progrmama usadas na chamada da função. 
++ As alterações dos valores dos parâmetros dentro da função não afetarão os valores das variáveis do programa, usadas na chamada da função. 
 No exemplo a seguir a variável f, passada por parâmetro para a função cem não terá o valor alterado dentro da função.
 ```C runnable
 #include <stdio.h>
