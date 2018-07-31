@@ -121,49 +121,33 @@ Escreva um programa que declare uma matriz 10x10 de inteiros. Você criar uma fu
 ``` C
 #include<stdio.h>
 #include<string.h>
-void troca(char *vet) {
-int i, tam;
- 
-tam = strlen(vet);
-for (i=0; i < tam; i++) {
- switch(*vet) {
-    case 'a':
-    *vet = 'u';
-     break;
-    case 'e':
-     *vet='o';
-      break;
-    case 'i':
-      *vet='u';
-      break;
-    case 'o':
-      *vet='a';
-      break;
-    case 'u':
-      *vet='e';
-      break;
- }
-vet++;
-}
-
-}
-void imprime(char *vet) {
+void inicializa(int *mat) {
 int i;
-char *ptr;
-ptr = vet;
-printf("\n\n");
-for (i=0; i < strlen(vet); i++) {
- printf("%c", *ptr);
- ptr++;
-}
-}
-int main(){
-char vet[100];
 
-printf("\n\nDigite uma frase: ");
-gets(vet);
-troca(vet);
-imprime(vet);
+for(i=0; i < 100; i++) {
+  *mat=0;
+  mat++;
+}
+}
+void preenche(int *mat) {
+int i;
+
+for(i=0; i < 100; i++) {
+  *mat=99 - i;
+  mat++;
+}
+}
+int main() {
+int matriz[10][10];
+int i, j;
+
+inicializa(matriz);
+preenche(matriz);
+for(i=0; i< 10; i++){
+ printf("\n");
+ for (j=0; j < 10; j++)
+   printf("mat[%d][%d]= %d ", i,j,matriz[i][j]);
+}
 }
 
 ```
