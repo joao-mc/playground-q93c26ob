@@ -43,10 +43,19 @@ p++;
 soma +1 no endereço armazenado no ponteiro. 
 p--; 
 subtrai 1 no endereço armazenado no ponteiro. 
-
-(*p)++; 
-incrementa o conteúdo da variável apontada. 
 ```
 
++ Com relação ao conteúdo apontado, valem todas as operações
+```
+(*p)++; 
+incrementar o conteúdo da variável apontada pelo ponteiro p;
+*p = (*p) * 10; 
+multiplica o conteúdo da variável apontada pelo ponteiro p por 10;
+```
 
++ Operações relacionais
+```
+== e !=        para saber se dois ponteiros são iguais ou diferentes. 
+>, <, >= e <=  para saber qual a posição (endereço) mais alta na memória ocupado por um ponteiro.
+```
 
