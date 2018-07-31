@@ -12,6 +12,18 @@
 -[ ] *float p;
 -[ ] float p*;
 
+```C
+int x, y, *p;
+y = 0;
+p = &y;
+x = *p;
+x = 4;
+(*p)++;
+--x;
+(*p) += x;
+```
+?[Seja o trecho de código acima, quais serão os valores de x, y e p ao final da execução?]
+
 
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio1.sh"
 })
