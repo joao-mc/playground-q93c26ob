@@ -38,7 +38,7 @@ int fatorialsemrec(int num)
   else {
    f = 1;
    for(i= num; i > 1; i--){
-     f = f + f * i;
+     f = f * i;
    }     
     return f; 
   }
