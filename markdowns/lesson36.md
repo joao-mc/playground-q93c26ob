@@ -17,10 +17,10 @@ fat(2) = 2 x fat(1)
 fat(1) = 1 x fat(0)
 fat(0) = 1
 ```
-Exemplo (modifique o valor de num e execute novamente):
+A seguir, um exemplo da função fatorial com e sem recursão (modifique o valor de num e execute novamente):
 ``` C runnable
 #include<stdio.h>
-int fatorial(int num)
+int fatorialrec(int num)
 {
   if (num == 0) {
     return 1;
@@ -29,11 +29,25 @@ int fatorial(int num)
     return num * fatorial(num-1);
   }
 }
-
+int fatorialsemrec(int num)
+{
+  int f, i;
+  if (num == 0) {
+    return 1;
+  }
+  else {
+   f = 1;
+   for(i= num; i > 1; i--){
+     f = f + f * i;
+   }     
+    return f; 
+  }
+}
 int main() {
   int num;
   num = 5;
-  printf("fat(%d) = %d", num, fatorial(num));
+  printf("\nfatR(%d) = %d", num, fatorialrec(num));
+  printf("\n\nfatS(%d) = %d", num, fatorialsemrec(num));
 
 }
 ```
