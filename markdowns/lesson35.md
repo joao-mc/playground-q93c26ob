@@ -159,7 +159,7 @@ Exercício 3
 Crie um programa para calcular a área de um hexágono. O seu programa deve implementar uma função chamada calcula_hexagono que calcule a área e o perímetro de um hexágono regular de lado L. A função deve obedecer o seguinte protótipo: <b>float calcula_hexagono(float l);</b>
 Lembrando que a área de um hexágono regular são dados por:
 
-$`area=\frac{3×L^2×\sqrt{3}{2}`$
+$`area=\frac{3×L^2×\sqrt{3}}{2}`$
 
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio1.sh"
 })
