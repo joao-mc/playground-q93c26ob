@@ -56,6 +56,13 @@ Exercício
 ---
 Faça um programa em C para calcular a soma dos n primeiros números dados pelo usuário na entrada. Criar duas funções soma (uma recursiva e a outra não recursiva) que recebe como parâmetro de entrada o número lido.
 
+@[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio1.sh"
+})
+
+
+::: Solução
+
+``` C
 #include<stdio.h>
 
 int somasem (int n)
@@ -86,4 +93,8 @@ int main() {
   printf("\n\nsomasem(%d) = %d", num, somasem(num));
   printf("\nsomacom(%d) = %d", num, somacom(num));
 }
+
+```
+:::
+
 
