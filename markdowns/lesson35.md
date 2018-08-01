@@ -160,7 +160,7 @@ Faça um programa para calcular a área e o perímetro de um hexágono. O progra
 void calc_hexa(float l, floar *area, float *perimetro);
 Lembrando que a área e o perímetro de um hexágono regular são dados por:
 
-<p>$`area=\frac{3×L^2×\sqrt{3}}{2}`$ </p>   <p> $`p = {6×L}`$</p>
+ $`area=\frac{3×L^2×\sqrt{3}}{2}`$                     $`p = {6×L}`$ 
 
 Para os cálculos, obrigatoriamente você deve utilizar as funções <b>sqrt</b> e <b>pow</b> da biblioteca <b>math.h</b>.
 
