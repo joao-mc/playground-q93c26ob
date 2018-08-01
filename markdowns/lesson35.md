@@ -153,3 +153,52 @@ for(i=0; i< 10; i++){
 ```
 :::
 ---
+Exercício 3
+---
+
+Crie um programa para calcular a área de um hexágono. O seu programa deve implementar uma função chamada calcula_hexagono que calcule a área e o perímetro de um hexágono regular de lado L. A função deve obedecer o seguinte protótipo: <b>float calcula_hexagono(float l);</b>
+Lembrando que a área de um hexágono regular são dados por:
+
+$`Area=\frac{3l^2 × sqrt(3)}{2}`$
+
+@[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio1.sh"
+})
+
+
+::: Solução
+
+``` C
+#include<stdio.h>
+#include<string.h>
+void inicializa(int *mat) {
+int i;
+
+for(i=0; i < 100; i++) {
+  *mat=0;
+  mat++;
+}
+}
+void preenche(int *mat) {
+int i;
+
+for(i=0; i < 100; i++) {
+  *mat=99 - i;
+  mat++;
+}
+}
+int main() {
+int matriz[10][10];
+int i, j;
+
+inicializa(matriz);
+preenche(matriz);
+for(i=0; i< 10; i++){
+ printf("\n");
+ for (j=0; j < 10; j++)
+   printf("mat[%d][%d]= %d ", i,j,matriz[i][j]);
+}
+}
+
+```
+:::
+---
