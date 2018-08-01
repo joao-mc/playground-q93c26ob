@@ -50,7 +50,9 @@ plan:
   - title: Passagem de parâmetro por referência
     statement: /markdowns/lesson34.md   
   - title: Praticando Ponteiros e Funções
-    statement: /markdowns/lesson35.md     
+    statement: /markdowns/lesson35.md  
+  - title: Funções Recursivas
+    statement: /markdowns/lesson36.md    
 projects:
   cpp:
     root: /cpp-project
