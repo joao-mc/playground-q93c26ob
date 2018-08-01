@@ -157,7 +157,7 @@ Exercício 3
 ---
 
 Faça um programa para calcular a área e o perímetro de um hexágono. O programa deve implementar uma função chamada calc_hexa que calcula a área e o perímetro de um hexágono regular de lado L. O program deve solicitar ao usuário o lado do polígono, calcular e imprimir a área e o perímetro do polígono. O programa termina quando for digitado um valor negativo qualquer para o lado. A função deve obedecer o seguinte protótipo:
-void calc_hexa(float l, floar *area, float *perimetro);
+<p><b>void calc_hexa(float l, floar *area, float *perimetro);</b></p>
 Lembrando que a área e o perímetro de um hexágono regular são dados por:
 
  $`area=\frac{3×L^2×\sqrt{3}}{2}`$     </br></br>                $`perimetro = {6×L}`$ 
