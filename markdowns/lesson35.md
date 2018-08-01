@@ -160,7 +160,7 @@ Faça um programa para calcular a área e o perímetro de um hexágono. O progra
 void calc_hexa(float l, floar *area, float *perimetro);
 Lembrando que a área e o perímetro de um hexágono regular são dados por:
 
-$`area=\frac{3×L^2×\sqrt{3}}{2}`$     $`p = {6×L}`$
+<p>$`area=\frac{3×L^2×\sqrt{3}}{2}`$ </p>   <p> $`p = {6×L}`$</p>
 
 Para os cálculos, obrigatoriamente você deve utilizar as funções <b>sqrt</b> e <b>pow</b> da biblioteca <b>math.h</b>.
 
@@ -173,36 +173,27 @@ Para os cálculos, obrigatoriamente você deve utilizar as funções <b>sqrt</b>
 
 ``` C
 #include<stdio.h>
-#include<string.h>
-void inicializa(int *mat) {
-int i;
+#include<math.h>
+void calc_hexa(float l, float *area, float *per) {
 
-for(i=0; i < 100; i++) {
-  *mat=0;
-  mat++;
-}
-}
-void preenche(int *mat) {
-int i;
-
-for(i=0; i < 100; i++) {
-  *mat=99 - i;
-  mat++;
-}
-}
-int main() {
-int matriz[10][10];
-int i, j;
-
-inicializa(matriz);
-preenche(matriz);
-for(i=0; i< 10; i++){
- printf("\n");
- for (j=0; j < 10; j++)
-   printf("mat[%d][%d]= %d ", i,j,matriz[i][j]);
-}
+*per = 6 * l;
+*area = (3 * pow(l,2) * sqrt(3))/2;
 }
 
+int main(){
+ float lado, area, perimetro;
+
+ printf("\n\nDigite o lado do hexagono:");
+ scanf("%f", &lado);
+ while (lado > 0) {
+  calc_hexa(lado, &area, &perimetro);
+  printf("\n\na area e o perímetro do hexagono regular de lado %f e igual a %f  e  %f", lado, area, perimetro);
+
+  printf("\n\nDigite o lado do hexagono:");
+  scanf("%f", &lado);
+
+ }
+}
 ```
 :::
 ---
