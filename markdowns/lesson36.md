@@ -26,7 +26,7 @@ int fatorialrec(int num)
     return 1;
   }
   else {
-    return num * fatorial(num-1);
+    return num * fatorialrec(num-1);
   }
 }
 int fatorialsemrec(int num)
