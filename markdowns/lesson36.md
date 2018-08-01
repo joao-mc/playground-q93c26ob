@@ -32,9 +32,7 @@ int fatorial(int num)
 
 int main() {
   int num;
-
-  printf("\ndigite o numero fatorial:");
-  scanf("%d", &num);
+  num = 5;
   printf("fat(%d) = %d", num, fatorial(num));
 
 }
