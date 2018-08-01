@@ -9,9 +9,33 @@ Calcular o Fatorial de um número N inteiro qualquer. Se formos analisar a forma
 ![programa](/markdowns/recursividade.png)
 
 Logo, temos que:
-fat(5) = fat(4) x 5
-fat(4) = fat(3) x 4
-fat(3) = fat(2) x 3
-fat(2) = fat(1) x 2
-fat(1) = 1
+```
+fat(5) = 5 x fat(4)
+fat(4) = 4 x fat(3)
+fat(3) = 3 x fat(2) 
+fat(2) = 2 x fat(1)
+fat(1) = 1 x fat(0)
+fat(0) = 1
+```
+Exemplo:
+``` C runnable
+#include<stdio.h>
+int fatorial(int num)
+{
+  if (num == 0) {
+    return 1;
+  }
+  else {
+    return num * fatorial(num-1);
+  }
+}
 
+int main() {
+  int num;
+
+  printf("\ndigite o numero fatorial:");
+  scanf("%d", &num);
+  printf("fat(%d) = %d", num, fatorial(num));
+
+}
+```
