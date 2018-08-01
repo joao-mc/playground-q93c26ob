@@ -17,7 +17,7 @@ fat(2) = 2 x fat(1)
 fat(1) = 1 x fat(0)
 fat(0) = 1
 ```
-Exemplo:
+Exemplo (modifique o valor de num e execute novamente):
 ``` C runnable
 #include<stdio.h>
 int fatorial(int num)
