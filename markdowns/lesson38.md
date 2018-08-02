@@ -19,7 +19,7 @@
 ``` C
 FILE *farq;
 
-arq = fopen("arquivo.txt", "rt");
+arq = fopen("arquivo.txt", "rb");
 
 if (arq == NULL)
 {
