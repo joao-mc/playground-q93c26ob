@@ -8,9 +8,9 @@
      <b>farq = fopen(char *Nome_do_arquivo, char *modo_de_abertura);</b> </br>
 
 + O primeiro parâmetro é o nome do arquivo. Pode-se trabalhar com caminhos absolutos ou relativos.<br/>
-           + <b>Caminho absoluto</b>: descrição de um caminho desde o diretório raiz.<br/>
+           --> <b>Caminho absoluto</b>: descrição de um caminho desde o diretório raiz.<br/>
               <b>C:\\MinhaPasta\\arquivo.txt</b><br/>
-           + <b>Caminho relativo</b>: descrição de um caminho desde o diretório corrente (onde o programa está salvo)<br/>
+           --> <b>Caminho relativo</b>: descrição de um caminho desde o diretório corrente (onde o programa está salvo)<br/>
                 <b>arquivo.txt</b> ou <b>..\\dados.txt</b><br/>
 
 + O segundo parâmetro define-se o modo de abertura:
