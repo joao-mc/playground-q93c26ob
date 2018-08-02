@@ -18,7 +18,7 @@ void main()
   int i;
   int result;
  
-  arq = fopen("arqGrav.txt", "wt");  // Cria um arquivo texto para gravação
+  arq = fopen("c:\arqGrav.txt", "wt");  // Cria um arquivo texto para gravação
   if (arq == NULL) // Se nào conseguiu criar
   {
      printf("Problemas na CRIACAO do arquivo\n");
