@@ -28,6 +28,6 @@ if (farq == NULL)   // <---- Testa se o arquivo foi aberto corretamente.
 } 
 ```
 + Ao terminar de usar o arquivo é necessário fechá-lo. Para isso usamos a função <b>fclose(FILE *farq)</b>. 
-+ O ponteiro *farq indica que arquivo deve ser fechado. Após o seu fechamento o arquivo não pode ser manipulado.
-+ A função retorna zero no caso de sucesso. 
++ O ponteiro <b>*farq</b> indica que arquivo deve ser fechado. Após o seu fechamento o arquivo não pode ser manipulado.
+
 
