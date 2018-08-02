@@ -17,7 +17,7 @@
        float salario; <br/>
   } func; <br/>
  
-    ![programa](/markdowns/arqtexto.png)
+    ![programa](/markdowns/arqtexto.png) </br>
  
     + Arquivo binário : Armazena uma sequência de bits que está sujeita as convenções dos programas que o gerou. Ex: arquivos executáveis, arquivos compactados, arquivos de registros, etc.
 
