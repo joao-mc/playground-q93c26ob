@@ -9,7 +9,10 @@
 + Basicamente, a linguagem C trabalha com dois tipos de arquivos: de texto e binários.
     + Arquivo texto : Armazenam caracteres que podem ser mostrados diretamente na tela ou modificados por um editor de textos simples como o Bloco de Notas.
     
- ``` C runnable
+ 
+    + Arquivo binário : Armazena uma sequência de bits que está sujeita as convenções dos programas que o gerou. Ex: arquivos executáveis, arquivos compactados, arquivos de registros, etc.
+
+``` C
 #include <stdio.h>
 #include <string.h>
 void main()
@@ -36,6 +39,3 @@ void main()
   fclose(arq);
 }
  ```
-    + Arquivo binário : Armazena uma sequência de bits que está sujeita as convenções dos programas que o gerou. Ex: arquivos executáveis, arquivos compactados, arquivos de registros, etc.
-
-
