@@ -9,7 +9,7 @@
 + Basicamente, a linguagem C trabalha com dois tipos de arquivos: de texto e binários.
     + Arquivo texto : Armazenam caracteres que podem ser mostrados diretamente na tela ou modificados por um editor de textos simples como o Bloco de Notas.
     
- ``` c runnable
+ ``` C runnable
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
