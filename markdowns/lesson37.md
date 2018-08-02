@@ -10,12 +10,12 @@
     + Arquivo texto : Armazenam caracteres que podem ser mostrados diretamente na tela ou modificados por um editor de textos simples como o Bloco de Notas.
     + A figura abaixo exibe o conteúdo de um arquivo texto armazenando os seguintes dados: <br/>
 
- <p>struct
-  {
-       int matric;
-       char nome[10];
-       float salario;
-  } func; </p>
+ struct <br/>
+  {<br/>
+       int matric; <br/>
+       char nome[10]; <br/>
+       float salario; <br/>
+  } func; <br/>
  
     ![programa](/markdowns/arqtexto.png)
  
