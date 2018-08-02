@@ -19,7 +19,7 @@
   } func; <br/>
   
             Texto                                                                      Binário
- ![programa](/markdowns/arqtexto.png)                                            ![programa1](/markdowns/arqbin.png)  
+ ![programa](/markdowns/arquivo.png)                                       
  
    
 
