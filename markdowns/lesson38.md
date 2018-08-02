@@ -14,7 +14,7 @@
                 <b>arquivo.txt</b> ou <b>..\\dados.txt</b>
 
         + O segundo parâmetro define-se o modo de abertura:
-            
+             ![programa](/markdowns/abertura.png) 
 + Exemplo:            
 ``` C
 FILE *farq;
