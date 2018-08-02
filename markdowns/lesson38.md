@@ -5,7 +5,7 @@
     <b>FILE *farq;</b>
 + Para manipular um arquivo em C é necessário abrí-lo. Para tanto, a linguagem C possui o comando fopen. 
 
-     <b>farq = fopen(char *Nome_do_arquivo, char *modo_de_abertur");</b>
+     <b>farq = fopen(char *Nome_do_arquivo, char *modo_de_abertura);</b> </br>
 
         + O primeiro parâmetro é o nome do arquivo. Pode-se trabalhar com caminhos absolutos ou relativos.
             <b>Caminho absoluto</b>: descrição de um caminho desde o diretório raiz.
