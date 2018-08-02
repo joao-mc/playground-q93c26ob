@@ -7,11 +7,11 @@
     + Acesso aos dados poder ser não seqüencial;
     + Acesso concorrente aos dados (mais de um programa pode usar os dados ao mesmo tempo).
 + Basicamente, a linguagem C trabalha com dois tipos de arquivos: de texto e binários.
-    + Arquivo texto : Armazenam caracteres que podem ser mostrados diretamente na tela ou modificados por um editor de textos simples como o Bloco de Notas. 
-    + Arquivo binário : Armazena uma sequência de bits que está sujeita as convenções dos programas que o gerou. Ex: arquivos executáveis, arquivos compactados, arquivos de registros, etc.</br>
+    + <b>Arquivo texto</b> : Armazenam caracteres que podem ser mostrados diretamente na tela ou modificados por um editor de textos simples como o Bloco de Notas. 
+    + <b>Arquivo binário</b> : Armazena uma sequência de bits que está sujeita as convenções dos programas que o gerou. Ex: arquivos executáveis, arquivos compactados, arquivos de registros, etc.</br>
  
 
- A figura abaixo exibe o conteúdo dos arquivos (texto e binário) armazenando os seguintes dados: <br/>
+ A figura abaixo exibe o conteúdo dos arquivos (texto e binário) armazenando os seguintes dados: <br>
 
  struct <br/>
   {<br/>
