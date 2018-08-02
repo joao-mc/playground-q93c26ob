@@ -10,8 +10,8 @@
       ---> O primeiro parâmetro é o nome do arquivo (pex. "arquivo.txt")
       ---> O segundo parâmetro define-se o modo de abertura:
            "wt": abertura para gravação, arquivo texto
-            "rt": abertura para leitura, arquivo texto
-            
+           "rt": abertura para leitura, arquivo texto
++ Exemplo:            
 ``` C
 FILE *farq;
 
