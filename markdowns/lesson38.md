@@ -1,5 +1,5 @@
 # Manipulando arquivos em C
----
+
 + Os protótipos dos comandos de manipulação de arquivos em C encontram-se definidos na biblioteca padrão <b>sdtio.h</b>.
 + Para se trabalhar com arquivos é necessário declarar uma variável ponteiro do tipo <b>FILE</b>. </br>
     <b>FILE *farq;</b>
