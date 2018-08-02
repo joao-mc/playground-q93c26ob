@@ -20,7 +20,7 @@
        float salario; <br/>
   } func; <br/>
   
-            Texto                                                                      Binário
+                  Texto                                                                     Binário
  ![programa](/markdowns/arquivo.png)                                       
  
    
