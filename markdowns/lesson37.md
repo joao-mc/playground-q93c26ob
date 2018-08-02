@@ -9,13 +9,13 @@
 + Basicamente, a linguagem C trabalha com dois tipos de arquivos: de texto e binários.
     + Arquivo texto : Armazenam caracteres que podem ser mostrados diretamente na tela ou modificados por um editor de textos simples como o Bloco de Notas.
     + A figura abaixo exibe o conteúdo de um arquivo texto armazenando os seguintes dados:
----
- struct
+
+ <p>struct
   {
        int matric;
        char nome[10];
        float salario;
-  } func;
+  } func; </p>
 ---
 
     ![programa](/markdowns/arqtexto.png)
