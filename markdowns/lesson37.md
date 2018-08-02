@@ -18,8 +18,8 @@
        float salario; <br/>
   } func; <br/>
   
-            Texto                                                       Binário
- ![programa](/markdowns/arqtexto.png)                   ![programa1](/markdowns/arqbin.png)  
+            Texto                                                                      Binário
+ ![programa](/markdowns/arqtexto.png)                                            ![programa1](/markdowns/arqbin.png)  
  
    
 
