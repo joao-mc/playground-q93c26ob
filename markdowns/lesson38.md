@@ -19,12 +19,15 @@
 ``` C
 FILE *farq;
 
-arq = fopen("arquivo.txt", "rb");
+farq = fopen("arquivo.txt", "rb");
 
-if (arq == NULL)
+if (farq == NULL)   // <---- Testa se o arquivo foi aberto corretamente.
 {
     printf("Problemas na CRIACAO do arquivo\n");
     return;
 } 
 ```
++ Ao terminar de usar o arquivo é necessário fechá-lo. Para isso usamos a função <b>fclose(FILE *farq)</b>. 
++ O ponteiro *farq indica que arquivo deve ser fechado. Após o seu fechamento o arquivo não pode ser manipulado.
++ A função retorna zero no caso de sucesso. 
 
