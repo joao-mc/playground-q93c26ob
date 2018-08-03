@@ -56,7 +56,9 @@ plan:
   - title: Arquivos em C
     statement: /markdowns/lesson37.md   
   - title: Manipulando Arquivos em C
-    statement: /markdowns/lesson38.md        
+    statement: /markdowns/lesson38.md  
+  - title: Manipulando Arquivos em C (Leitura/Gravação)
+    statement: /markdowns/lesson39.md    
 projects:
   cpp:
     root: /cpp-project
