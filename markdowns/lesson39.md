@@ -5,7 +5,7 @@
               <em><b>int fputc(int ch, FILE *arq);</b></em>
 + A função <b>fgetc()</b> possibilita a leitura de dados do arquivo caracter a caracter. </br>
               <em><b>int fgetc(FILE *arq);</b></em>              
-+ O Exemplo a seguir grava um texto de 50 caracteres de comprimento, cria o arquivo <b>arqtexto.txt</b> na pasta corrente e grava esse texto caracter a caracter. Uma vez gravado os dados no arquivo, utilizamos a função <b>fgetc()</b> para ler os dados caracter a caracter:
++ O Exemplo a seguir exibe a gravação e leitura de dados caracter a caracter.É criado o arquivo <b>arqtexto.txt</b> na pasta corrente e gravada a string caracter a caracter. Uma vez gravado os dados no arquivo, utilizamos a função <b>fgetc()</b> para ler esses dados caracter a caracter:
 ``` C runnable
 #include <stdio.h>
 #include <stdlib.h>
