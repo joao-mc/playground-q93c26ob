@@ -17,13 +17,11 @@ int main()
     char tentrada[61]={"Isso e um teste de gravar dados caracter a caracter"};
     char tsaida[61];
 farq = fopen("arqtexto.txt", "w");
-/*printf("Entre com um texto ate 50 cartacteres:");
-gets(tentrada);*/
 for (i=0; i < strlen(tentrada); i++)
 {
    fputc(tentrada[i],farq);
 }
-fclose(farq);
+fclose(farq);                        //<--- É Necessário fechar e abrir o arquivo novamente.
 farq = fopen("arqtexto.txt", "r");
 if (farq == NULL)
 {
