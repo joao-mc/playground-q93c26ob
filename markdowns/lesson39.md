@@ -4,7 +4,8 @@
 + A função <b>fputc()</b> possibilita a gravação de dados caracter a caracter. </br>
               <em><b>int fputc(int ch, FILE *arq);</b></em>
 + A função <b>fgetc()</b> possibilita a leitura de dados do arquivo caracter a caracter. </br>
-              <em><b>int fgetc(FILE *arq);</b></em>              
+              <em><b>int fgetc(FILE *arq);</b></em>     
++ Quando não houver mais dados a serem lidos no arquivo, a <b>fgetc</b> devolve a constante <em><b>EOF (end of file)</b></em>, que está definida na biblioteca stdio.h. Em muitos computadores o valor de EOF é −1. Isso indica a parada do processo de leitura.
 + O Exemplo a seguir exibe a gravação e leitura de dados caracter a caracter.É criado o arquivo <b>arqtexto.txt</b> na pasta corrente e gravada a string caracter a caracter. Uma vez gravado os dados no arquivo, utilizamos a função <b>fgetc()</b> para ler esses dados caracter a caracter:
 ``` C runnable
 #include <stdio.h>
