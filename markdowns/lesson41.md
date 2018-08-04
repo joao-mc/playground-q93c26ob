@@ -15,7 +15,7 @@ Int main()
 {
    FILE *farq;
    int i;
-   char texto[50]=;
+   char texto[50]={"Teste de gravacao e leitura de dados-arquivo texto"};
    int vet = {1,2,3,4};
  
 farq = fopen("arqtexto.txt", "w");
