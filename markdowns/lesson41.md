@@ -60,7 +60,7 @@ fclose(farq);
     + numbytes: é o total de bytes a partir do <b>tipo</b> a ser pulado;
     + tipo: determina a partir de onde os numbytes de movimentação serão contados.
 + Os valores possíveis para tipo estão definidos em <b>stdio.h</b> e são:
-
+ ![programa](/markdowns/seek.png) 
 + Portanto, para mover numbytes a partir
     + do início do arquivo, tipo deve ser SEEK_SET
     + da posição atual, tipo deve ser SEEK_CUR
