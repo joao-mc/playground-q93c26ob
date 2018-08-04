@@ -1,4 +1,4 @@
-# Gravar e Ler em Arquivos
+# Gravando e lendo caracteres em Arquivos C
 ---
 + Após a abertura do arquivo é possível Ler e/ou gravar dados nele.
 + A função <b>fputc()</b> possibilita a gravação de dados caracter a caracter. </br>
