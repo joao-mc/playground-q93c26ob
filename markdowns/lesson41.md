@@ -65,7 +65,7 @@ fclose(farq);
     + do início do arquivo, tipo deve ser SEEK_SET
     + da posição atual, tipo deve ser SEEK_CUR
     + do final do arquivo, tipo deve ser SEEK_END
- ``` c runnable
+ ``` C runnable
 #include<stdio.h>
 struct  alunos {
      int matric;
