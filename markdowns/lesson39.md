@@ -48,5 +48,5 @@ fclose(farq);
 ```
  A constante <b>EOF</b> pode ser substituida pela função <b><em>feof()</em></b> que realiza o teste de fim de arquivo.
  <b><em>int feof(FILE *arq)</em></b>
- + O teste do while do exemplo acima poderia ficar assim: <b><em>while (!feof(farq))</em></b>
+ + O teste do while do exemplo acima poderia ficar assim: <b><em>while ( !feof (farq) )</em></b>
  
