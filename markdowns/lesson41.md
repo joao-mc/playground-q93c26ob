@@ -75,9 +75,7 @@ struct  alunos {
 int main()
 {
    FILE *farq;
-   int i;
-   char texto[50]=;
-   struct alunos al, alun[4] = {1, "Maria", 20, 2, "Ana", 19, 3, "Carlos", 16, 4, "Celso",19} 
+   struct alunos al, alun[4] = {1, "Maria", 20, 2, "Ana", 19, 3, "Carlos", 16, 4, "Celso",19};
  
 farq = fopen(“arqtexto.txt”, “wb”);
 fwrite(alun, sizeof(struct alun), 4, farq); // grava o array de registros alunos
