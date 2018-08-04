@@ -15,7 +15,7 @@ int main()
 {
     FILE *farq;
     int i;
-    char tentrada[50];
+    char tentrada[50] = {"Teste de gravacao e leitura de dados-arquivo texto"};
     char tsaida[50], car;
 farq = fopen("arqtexto.txt", "w");
 printf("Entre com um texto ate 50 cartacteres:");
@@ -46,4 +46,7 @@ fclose(farq);
 
 }
 ```
+ A constante <b>EOF</b> pode ser substituida pela função <b><em>feof()</em></b> que realiza o teste de fim de arquivo.
+ <b><em>int feof(FILE *arq)</em></b>
+ + O teste do while do exemplo acima poderia ficar assim: <b><em>while (!feof(farq))</em></b>
  
