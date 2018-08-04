@@ -53,4 +53,17 @@ for (i=0; i < num; i++)
 fclose(farq);
 }
 ```
++ Os acessos aos dados em um arquivo geralmente é sequencial, mas é possível fazer buscas e acessos randômicos através da função <b>fseek()<b>: 
++ Esta função posiciona a leitura ou escrita no arquivo em tantos bytes, a partir de um ponto especificado.
++ A função fseek recebe 3 parâmetros
+    + fptr: o ponteiro para o arquivo;
+    + numbytes: é o total de bytes a partir do <b>tipo</b> a ser pulado;
+    + tipo: determina a partir de onde os numbytes de movimentação serão contados.
++ Os valores possíveis para tipo estão definidos em <b>stdio.h</b> e são:
+
++ Portanto, para mover numbytes a partir
+    + do início do arquivo, tipo deve ser SEEK_SET
+    + da posição atual, tipo deve ser SEEK_CUR
+    + do final do arquivo, tipo deve ser SEEK_END
+ 
 
