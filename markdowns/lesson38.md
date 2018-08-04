@@ -2,7 +2,9 @@
 
 + Os protótipos dos comandos de manipulação de arquivos em C encontram-se definidos na biblioteca padrão <b>sdtio.h</b>.
 + Para se trabalhar com arquivos é necessário declarar uma variável ponteiro do tipo <b>FILE</b>. </br>
+
     <em><b>FILE *farq;</b></em>
+    
 + Para manipular um arquivo em C é necessário abrí-lo. Para tanto, a linguagem C possui o comando fopen. 
 
      <em><b>farq = fopen(char *Nome_do_arquivo, char *modo_de_abertura);</b></em> </br>
