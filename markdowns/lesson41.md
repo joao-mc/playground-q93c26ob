@@ -39,18 +39,18 @@ Int main()
    int num, i;
    int vet[4];
  
-farq = fopen("arqtexto.txt", "r");
-num = 50;
-fwrite(texto, sizeof(char), num, farq);                   // lê a cadeia texto no arquivo
-texto[50] ='\0'; 
-printf("%s", texto);
-num = 4;
-fwrite(vet, sizeof(int),num, farq);                       // Lê o vetor vet no arquivo
-for (i=0; i < num; i++)
-{
-  printf("%d ", vet[i]);
-}  
-fclose(farq);
+    farq = fopen("arqtexto.txt", "r");
+    num = 50;
+    fwrite(texto, sizeof(char), num, farq);                   // lê a cadeia texto no arquivo
+    texto[50] ='\0'; 
+    printf("%s", texto);
+    num = 4;
+    fwrite(vet, sizeof(int),num, farq);                       // Lê o vetor vet no arquivo
+    for (i=0; i < num; i++)
+    {
+      printf("%d ", vet[i]);
+    }  
+    fclose(farq);
 }
 ```
 + Os acessos aos dados em um arquivo geralmente é sequencial, mas é possível fazer buscas e acessos randômicos através da função <b>fseek()<b>: 
@@ -74,17 +74,17 @@ struct  alunos {
    };
 int main()
 {
-  FILE *farq;
-  struct alunos al, alun[4] = {1, "Maria", 20, 2, "Ana", 19, 3, "Carlos", 16, 4, "Celso",19};
+    FILE *farq;
+    struct alunos al, alun[4] = {1, "Maria", 20, 2, "Ana", 19, 3, "Carlos", 16, 4, "Celso",19};
 
-farq = fopen("arqtexto.txt", "wb");
-fwrite(alun, sizeof(struct alunos), 4, farq); // grava o array de registros alunos
-fclose(farq);
-farq = fopen("arqtexto.txt", "rb");
-fseek(farq, 3*sizeof(struct alunos), SEEK_SET); // posiciona a leitura no quarto registro
-fread(&al, sizeof(struct alunos), 1, farq); // lê o quarto registro de aluno
-printf("\n\n%d\n%s\n%d", al.matric, al.nome, al.idade);
-fclose(farq);
+    farq = fopen("arqtexto.txt", "wb");
+    fwrite(alun, sizeof(struct alunos), 4, farq); // grava o array de registros alunos
+    fclose(farq);
+    farq = fopen("arqtexto.txt", "rb");
+    fseek(farq, 3*sizeof(struct alunos), SEEK_SET); // posiciona a leitura no quarto registro
+    fread(&al, sizeof(struct alunos), 1, farq); // lê o quarto registro de aluno
+    printf("\n\n%d\n%s\n%d", al.matric, al.nome, al.idade);
+    fclose(farq);
 }
 
 ```
