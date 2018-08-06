@@ -18,10 +18,10 @@ Int main()
    char texto[50]={"Teste de gravacao e leitura de dados-arquivo texto"};
    int vet = {1,2,3,4};
  
-farq = fopen("arqtexto.txt", "w");
-fwrite(texto, sizeof(char), strlen(texto), farq); // grava a cadeia texto no arquivo
-fwrite(vet, sizeof(int), 4, farq);                       // grava o vetor vet no arquivo
-fclose(farq);
+   farq = fopen("arqtexto.txt", "w");
+   fwrite(texto, sizeof(char), strlen(texto), farq); // grava a cadeia texto no arquivo
+   fwrite(vet, sizeof(int), 4, farq);                       // grava o vetor vet no arquivo
+   fclose(farq);
 }
 ```
 
