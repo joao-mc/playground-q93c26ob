@@ -16,7 +16,7 @@ int main()
 {
    FILE *farq;
    int i;
-   char texto[50]={"Teste de gravacao e leitura de dados-arquivo texto"};
+   char texto[51]={"Teste de gravacao e leitura de dados-arquivo texto\0"};
    int vet = {1,2,3,4};
  
    farq = fopen("arqtexto.txt", "w");
@@ -36,22 +36,19 @@ int main()
 {
    FILE *farq;
    int i;
-   char texto[51];
-   int num, i;
-   int vet[4];
- 
-    farq = fopen("arqtexto.txt", "r");
-    num = 50;
-    fwrite(texto, sizeof(char), num, farq);                   // lê a cadeia texto no arquivo
-    texto[50] ='\0'; 
-    printf("%s", texto);
-    num = 4;
-    fwrite(vet, sizeof(int),num, farq);                       // Lê o vetor vet no arquivo
-    for (i=0; i < num; i++)
-    {
-      printf("%d ", vet[i]);
-    }  
-    fclose(farq);
+   char textos[51];
+   int vets[4];
+   
+   farq = fopen("arqtexto.txt", "r");      // Abre o arquivo para leitura
+   
+   fread(&textos, sizeof(char), strlen(texto), farq); // lê a cadeia texto no arquivo
+   printf("\n\nTexto lido do Arquivo: %s\n\n", texto);
+   fread(&vets, sizeof(int), 4, farq);                //lê os 4 números para o vetor vets no arquivo
+   printf("Digitos Armazenados no Arquivo:  ");
+   for (i = 0; i < 4; i++) {
+    printf("%d ", vets[i]);
+   }
+   fclose(farq);
 }
 ```
 + Os acessos aos dados em um arquivo geralmente é sequencial, mas é possível fazer buscas e acessos randômicos através da função <b>fseek()<b>: 
