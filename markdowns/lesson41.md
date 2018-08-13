@@ -22,7 +22,7 @@ int main()
    char texto[51]={"Teste de gravacao e leitura de dados-arquivo texto"};
    int vet[4] = {1,2,3,4};
    texto[50]='\0';    
-   farq = fopen("c:\\Temp\\arqtexto.txt", "w");
+   farq = fopen("arqtexto.txt", "w");
    fwrite(texto, sizeof(char), strlen(texto), farq); // grava a cadeia texto no arquivo
    fwrite(vet, sizeof(int), 4, farq);                       // grava o vetor vet no arquivo
    fclose(farq);
@@ -45,8 +45,18 @@ int main()
    int i;
    char textos[51];
    int vets[4];
+   char texto[51]={"Teste de gravacao e leitura de dados-arquivo texto"};
+   int vet[4] = {1,2,3,4};
    
-   farq = fopen("c:\\Temp\\arqtexto.txt", "r");      // Abre o arquivo para leitura
+   // Realiza a Criação do Arquivo e Gravação dos dados 
+   texto[50]='\0';    
+   farq = fopen("arqtexto.txt", "w");
+   fwrite(texto, sizeof(char), strlen(texto), farq); // grava a cadeia texto no arquivo
+   fwrite(vet, sizeof(int), 4, farq);                       // grava o vetor vet no arquivo
+   fclose(farq);
+   
+   // Realiza a Leitura dos dados gravados
+   farq = fopen("arqtexto.txt", "r");      // Abre o arquivo para leitura
    if(farq == NULL){
      printf( "Erro na abertura do arquivo");
      exit(1);
