@@ -23,7 +23,7 @@ exit(1);
     + A string tentrada será gravada no arquivo caracter a caracter. 
     + O arquivo será fecado e posteriormente aberto para leitura.
     + Utilizamos a função <b>fgetc()</b> para ler esses dados do arquivo caracter a caracter:
-    +
+    
 ``` C runnable
 #include <stdio.h>
 #include <stdlib.h>
