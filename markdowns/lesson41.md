@@ -51,8 +51,8 @@ int main()
    // Realiza a Criação do Arquivo e Gravação dos dados 
    texto[50]='\0';    
    farq = fopen("arqtexto.txt", "w");
-   fwrite(texto, sizeof(char), strlen(texto), farq); // grava a cadeia texto no arquivo
-   fwrite(vet, sizeof(int), 4, farq);                       // grava o vetor vet no arquivo
+   fwrite(&texto, sizeof(char), strlen(texto), farq); // grava a cadeia texto no arquivo
+   fwrite(&vet, sizeof(int), 4, farq);                       // grava o vetor vet no arquivo
    fclose(farq);
    
    // Realiza a Leitura dos dados gravados
@@ -62,7 +62,7 @@ int main()
      exit(1);
    }
    
-   fread(&textos, sizeof(char), strlen(textos), farq); // lê a cadeia texto no arquivo
+   fread(&textos, sizeof(char), strlen(texto), farq); // lê a cadeia texto no arquivo
    printf("\n\nTexto lido do Arquivo: %s\n\n", textos);
    fread(&vets, sizeof(int), 4, farq);                //lê os 4 números para o vetor vets no arquivo
    printf("Digitos Armazenados no Arquivo:  ");
