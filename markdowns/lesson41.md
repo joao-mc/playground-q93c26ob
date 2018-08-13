@@ -5,10 +5,10 @@
 
 <em><b>unsigned fwrite(void *bloco, int numero_de_bytes, int total, FILE *arq)<b/></em> 
  
-bloco: ponteiro para a região de memória na qual estão os dados;
-numero_de_bytes: tamanho de cada posição de memória a ser escrita;
-total: quantidade de blocos de memória de tamanho "numero_de_bytes" que devem ser escritos;
-arq: ponteiro associado ao arquivo onde os dados serão escritos.
+<b>bloco:</b> ponteiro para a região de memória na qual estão os dados;</br>
+<b>numero_de_bytes:</b> tamanho de cada posição de memória a ser escrita;</br>
+<b>total:</b> quantidade de blocos de memória de tamanho "numero_de_bytes" que devem ser escritos;</br>
+<b>arq:</b> ponteiro associado ao arquivo onde os dados serão escritos.</br>
 Exemplo:
 ``` C
 Int main()
