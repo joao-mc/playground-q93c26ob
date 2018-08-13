@@ -19,9 +19,9 @@ int main()
 {
    FILE *farq;
    int i;
-   char texto[51]={"Teste de gravacao e leitura de dados-arquivo texto\0"};
+   char texto[51]={"Teste de gravacao e leitura de dados-arquivo texto"};
    int vet[4] = {1,2,3,4};
- 
+   texto[50]='\0';    
    farq = fopen("arqtexto.txt", "w");
    fwrite(texto, sizeof(char), strlen(texto), farq); // grava a cadeia texto no arquivo
    fwrite(vet, sizeof(int), 4, farq);                       // grava o vetor vet no arquivo
@@ -51,6 +51,7 @@ int main()
      printf( "Erro na abertura do arquivo");
      exit(1);
    }
+   
    fread(&textos, sizeof(char), strlen(texto), farq); // lê a cadeia texto no arquivo
    printf("\n\nTexto lido do Arquivo: %s\n\n", textos);
    fread(&vets, sizeof(int), 4, farq);                //lê os 4 números para o vetor vets no arquivo
