@@ -34,10 +34,11 @@ int main()
 <em><b>unsigned fread(void *bloco, int numero_de_bytes, int total, FILE *arq)<b/></em> 
 
 Exemplo:
+
+``` C runnable
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-``` C runnable
 int main()
 {
    FILE *farq;
