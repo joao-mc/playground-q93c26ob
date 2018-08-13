@@ -3,7 +3,7 @@
 + Podemos escrever e ler blocos de dados em arquivos C através das funções: <b>fwrite()<b/> e <b>fread()</b> 
 + A função <b>fwrite()</b> 
 
-<em><b>unsigned fwrite(void *bloco, int numero_de_bytes, int total, FILE *arq)<b/></em> 
+<em><b>unsigned fwrite(void *bloco, int numero_de_bytes, int total, FILE *arq)<b/></em> </br>
  
     + <b>bloco:</b> ponteiro para a região de memória na qual estão os dados;</br>
     + <b>numero_de_bytes:</b> tamanho de cada posição de memória a ser escrita;</br>
