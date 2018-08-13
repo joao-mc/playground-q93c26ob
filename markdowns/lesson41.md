@@ -52,7 +52,7 @@ int main()
      exit(1);
    }
    fread(&textos, sizeof(char), strlen(texto), farq); // lê a cadeia texto no arquivo
-   printf("\n\nTexto lido do Arquivo: %s\n\n", texto);
+   printf("\n\nTexto lido do Arquivo: %s\n\n", textos);
    fread(&vets, sizeof(int), 4, farq);                //lê os 4 números para o vetor vets no arquivo
    printf("Digitos Armazenados no Arquivo:  ");
    for (i = 0; i < 4; i++) {
