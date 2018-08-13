@@ -20,7 +20,7 @@ int main()
    FILE *farq;
    int i;
    char texto[51]={"Teste de gravacao e leitura de dados-arquivo texto\0"};
-   int vet = {1,2,3,4};
+   int vet[4] = {1,2,3,4};
  
    farq = fopen("arqtexto.txt", "w");
    fwrite(texto, sizeof(char), strlen(texto), farq); // grava a cadeia texto no arquivo
