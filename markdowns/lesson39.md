@@ -9,7 +9,7 @@
 
 <em><b>int fgetc(FILE *arq);</b></em>     
               
-+ Quando não houver mais dados a serem lidos no arquivo, a <b>fgetc</b> devolve a constante <em><b>EOF (end of file)</b></em>, que está definida na biblioteca stdio.h. Em geral, o valor de EOF é igual −1. Isso indica chegamos ao fim do arquivo e não se pode realizar a leitura dos dados.
++ Quando não houver mais dados a serem lidos no arquivo, a <b>fgetc</b> devolve a constante <em><b>EOF (end of file)</b></em>, que está definida na biblioteca stdio.h, indica o fim de um arquivo. Isso indica chegamos ao fim do arquivo e não se pode realizar a leitura dos dados. Em geral, o valor de EOF é igual −1. 
 + O Exemplo a seguir exibe a gravação e leitura de dados caracter a caracter.É criado o arquivo <b>arqtexto.txt</b> na pasta corrente e gravada a string caracter a caracter. Uma vez gravado os dados no arquivo, utilizamos a função <b>fgetc()</b> para ler esses dados caracter a caracter:
 ``` C runnable
 #include <stdio.h>
