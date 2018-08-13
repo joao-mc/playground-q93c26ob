@@ -18,7 +18,12 @@ printf( "Erro na abertura do arquivo");
 exit(1);
 }
 ```
-+ O Exemplo a seguir exibe a gravação e leitura de dados caracter a caracter.É criado o arquivo <b>arqtexto.txt</b> na pasta corrente e gravada a string caracter a caracter. Uma vez gravado os dados no arquivo, utilizamos a função <b>fgetc()</b> para ler esses dados caracter a caracter:
++ O Exemplo a seguir exibe a gravação e leitura de dados caracter a caracter.
+    + No comando fopen será criado o arquivo <b>arqtexto.txt</b> na pasta corrente 
+    + A string recebida pelo usuário será gravada no arquivo caracter a caracter. 
+    + O arquivo será fecado e posteriormente aberto para leitura.
+    + Utilizamos a função <b>fgetc()</b> para ler esses dados do arquivo caracter a caracter:
+    +
 ``` C runnable
 #include <stdio.h>
 #include <stdlib.h>
