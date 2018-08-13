@@ -29,13 +29,16 @@ int main()
     int i;
     char tentrada[50] = {"Teste de gravacao e leitura de dados-arquivo texto"};
     char tsaida[50], car;
-farq = fopen("arqtexto.txt", "w");
-if((farq = fopen("arquivo.txt","r")) == NULL){
+
+printf("Entre com um texto ate 50 cartacteres:");
+gets(tentrada);
+
+
+if((farq = fopen("arqtexto.txt","w")) == NULL){
   printf( "Erro na abertura do arquivo");
   exit(1);
 }
-printf("Entre com um texto ate 50 cartacteres:");
-gets(tentrada);
+
 for (i=0; i < strlen(tentrada); i++)
 {
    fputc(tentrada[i],farq);
