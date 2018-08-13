@@ -11,7 +11,7 @@
 <b>arq:</b> ponteiro associado ao arquivo onde os dados serão escritos.</br>
 
 Exemplo:
-``` C
+``` C runnable
 int main()
 {
    FILE *farq;
@@ -31,7 +31,7 @@ int main()
 <em><b>unsigned fread(void *bloco, int numero_de_bytes, int total, FILE *arq)<b/></em> 
 
 Exemplo:
-``` C
+``` C runnable
 int main()
 {
    FILE *farq;
