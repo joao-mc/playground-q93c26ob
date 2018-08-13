@@ -20,7 +20,7 @@ exit(1);
 ```
 + O Exemplo a seguir exibe a gravação e leitura de dados caracter a caracter.
     + No comando fopen será criado o arquivo <b>arqtexto.txt</b> na pasta corrente 
-    + A string recebida pelo usuário será gravada no arquivo caracter a caracter. 
+    + A string tentrada será gravada no arquivo caracter a caracter. 
     + O arquivo será fecado e posteriormente aberto para leitura.
     + Utilizamos a função <b>fgetc()</b> para ler esses dados do arquivo caracter a caracter:
     +
@@ -34,9 +34,6 @@ int main()
     int i;
     char tentrada[50] = {"Teste de gravacao e leitura de dados-arquivo texto"};
     char tsaida[50], car;
-
-printf("Entre com um texto ate 50 cartacteres:");
-gets(tentrada);
 
 
 if((farq = fopen("arqtexto.txt","w")) == NULL){
