@@ -12,7 +12,7 @@
 
 Exemplo:
 ``` C
-Int main()
+int main()
 {
    FILE *farq;
    int i;
@@ -32,7 +32,7 @@ Int main()
 
 Exemplo:
 ``` C
-Int main()
+int main()
 {
    FILE *farq;
    int i;
