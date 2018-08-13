@@ -40,7 +40,10 @@ int main()
    int vets[4];
    
    farq = fopen("arqtexto.txt", "r");      // Abre o arquivo para leitura
-   
+   if(farq == NULL){
+     printf( "Erro na abertura do arquivo");
+     exit(1);
+   }
    fread(&textos, sizeof(char), strlen(texto), farq); // lê a cadeia texto no arquivo
    printf("\n\nTexto lido do Arquivo: %s\n\n", texto);
    fread(&vets, sizeof(int), 4, farq);                //lê os 4 números para o vetor vets no arquivo
