@@ -10,6 +10,14 @@
 <em><b>int fgetc(FILE *arq);</b></em>     
               
 + Quando não houver mais dados a serem lidos no arquivo, a <b>fgetc</b> devolve a constante <em><b>EOF (end of file)</b></em>, que está definida na biblioteca stdio.h, indica o fim de um arquivo. Isso indica chegamos ao fim do arquivo e não se pode realizar a leitura dos dados. Em geral, o valor de EOF é igual −1. 
++ Após a abertura do arquivo é necessário realizar o teste de fim de arquivo (o arquivo pode estar vazio):
+``` C
+if((fp = fopen("arquivo.txt","r")) == NULL){
+
+printf( "Erro na abertura do arquivo");
+exit(1);
+}
+```
 + O Exemplo a seguir exibe a gravação e leitura de dados caracter a caracter.É criado o arquivo <b>arqtexto.txt</b> na pasta corrente e gravada a string caracter a caracter. Uma vez gravado os dados no arquivo, utilizamos a função <b>fgetc()</b> para ler esses dados caracter a caracter:
 ``` C runnable
 #include <stdio.h>
@@ -22,6 +30,10 @@ int main()
     char tentrada[50] = {"Teste de gravacao e leitura de dados-arquivo texto"};
     char tsaida[50], car;
 farq = fopen("arqtexto.txt", "w");
+if((farq = fopen("arquivo.txt","r")) == NULL){
+  printf( "Erro na abertura do arquivo");
+  exit(1);
+}
 printf("Entre com um texto ate 50 cartacteres:");
 gets(tentrada);
 for (i=0; i < strlen(tentrada); i++)
@@ -30,9 +42,10 @@ for (i=0; i < strlen(tentrada); i++)
 }
 fclose(farq);
 farq = fopen("arqtexto.txt", "r");
-if (farq == NULL)
+
+if (farq == NULL) // Pode-se fazer o teste dessa forma
 {
-     printf("Deu Merda!!!");
+     printf("Erro na abertura do arquivo");
      exit(1);
 }
 printf("\n\nVou ler e mostrar o texto gravado....\n\n");
