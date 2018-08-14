@@ -113,14 +113,12 @@ int main()
       printf("\n\nDigite uma frase com 49 caracteres máximo: ");
       gets(texto);
       fflush(stdin);
-      num = 0;
        j=0;
         while ( texto[j] != '\0' && j < 49){
         maiusc[j] = toupper(texto[j]);  // converte os caracteres para maiúscula
-        num = num + 1;
         j++;
       }
-        maiusc[num]='\0';
+        maiusc[j]='\0';
 
         fwrite(&num, sizeof(int), 1, farq); //Grava o tamanho do texto
 
