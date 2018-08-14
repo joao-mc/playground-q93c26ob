@@ -4,10 +4,10 @@ Exercício 1
 ---
 Dado o seguinte exemplo:
 
-``` C
+
 FILE *farq 
 farq = fopen (“arqdata.dat", “wb");
-```
+
 
 ?[Em linguagem C, a função fopen () abre um arquivo, retornando o ponteiro associado ao arquivo, como no exemplo acima, pode-se afirmar que:]
 -[ ] a criação de um arquivo binário chamado arqdata.dat, em que poderão ser realizadas operações de leitura e de escrita. 
