@@ -74,3 +74,60 @@ fclose(farq);
 }
 ```
 :::
+
+Exercício 3
+---
+
+<p>Faça um programa em C que lê 5 frases de no máximo 50 caracteres cada uma e armazene-as em um arquivo, mas antes de gravar a frase no arquivo é necessário converter todas as letras minúsculas para maiúsculas. Os  nome do arquivo será fornecido, via teclado, pelo usuário. A função que converte maiuscula para minúscula é o toupper(). A seguir, feche o arquivo e reabra para leitura exibindo todas as frases convertidas.</p>
+
+
+@[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
+})
+
+::: Solução
+
+``` C
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int main()
+{
+    FILE *farq;
+    char car;
+
+
+farq = fopen("arq.txt", "w");
+if (farq == NULL) {
+ fprintf(stderr,"\nfopen() failed in file %s at line # %d", __FILE__,__LINE__);
+ exit(EXIT_FAILURE);
+}
+printf("\nEntre com um caracter qualquer ou 0 para terminar:");
+car = getchar();
+fflush(stdin); // limpa o caracter enter do teclado
+while (car != '0')
+{
+   fputc(car,farq);
+   printf("\nEntre com um caracter qualquer ou 0 para terminar:");
+   car = getchar();
+   fflush(stdin); // limpa o caracter enter do teclado
+}
+fclose(farq);
+farq = fopen("arq.txt", "r");
+if (farq == NULL)
+{
+   fprintf(stderr,"\nfopen() failed in file %s at line # %d", __FILE__,__LINE__);
+   exit(EXIT_FAILURE);
+}
+printf("\n\nVou ler e mostrar o texto gravado....\n\n");
+car=fgetc(farq);
+while (car!=EOF)
+{
+   printf("%c",car);
+   car =fgetc(farq);
+}
+
+fclose(farq);
+
+}
+```
+:::
