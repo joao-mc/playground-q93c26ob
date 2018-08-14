@@ -16,10 +16,10 @@ farq = fopen (“arqdata.dat", “wb");
 
 
 ?[A função fopen() abre um arquivo retornando o ponteiro associado ao arquivo, como no exemplo acima, que podemos afirmar?]
--[ ] There is no answer to that!
--[ ] Sleep and eat
--[x] Easy, this is 42
--[ ] Peace & Love
+-[ ] a criação de um arquivo binário chamado arqdata.dat, em que poderão ser realizadas operações de leitura e de escrita
+-[ ] a criação de um arquivo chamado farq, em que poderão ser realizadas somente as operações de leitura
+-[x] a criação de um arquivo binário chamado arqdata.dat em que poderão ser realizadas somente as operações de escrita
+-[ ] a criação de um arquivo chamado farq.dat, em que poderão ser realizadas operações de leitura
 
 Exercício 2
 ---
