@@ -7,12 +7,19 @@ Dado o seguinte exemplo:
 FILE *farq 
 farq = fopen (“arqdata.dat", “wb");
 ```
-?[A função fopen() abre um arquivo retornando o ponteiro associado ao arquivo, como no exemplo acima, pode-se afirmar que?] 
+
+?[A função fopen() abre um arquivo retornando o ponteiro associado ao arquivo, como no exemplo acima, que podemos afirmar ?] 
 -[ ] a criação de um arquivo binário chamado arqdata.dat, em que poderão ser realizadas operações de leitura e de escrita. 
 -[ ] a criação de um arquivo chamado farq, em que poderão ser realizadas somente as operações de leitura.
 -[x] a criação de um arquivo binário chamado arqdata.dat em que poderão ser realizadas somente as operações de escrita.
 -[ ] a criação de um arquivo chamado farq.dat, em que poderão ser realizadas operações de leitura. 
 
+
+?[What is the answer to Life, the Universe and Everything?]
+-[ ] There is no answer to that!
+-[ ] Sleep and eat
+-[x] Easy, this is 42
+-[ ] Peace & Love
 
 Exercício 2
 ---
@@ -22,12 +29,6 @@ Exercício 2
 <p>(b) permita que o usuario entre com diversos caracteres nesse arquivo, até que o usuario entre com o caractere ’0’ (fim da entrada de dados),</p>
 <p>(c) Feche o arquivo e abra novamente o arq.txt, e</p>
 <p>(d) lendo-o caractere por caractere, e escrevendo na tela (printf) todos os caracteres armazenados.</p>
-
-?[What is the answer to Life, the Universe and Everything?]
--[ ] There is no answer to that!
--[ ] Sleep and eat
--[x] Easy, this is 42
--[ ] Peace & Love
 
 
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
