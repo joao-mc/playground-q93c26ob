@@ -7,6 +7,8 @@
 + Os Vetores são matrizes de uma só dimensão, isto é, necessita apenas 1 índice para acesso as variáveis. 
 
 + As Matrizes possuem mais de uma dimensão, isto é,  necessitam de um índice para cada dimensão para acesso as variáveis. 
+
++ A figura a seguir exibe a diferença entre declarar várias variáveis simples e uma variável do tipo Vetor. As variávies simples necessariamente são acessadas pelo seu nome enquanto que as variáveis que formam o vetor são acessadas através do nome do vetor mais um índice indicando sua posição na estrutura. 
  
 ![programa](/markdowns/vetor.gif)
 
