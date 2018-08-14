@@ -9,7 +9,7 @@ else {
   comandosB;     <----- Esses comandos só serão executados, se a condição for avaliada Falsa.
 }
 ```
-Mas, existem situação em que temos mais de duas possibilidades além do Falso e Verdadeiro (p.ex. menus com várias opções de escolha). Nesses casos nos vemos obrigados a arrumar a estrutura condicional para possibilitar a representação desses <b>"Caminhos"</b>. Estamos falando do "Encadeamento de if´s".
+Mas, existem situações em que temos mais de duas possibilidades (p.ex. menus com várias opções de escolha). Nesses casos nos vemos obrigados a arrumar a estrutura condicional para possibilitar a representação desses <b>"Caminhos"</b>. Estamos falando do "Encadeamento de if´s". O encadeamento de if´s possibilita uma representação da estrutura de if para tratar situações onde temos mais de 2 possibilidades.
 ``` C
 if(condição1) {
   comandosA;       <----- Esses comandos só serão executados, se a condição1 for avaliada Verdadeira.
