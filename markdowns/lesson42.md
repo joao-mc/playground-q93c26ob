@@ -22,7 +22,6 @@ Exercício 2
 <p>(c) Feche o arquivo e abra novamente o arq.txt, e</p>
 <p>(d) lendo-o caractere por caractere, e escrevendo na tela (printf) todos os caracteres armazenados.</p>
 
-![programa](/markdowns/projetos.png)
 
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
 })
