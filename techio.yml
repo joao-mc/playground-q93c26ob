@@ -63,7 +63,7 @@ plan:
     statement: /markdowns/lesson40.md    
   - title: Manipulando Arquivos em C (Blocos)
     statement: /markdowns/lesson41.md 
-  - title: Exercíos Arquivos
+  - title: Exercícios Arquivos
     statement: /markdowns/lesson42.md   
 projects:
   cpp:
