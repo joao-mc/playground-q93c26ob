@@ -29,46 +29,47 @@ Exercício 2
 ::: Solução
 
 ``` C
-#include<stdio.h>
-int main(){
- float projetos[10];
- int i;
- struct {
-  int numero;
-  float valor;
-  char tipo;
-  } boleto;
-  /* Inicializar o vetor*/
-  for (i=0; i < 10; i++){
-    projetos[i] = 0.0;
-  }
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int main()
+{
+    FILE *farq;
+    char car;
 
-  printf("\n\nDigite o código do projeto: ");
-  scanf("%d", &boleto.numero);
-  while (boleto.numero != -1) {
-   printf("\n\nDigite o Valor : ");
-   scanf("%f", &boleto.valor);
-   printf("\n\nDigite o tipo de transação (R ou D): ");
-   getchar();//limpar o teclado do Enter anterior
-   scanf("%c", &boleto.tipo);
 
-   if (boleto.tipo == 'R' || boleto.tipo == 'r') {
-      projetos[boleto.numero] = projetos[boleto.numero] + boleto.valor;
-   }
-   else {
-    if (boleto.tipo == 'D' || boleto.tipo == 'd') {
-      projetos[boleto.numero] = projetos[boleto.numero] - boleto.valor;
-    }
-    else {
-      printf("Tipo Inválido !!");
-    }
-   }
-   printf("\n\nDigite o código do projeto: ");
-   scanf("%d", &boleto.numero);
-  }
-  for (i=0; i < 10; i++){
-    printf("\nSaldo do projeto %d = %f",i, projetos[i]);
-  }
+farq = fopen("arq.txt", "w");
+if (farq == NULL) {
+ fprintf(stderr,"\nfopen() failed in file %s at line # %d", __FILE__,__LINE__);
+ exit(EXIT_FAILURE);
+}
+printf("\nEntre com um caracter qualquer ou 0 para terminar:");
+car = getchar();
+fflush(stdin); // limpa o caracter enter do teclado
+while (car != '0')
+{
+   fputc(car,farq);
+   printf("\nEntre com um caracter qualquer ou 0 para terminar:");
+   car = getchar();
+   fflush(stdin); // limpa o caracter enter do teclado
+}
+fclose(farq);
+farq = fopen("arq.txt", "r");
+if (farq == NULL)
+{
+   fprintf(stderr,"\nfopen() failed in file %s at line # %d", __FILE__,__LINE__);
+   exit(EXIT_FAILURE);
+}
+printf("\n\nVou ler e mostrar o texto gravado....\n\n");
+car=fgetc(farq);
+while (car!=EOF)
+{
+   printf("%c",car);
+   car =fgetc(farq);
+}
+
+fclose(farq);
+
 }
 ```
 :::
