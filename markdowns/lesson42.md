@@ -88,6 +88,7 @@ Exercício 3
 
 ``` C
 #include <stdio.h>
+#include<ctype.h>
 #include <stdlib.h>
 #include <string.h>
 int main()
@@ -98,16 +99,17 @@ int main()
    char maiusc[50];
    char nomearq[20];
    int num;
+   char c;
     printf("\n\nDigite o nome do arquivo a ser criado: ");
     scanf("%s", &nomearq);
-    fflush(stdin);
+    scanf("%c",&c);
     farq = fopen(nomearq, "w");
     if (farq == NULL) {
          fprintf(stderr,"fopen() failed in file %s at line # %d", __FILE__,__LINE__);
          exit(EXIT_FAILURE);
     }
 
-    for (i=0; i < 5; i++){
+    for (i=0; i < 2; i++){
       printf("\n\nDigite uma frase com 49 caracteres máximo: ");
       gets(texto);
       fflush(stdin);
