@@ -1,6 +1,6 @@
 Encadeamento de IF's
 ----
-A estrutura de decisão (condicional) ```IF``` permite, no máximo, duas possibilidades de execução dos comandos: uma possibilidade é a execução de comandos associadas a condição <b>Verdadeira</b> e a outra possibilidade está associada a condição <b>Falsa</b>, como mostra o exemplo a seguir:
+A estrutura de decisão (condicional) ```IF``` permite, no máximo, duas possibilidades de execução dos comandos: uma possibilidade é a execução de comandos associados a condição <b>Verdadeira</b> e a outra possibilidade está associada a condição <b>Falsa</b>, como mostra o exemplo a seguir:
 ``` C
 if(condição) {
   comandosA;     <----- Esses comandos só serão executados, se a condição for avaliada Verdadeira.
