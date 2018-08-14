@@ -8,13 +8,6 @@ FILE *farq
 farq = fopen (“arqdata.dat", “wb");
 ```
 
-?[A função fopen() abre um arquivo retornando o ponteiro associado ao arquivo, como no exemplo acima, que podemos afirmar ?] 
--[ ] a criação de um arquivo binário chamado arqdata.dat, em que poderão ser realizadas operações de leitura e de escrita. 
--[ ] a criação de um arquivo chamado farq, em que poderão ser realizadas somente as operações de leitura.
--[x] a criação de um arquivo binário chamado arqdata.dat em que poderão ser realizadas somente as operações de escrita.
--[ ] a criação de um arquivo chamado farq.dat, em que poderão ser realizadas operações de leitura. 
-
-
 ?[A função fopen() abre um arquivo retornando o ponteiro associado ao arquivo, como no exemplo acima, que podemos afirmar?]
 -[ ] a criação de um arquivo binário chamado arqdata.dat, em que poderão ser realizadas operações de leitura e de escrita
 -[ ] a criação de um arquivo chamado farq, em que poderão ser realizadas somente as operações de leitura
