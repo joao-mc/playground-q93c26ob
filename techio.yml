@@ -62,7 +62,9 @@ plan:
   - title: Manipulando Arquivos em C (cadeias)
     statement: /markdowns/lesson40.md    
   - title: Manipulando Arquivos em C (Blocos)
-    statement: /markdowns/lesson41.md       
+    statement: /markdowns/lesson41.md 
+  - title: Exercíos Arquivos
+    statement: /markdowns/lesson42.md   
 projects:
   cpp:
     root: /cpp-project
