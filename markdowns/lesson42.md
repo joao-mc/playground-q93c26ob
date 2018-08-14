@@ -107,7 +107,7 @@ int main()
          exit(EXIT_FAILURE);
     }
 
-    for (i=0; i < 2; i++){
+    for (i=0; i < 5; i++){
       printf("\n\nDigite uma frase com 49 caracteres máximo: ");
       gets(texto);
       fflush(stdin);
