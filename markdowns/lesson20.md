@@ -29,7 +29,7 @@ Mover valor para um vetor
 ```
                Vetor[0] = 4; /*  Move o valor 4 para a primeira posição do "Vetor" */
                Vetor[4] = 8; /*  Move o valor 8 a quinta posição do "Vetor" (Não se esqueçam que a primeira é zero). */
-               Matriz[0][1] = 15; /*  coloca 15 na célula que está na primeira linha e na segunda coluna da matriz */
+               Vetor[1] = 15; /* Move o valor 15 para a segunda posição do "Vvetor" */
 ```
 + Para inicializar um vetor, isto é, mover valores para todos os elementos precisamos de uma estrutura de repetição. A estrutura de repetição <b>FOR</b> se adequa perfeitamente às Matrizes(vetores) porque a variável de controle da repetição pode ser usada para marcar as posições do vetor.
 + Por exemplo, mover o valor 100 para todas as posições de um vetor do tipo int de tamanho 5.
