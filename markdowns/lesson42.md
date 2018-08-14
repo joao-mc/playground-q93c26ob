@@ -15,7 +15,7 @@ farq = fopen (“arqdata.dat", “wb");
 -[ ] a criação de um arquivo chamado farq.dat, em que poderão ser realizadas operações de leitura. 
 
 
-?[What is the answer to Life, the Universe and Everything?]
+?[A função fopen() abre um arquivo retornando o ponteiro associado ao arquivo, como no exemplo acima, que podemos afirmar?]
 -[ ] There is no answer to that!
 -[ ] Sleep and eat
 -[x] Easy, this is 42
