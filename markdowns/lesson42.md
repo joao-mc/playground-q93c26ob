@@ -78,7 +78,7 @@ fclose(farq);
 Exercício 3
 ---
 
-<p>Faça um programa em C que lê 5 frases de no máximo 50 caracteres cada uma e armazene-as em um arquivo, mas antes de gravar a frase no arquivo é necessário converter todas as letras minúsculas para maiúsculas. Os  nome do arquivo será fornecido, via teclado, pelo usuário. A função que converte maiuscula para minúscula é o toupper(). A seguir, feche o arquivo e reabra para leitura exibindo todas as frases convertidas.</p>
+<p>Faça um programa em C que lê 5 frases de, no máximo, 50 caracteres cada uma e armazene-as em um arquivo. Mas, antes de gravar cada frase no arquivo, é necessário converter todas as suas letras para maiúsculas. Os  nome do arquivo será fornecido, via teclado, pelo usuário. A função que converte maiuscula para minúscula é o toupper(). A seguir, feche o arquivo e reabra para leitura exibindo todas as frases convertidas.</p>
 
 
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
