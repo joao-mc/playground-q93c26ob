@@ -33,7 +33,9 @@ Parâmetros
 ----
 + A Lista de Parametros, também é chamada de Lista de Argumentos, é opcional. Funcionam como a interface de comunicação (passagem de valores/dados) entre o programa (chamador) e a função. 
 + Os parâmetros de uma função são definidos como se estivesse declarando uma variável, entre os parênteses do cabeçalho da função. Caso precise declarar mais de um parâmetro, basta separá-los por vírgulas. 
-+![programa](/markdowns/declaracaofuncao.png)
++ 
+![programa](/markdowns/declaracaofunção.png)
+
 + Existem 2 maneiras de passar valor através dos parâmetros: Por valor ou Por referência. Neese momento, será apresentado a passagem de <b>parâmetro por valor</b>. Quando introduzirmos o conceito de <b>Ponteiro</b>, apresentaremos o oiutro de tipo.
 + No exemplo a seguir temos a função SOMA que possui dois parâmetros, sendo o primeiro um float (a) e o segundo um int (b).
 
