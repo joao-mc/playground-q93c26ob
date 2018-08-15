@@ -1,6 +1,6 @@
 Utilizar funções de manipulação de cadeias fornecidas na biblioteca padrão (String.h)
 ---
-A movimentação de valores de/para as cadeias de caracteres não pode ser efetuadas diretamente, mas apenas através de funções de manipulação de cadeias de caracteres. Estas funções estão no cabeçalho do arquivo <b><string.h></b>: 
+A movimentação de valores de/para as cadeias de caracteres não pode ser efetuadas diretamente pelo comando de atribuição, ou pode ser efetuada pela movimentação caracter a caracter como em vetores ou através de funções de manipulação de cadeias de caracteres. Estas funções estão no cabeçalho do arquivo <b><string.h></b>: 
 
 <b>#include <string.h></b>
 
@@ -35,7 +35,7 @@ int main() {
 + Comparação de Strings.
 <p>A comparação pode ser efetuada caracter a caracter (como em um vetor) ou através da função strcmp (string compare).</p>
 
-<p><b>int strcmp(const char *string1,const char *string2)</b> - Compara duas strings e determina a ordem (alfabetica) das duas.</p>
+<p><b>int strcmp(const char *string1,const char *string2)</b> - Compara duas strings (string1 e string2) e determina a ordem (alfabetica) das duas.</p>
 
 ```
   Usamos os códigos dos caracteres para determinar precedência
@@ -114,7 +114,7 @@ int main() {
 
 ```
 + União (Concatenção) da cadeia de caracteres
-<p>Concatena caracteres de duas cadeias de caracteres em uma string.</p>
+<p>Concatena (une) caracteres de duas cadeias de caracteres em uma string.</p>
    <p><b>char *strcat(const char *string1, char *string2)</b> - Concatena os caracteres da string2 na string1.</p>
 <p>Exemplo de Concatenação de Strings.</p>
 
