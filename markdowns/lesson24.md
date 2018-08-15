@@ -5,7 +5,7 @@ Passagem de Parâmetros por valor
 + Os valores contidos nas variáveis do programa, no momento da chamada da função, são <b>copiados</B> para as variáveis parâmetros da função.  
 + As alterações dos valores dos parâmetros dentro da função não afetarão os valores das variáveis do programa, usadas na chamada da função.
 + Quando uma função não for retornar valor (procedimento), utilize <b>void</b> como tipo da função. Quando se usa <b>void</b> não podemos usar <b>return</b> na função.
-<p>No exemplo a seguir a variável f, passada por parâmetro para a função cem não terá o valor alterado dentro da função.</p>
+<p>No exemplo a seguir a variável <b>f</b>, declarada na <b>main()</b>, passada por parâmetro para a função <b>Cem</b> não terá o valor alterado dentro da função, pois o valor de <b>f(20.7)</b> será copiado para o parâmetro <b>a</b> da função.</p>
 
 ```C runnable
 #include <stdio.h>
