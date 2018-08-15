@@ -23,7 +23,7 @@ Inicialização de cadeia de caracteres
 + A inicialização de uma string, ou seja, mover caracteres, pode ser feita de duas maneiras:
 
   + Mover manualmente os dados (célula por célula), como em um vetor ou
-  + Utilizar funções de manipulação de cadeias fornecidas na biblioteca padrão (String.h).
+  + Utilizar funções de manipulação de cadeias fornecidas pela biblioteca padrão (String.h).
 
 Exemplo de inicialização manual de cadeia de caracteres (para impressão de cadeia de caracteres com o comando <b>printf</b> devemos utilizar o caracter formatação <b>"%s"</b> : 
 ``` C runnable
