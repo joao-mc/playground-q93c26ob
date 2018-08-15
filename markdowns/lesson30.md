@@ -22,7 +22,7 @@
 ![figura3](/markdowns/memoria3.png) 
 
 + Assim dizemos que a variável <b>Ptr</b> está "apontando" para variável <b>Total</b>, isto é, qualquer alteração em <b>Ptr</b> irá alterar o conteúdo de <b>Total</b>.
-+ Os ponteiros são usados em muitas linguagens de programação para manipular cadeias de caracteres, passar parâmetros para funções , manipulação matrizes de dados e criação de listas ligadas e outras estruturas de dados complexas. 
++ Os ponteiros são usados em muitas linguagens de programação para manipular cadeias de caracteres, passar parâmetros para funções, manipulação matrizes de dados e criação de listas ligadas e outras estruturas de dados complexas. 
 + Ponteiros proporcionam uma grande flexibilidade para o gerenciamento de memória e otimização de programas.
 
 
