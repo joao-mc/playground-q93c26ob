@@ -40,7 +40,7 @@ Faça um programa que leia duas notas de um aluno numa turma de 10 alunos. Para 
 | 9.0 a 10.0|    A     |
 
 Fazer 2 funções:
-A primeira função denominada <b>float mediapond</b> irá receber as duas notas, calcular e retornar a média ponderada. A segunda função denominada <b>char conceito</b> irá receber a média das notas e retornar o conceito conforme a tabela acima.
+A primeira função denominada <b>float mediapond()</b> irá receber as duas notas, calcular e retornar a média ponderada. A segunda função denominada <b>char conceito()</b> irá receber a média das notas e retornar o conceito conforme a tabela acima.
 @[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio.sh"
 })
 ::: Solução
