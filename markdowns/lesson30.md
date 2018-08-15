@@ -1,6 +1,6 @@
 # Ponteiros
 ---
-+ Antes de apresentarmos ponteiros, vaos relembrar o conceito de variável.
++ Antes de apresentarmos ponteiros, vamos relembrar o conceito de variável.
 + A memória é formada por um conjunto de espaços, denominados variáveis, onde guardamos os dados.
 + Esses "espaços" são identificados por nomes (interno nos programas), e por números  ou "endereços" (externos aos programas), utilizados pelos programas para acessar os dados. 
 + A figura abaixo exibe um trecho da memória:
@@ -16,7 +16,7 @@
 ![figura2](/markdowns/memoria2.png)  
 
 + Agora podemos começar a definir <b>Ponteiros</b>.
-+ Ponteiros são variáveis que armazenam endereços (de outras variáveis) ao invés de amazenar valor. O conteúdo de uma variável ponteiro é o endereço de outra variável. 
++ Ponteiros são variáveis que armazenam endereços (de outras variáveis) ao invés de amazenarem valor. O conteúdo de uma variável ponteiro é o endereço de outra variável. 
 + Suponha que você defina a variável <b>Ptr</b> como sendo ponteiro e armazene o endereço 3001. Essa variável estará armazenando o endereço da variável <b>Total</b>, conforme figura abaixo:
 
 ![figura3](/markdowns/memoria3.png) 
