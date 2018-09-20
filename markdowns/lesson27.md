@@ -4,7 +4,7 @@
 + Diferentemente dos tipos homogêneos, essas estrturas permitem a manipulação de um conjunto de informações de tipos de dados primitivos diferentes, mas que possuem um relacionamento lógico entre si;
 + Exemplo de um registro de Funcionário
 ![programa](/markdowns/registro.png)
-+ O Resgistro acima possui um conjunto informações relacionadas a um funcionário, logo poderiam ser vistas agrupadas num único nome (como as Matrizes).
++ O Registro acima possui um conjunto informações relacionadas a um funcionário, logo poderiam ser vistas agrupadas num único nome (como as Matrizes).
 + A linguagem C possui uma estrutura denominada <b>struct</b> que permite agrupar um conjunto de informações de tipos diferentes cob um mesmo nome.
  ```
  Declaração:
