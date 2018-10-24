@@ -81,7 +81,7 @@ Exercício 3
 <p>Faça um programa em C que lê 5 frases de, no máximo, 50 caracteres cada uma e armazene-as em um arquivo. Mas, antes de gravar cada frase no arquivo, é necessário converter todas as suas letras para maiúsculas. Os  nome do arquivo será fornecido, via teclado, pelo usuário. A função que converte maiuscula para minúscula é o toupper(). A seguir, feche o arquivo e reabra para leitura exibindo todas as frases convertidas. Como cada texto pode ter tamanho diferente, será necessário gravar antes de cada frase  o tamanho do texto a ser lido. logo serão necessários dois comandos de gravação e leitura (um para o numero inteiro que indica a quantidade de caracteres da frase e outro para a frase com o tamanho lido)</p>
 
 
-@[IDE]({"stubs": ["./www/exercicio1"],"command": "sh /project/target/www/exercicio1.sh"
+@[IDE]({"stubs": ["./www/exercicio"],"command": "sh /project/target/www/exercicio1.sh"
 })
 
 ::: Solução
