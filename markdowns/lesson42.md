@@ -136,6 +136,7 @@ int main()
     fread(texto, sizeof(char),num, farq); // lê o texto gravado
    while (!feof (farq) ) {
       printf("\n\nTexto Lido: %s", texto);
+      memset(texto,'\0',50);
       fread(&num, sizeof(int),1,farq);     // lê o tamanho do texto
       fread(texto, sizeof(char),num, farq); // lê o texto gravado
 
