@@ -1,4 +1,4 @@
-# Arquivos em C
+# Ficheiros em C
 ---
 + Arquivo é um conjunto de dados nomeados, armazenados e organizados em um meio de armazenamento de dados. 
 + Por que usar arquivos?
