@@ -1,56 +1,8 @@
-title: Programação C
+title: Operações com ficheiros em linguagem C
 cover: /cover.png
 plan:
 - title: Introdução
   description: Esta é a descrição do primeiro capítulo.
-  plan:
-  - title: Apresentação
-    statement: /markdowns/apresenta.md
-  - title: Ainda na Introdução (If encadeado)
-    statement: /markdowns/lesson21.md
-  - title: Ainda na Introdução (Switch)
-    statement: /markdowns/lesson22.md
-  - title: Estrutura de Dados Homogêneas
-    statement: /markdowns/lesson20.md
-  - title: Estrutura de Dados Homogênea (Vetor)
-    statement: /markdowns/lesson201.md
-  - title: Estrutura de Dados Homogênea (Matriz)
-    statement: /markdowns/lesson202.md
-  - title: Estrutura de Dados Homogênea (Matriz)
-    statement: /markdowns/lesson203.md
-  - title: Vamos Praticar(Vetor/Matriz)?
-    statement: /markdowns/lesson204.md
-- title: Programação C
-  description: Conceitos Avançados.
-  plan:
-  - title: Funções em C
-    statement: /markdowns/lesson23.md
-  - title: Funções em C
-    statement: /markdowns/lesson24.md
-  - title: Cadeia de Caracteres
-    statement: /markdowns/lesson25.md
-  - title: Cadeia de Caracteres
-    statement: /markdowns/lesson26.md
-  - title: Estrutura de Dados Heterogênea (Struct)
-    statement: /markdowns/lesson27.md
-  - title: Estrutura de Dados Heterogênea (Union e Enum)
-    statement: /markdowns/lesson28.md
-  - title: Exercícios
-    statement: /markdowns/lesson29.md
-  - title: Ponteiros
-    statement: /markdowns/lesson30.md
-  - title: Ponteiros (cont.)
-    statement: /markdowns/lesson31.md
-  - title: Operações com Ponteiros
-    statement: /markdowns/lesson32.md
-  - title: Ponteiros e Vetores
-    statement: /markdowns/lesson33.md
-  - title: Passagem de parâmetro por referência
-    statement: /markdowns/lesson34.md
-  - title: Praticando Ponteiros e Funções
-    statement: /markdowns/lesson35.md
-  - title: Funções Recursivas
-    statement: /markdowns/lesson36.md
   - title: Ficheiros em C
     statement: /markdowns/lesson37.md
   - title: Operações com ficheiros em C
