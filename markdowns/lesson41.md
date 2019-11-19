@@ -1,14 +1,14 @@
-# Gravando e lendo Blocos de dados em Arquivos C
+# Gravar e ler Blocos de dados em Ficheiros C
 ---
-+ Podemos escrever e ler blocos de dados em arquivos C através das funções: <b>fwrite()<b/> e <b>fread()</b> 
++ Podemos escrever e ler blocos de dados em ficheiros C através das funções: <b>fwrite()<b/> e <b>fread()</b> 
 + A função <b>fwrite()</b> 
 
 <em><b>unsigned fwrite(void *bloco, int numero_de_bytes, int total, FILE *arq)<b/></em> </br>
  
-<b>bloco:</b> ponteiro para a região de memória na qual estão os dados;</br>
+<b>bloco:</b> apontador para a região de memória na qual estão os dados;</br>
 <b>numero_de_bytes:</b> tamanho de cada posição de memória a ser escrita;</br>
 <b>total:</b> quantidade de blocos de memória de tamanho "numero_de_bytes" que devem ser escritos;</br>
-<b>arq:</b> ponteiro associado ao arquivo onde os dados serão escritos.</br>
+<b>arq:</b> apontador associado ao ficheiro onde os dados serão escritos.</br>
 
 Exemplo:
 ``` C runnable
@@ -23,8 +23,8 @@ int main()
    int vet[4] = {1,2,3,4};
    texto[50]='\0';    
    farq = fopen("arqtexto.txt", "w");
-   fwrite(texto, sizeof(char), strlen(texto), farq); // grava a cadeia texto no arquivo
-   fwrite(vet, sizeof(int), 4, farq);                       // grava o vetor vet no arquivo
+   fwrite(texto, sizeof(char), strlen(texto), farq); // grava a cadeia texto no ficheiro
+   fwrite(vet, sizeof(int), 4, farq);                       // grava o vetor vet no ficheiro
    fclose(farq);
 }
 ```
@@ -72,18 +72,18 @@ int main()
    fclose(farq);
 }
 ```
-+ Os acessos aos dados em um arquivo geralmente é sequencial, mas é possível fazer buscas e acessos randômicos através da função <b>fseek()<b>: 
-+ Esta função posiciona a leitura ou escrita no arquivo em tantos bytes, a partir de um ponto especificado.
++ Os acessos aos dados num ficheiro é geralmente sequencial, mas é possível fazer buscas e acessos aleatórios através da função <b>fseek()<b>: 
++ Esta função posiciona a leitura ou escrita no ficheiro em tantos bytes, a partir de um ponto especificado.
 + A função fseek recebe 3 parâmetros
-    + <b>fptr:</b> o ponteiro para o arquivo;
-    + <b>numbytes:</b> é o total de bytes a partir do <b>tipo</b> a ser pulado;
+    + <b>fptr:</b> o apontador para o ficheiro;
+    + <b>numbytes:</b> é o total de bytes a partir do <b>tipo</b> a ser saltado;
     + <b>tipo:</b> determina a partir de onde os numbytes de movimentação serão contados.
 + Os valores possíveis para tipo estão definidos em <b>stdio.h</b> e são:
  ![programa](/markdowns/seek.png) 
 + Portanto, para mover numbytes a partir
-    + do início do arquivo, tipo deve ser SEEK_SET
+    + do início do ficheiro, tipo deve ser SEEK_SET
     + da posição atual, tipo deve ser SEEK_CUR
-    + do final do arquivo, tipo deve ser SEEK_END
+    + do final do ficheiro, tipo deve ser SEEK_END
  ``` C runnable
 #include<stdio.h>
 struct  alunos {
