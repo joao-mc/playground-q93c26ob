@@ -53,7 +53,7 @@ plan:
     statement: /markdowns/lesson36.md
   - title: Ficheiros em C
     statement: /markdowns/lesson37.md
-  - title: Manipulando Arquivos em C
+  - title: Operações com ficheiros em C
     statement: /markdowns/lesson38.md
   - title: Manipulando Arquivos em C (caracter)
     statement: /markdowns/lesson39.md
