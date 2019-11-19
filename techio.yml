@@ -61,7 +61,7 @@ plan:
     statement: /markdowns/lesson40.md
   - title: Operações com ficheiros em C (Blocos)
     statement: /markdowns/lesson41.md
-  - title: Exercícios Arquivos
+  - title: Exercícios sobre operações com ficheiros
     statement: /markdowns/lesson42.md
 projects:
   cpp:
