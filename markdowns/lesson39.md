@@ -1,28 +1,28 @@
-# Gravando e lendo caracteres em Arquivos C
+# Gravar e ler caracteres em Ficheiros C
 ---
-+ Após a abertura do arquivo é possível Ler e/ou gravar dados nele.
++ Após a abertura do ficehiro é possível Ler e/ou gravar dados nele.
 + A função <b>fputc()</b> possibilita a gravação de dados caracter a caracter. 
 
 <em><b>int fputc(int ch, FILE *arq);</b></em>
 
-+ A função <b>fgetc()</b> possibilita a leitura de dados do arquivo caracter a caracter. 
++ A função <b>fgetc()</b> possibilita a leitura de dados do ficheiro caracter a caracter. 
 
 <em><b>int fgetc(FILE *arq);</b></em>     
               
-+ Quando não houver mais dados a serem lidos no arquivo, a <b>fgetc</b> devolve a constante <em><b>EOF (end of file)</b></em>, que está definida na biblioteca stdio.h, indica o fim de um arquivo. Isso indica chegamos ao fim do arquivo e não se pode realizar a leitura dos dados. Em geral, o valor de EOF é igual −1. 
-+ Após a abertura do arquivo é necessário realizar o teste de fim de arquivo (o arquivo pode estar vazio):
++ Quando não houver mais dados a serem lidos no ficheiro, a <b>fgetc</b> devolve a constante <em><b>EOF (end of file)</b></em>, que está definida na biblioteca stdio.h, indica o fim de um ficheiro. Isso indica que chegamos ao fim do ficheiro e não se pode realizar a leitura dos dados. Em geral, o valor de EOF é igual −1. 
++ Após a abertura do ficheiro é necessário realizar o teste de fim de ficheiro (o ficheiro pode estar vazio):
 ``` C
-if((fp = fopen("arquivo.txt","r")) == NULL){
+if((fp = fopen("ficheiro.txt","r")) == NULL){
 
-printf( "Erro na abertura do arquivo");
+printf( "Erro na abertura do ficheiro");
 exit(1);
 }
 ```
 + O Exemplo a seguir exibe a gravação e leitura de dados caracter a caracter.
-    + No comando fopen será criado o arquivo <b>arqtexto.txt</b> na pasta corrente 
-    + A string tentrada será gravada no arquivo caracter a caracter. 
-    + O arquivo será fecado e posteriormente aberto para leitura.
-    + Utilizamos a função <b>fgetc()</b> para ler esses dados do arquivo caracter a caracter:
+    + No comando fopen será criado o ficheiro <b>arqtexto.txt</b> na pasta corrente 
+    + A string tentrada será gravada no ficheiro caracter a caracter. 
+    + O arquivo será fechado e posteriormente aberto para leitura.
+    + Utilizamos a função <b>fgetc()</b> para ler esses dados do ficheiro caracter a caracter:
     
 ``` C runnable
 #include <stdio.h>
@@ -68,7 +68,7 @@ fclose(farq);
 
 }
 ```
- + A constante <b>EOF</b> pode ser substituida pela função <b><em>feof()</em></b> que realiza o teste de fim de arquivo.<br/>
+ + A constante <b>EOF</b> pode ser substituida pela função <b><em>feof()</em></b> que realiza o teste de fim de ficheiro.<br/>
  <b><em>int feof(FILE *arq)</em></b>
  + O teste do while do exemplo acima poderia ficar assim: <b><em>while ( !feof (farq) )</em></b>
  
