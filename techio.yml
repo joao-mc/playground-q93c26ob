@@ -3,15 +3,15 @@ cover: /cover.png
 plan:
   - title: Ficheiros em C
     statement: /markdowns/lesson37.md
-  - title: Operações com ficheiros em C
+  - title: Abrir ficheiros
     statement: /markdowns/lesson38.md
-  - title: Operações com ficheiros em C (caracter)
+  - title: Caracter a caracter
     statement: /markdowns/lesson39.md
-  - title: Operações com ficheiros em C (cadeias)
+  - title: Strings (cadeias)
     statement: /markdowns/lesson40.md
-  - title: Operações com ficheiros em C (Blocos)
+  - title: Blocos de dados
     statement: /markdowns/lesson41.md
-  - title: Exercícios sobre operações com ficheiros
+  - title: Exercícios
     statement: /markdowns/lesson42.md
 projects:
   cpp:
